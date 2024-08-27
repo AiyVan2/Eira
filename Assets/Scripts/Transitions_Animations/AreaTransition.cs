@@ -163,7 +163,7 @@ public class AreaTransition : MonoBehaviour
         LumenArea.SetActive(false) ; 
         BeneathArea.SetActive(true);
         Light2D light2D = globalLight.GetComponent<Light2D>();
-        light2D.intensity = 0.6f;
+        light2D.intensity = 0.8f;
         transitionanim.SetTrigger("Start");
         yield return null;
     }

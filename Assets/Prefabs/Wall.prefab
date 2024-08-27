@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7938012616126571207}
   - component: {fileID: 7682767079625608278}
-  - component: {fileID: 1461888895333661024}
-  - component: {fileID: 5845208749128048509}
+  - component: {fileID: 8304275271598392813}
+  - component: {fileID: -2478610430322292717}
   m_Layer: 6
   m_Name: Wall
   m_TagString: Door
@@ -41,7 +41,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2395554315737287160}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 923052161b34849488016dfdaf668e13, type: 3}
+  m_Sprite: {fileID: 762772832, guid: 9b7c710628b35f0429785afdf8a1f229, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,7 +86,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1461888895333661024
+--- !u!50 &8304275271598392813
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395554315737287160}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &-2478610430322292717
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,41 +145,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06603694, y: -0.10982904}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.5, y: 0.1875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1320736, y: 0.88494176}
+  m_Size: {x: 1.5, y: 0.1875}
   m_EdgeRadius: 0
---- !u!114 &5845208749128048509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2395554315737287160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75cca0fc3b79c6e429fa61b155a7f00e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorType: 2
-  HouseArea: {fileID: 0}
-  LumenArea: {fileID: 0}
-  BeneathArea: {fileID: 0}
-  BedroomArea: {fileID: 0}
-  BeneathEdgeOutpostArea: {fileID: 0}
-  gotoBeneathButton: {fileID: 0}
-  backtoHouseButton: {fileID: 0}
-  gotoUpstairButton: {fileID: 0}
-  gotoDownstairButton: {fileID: 0}
-  animator: {fileID: 0}
-  globalLight: {fileID: 0}
-  transitionanim: {fileID: 0}
