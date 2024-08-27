@@ -1,0 +1,5288 @@
+fileFormatVersion: 2
+guid: b5e6aed87b3bbdd4da89577ce4bd9623
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player UI Controlls_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 878
+        width: 84
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9226944bcc63fe746acde5563d99e94e
+      internalID: 943767572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 878
+        width: 84
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089605e8af1250b4bb4f31f10c55d114
+      internalID: -1959975243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 874
+        width: 90
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834b5fdec6f8076429416a4f3b1a5333
+      internalID: -1586092147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 846
+        width: 98
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0a37df7afd4d547a41ff13756f8709
+      internalID: 1227880587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 846
+        width: 98
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efce8b4e646b9342a69911e56b7d060
+      internalID: 485711519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 842
+        width: 104
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605212568a0ecfc44bea330d4267860d
+      internalID: -1419762058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 740
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec7804f964079946a87a8e1ea5b9fb3
+      internalID: 1913323076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 804
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392da144b28e8f4a855b8d125df7754
+      internalID: -821834190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 776
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7edf21469125c04384e04c9e41bfd93
+      internalID: -693719730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 782
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6379f51cb4ee3f54dab9c2ba573816a2
+      internalID: 1523523033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 774
+        width: 84
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363a995fc4129fd4ca97de67985e4c59
+      internalID: 275716622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 750
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2c488c7e57ddc4bb94d197523a999d
+      internalID: 1522227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 748
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65b14abc09d7f647bdf920c310e9cc2
+      internalID: -719079709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 748
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d9ef991f900e4cb9b5a7e80f99882
+      internalID: 17614824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 742
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c868051f0047734fa1fdcdcc2717721
+      internalID: -1421989656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 748
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6120e8486355ca747bd96baebc94993b
+      internalID: -395438088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 748
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88622e347c3d0b54c9616d43ef1a8b90
+      internalID: 769030157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 738
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e518f7ff4a7474392583f63698d3be
+      internalID: -1851721974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 706
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6df55f3fce6bc47976bfc90f572652
+      internalID: 460115332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 706
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add27117e6f55c2429f4e6ef4e1cfa4f
+      internalID: -437201246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 706
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71db88aaee8f124e8590c4a4f124d6c
+      internalID: -1709194841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 716
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ee75f06ce3bfb40a54916ef6f4e4e6
+      internalID: 1840886068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 716
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1264e36c017b42a9840de2c707734
+      internalID: -681128904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_23
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 718
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc6c82a8a8c09141a1ce10a52d04bdc
+      internalID: 1044938232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 712
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff0a60a3dc31a94fb05097fcdf5e9c2
+      internalID: -413914309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 712
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f492ed7f5ee47743b8d089c9ac0cc6c
+      internalID: 865712802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 706
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc9ddc6baa257940a49e0a253e6b21f
+      internalID: 81805034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 706
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f618ce67c7fa58449b2516ab53abb754
+      internalID: -18035753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 640
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c916e9c089f186f45b79ee0f99c6f4a8
+      internalID: 758334468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_29
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 642
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423160131b26b29468acf7ca588e2add
+      internalID: -1906954498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 642
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabd9cd962334ba4e803583a0894fad6
+      internalID: -1559107517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 674
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4040222f269b8e446af0c36a5c2e4d6c
+      internalID: -680155811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 674
+        width: 92
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a6f3867a8529241940101e07859a3c
+      internalID: 1332617670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_33
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 672
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1760f22357d31af4f90078c846484c50
+      internalID: -41305041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_34
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 672
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced4e2cda872e264fab7acf71ba2ba9e
+      internalID: -1663840468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_35
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 672
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aeef25c539ca3498d5430c8d87dab6
+      internalID: -49317941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_36
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 672
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae84f78aa73aa864c9c7b9f23cf8285c
+      internalID: 799781911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 642
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088951ef81a3d20459dfbb82407c78df
+      internalID: -1563445043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 642
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aa78f949824aa4bb6e366957a2a5b4
+      internalID: 545064345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_39
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 642
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b177e8e4485de44a82fffc3bc95bf5d
+      internalID: 885532585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_40
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 642
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e7682b908548f4b9d42d3e9c2bffa3
+      internalID: 1315385486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_41
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 632
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c899214bdfc3f0c4e85c500fb3a66961
+      internalID: -770852164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 608
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea174fad791e8b428b7518742079534
+      internalID: -2127437360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_43
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 608
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c20516b314b60478dae7c6a0bdeeab
+      internalID: 273628359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_44
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 610
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f361319b273dd92478a7682c2a5213de
+      internalID: -1914136608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_45
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 610
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f197e14da7127cc46b28bb7e0e23298f
+      internalID: -2021294233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 618
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea4a9030bfe944ab7299107d03ca08
+      internalID: 73986325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa24c954c29f6146b5771257864b4c4
+      internalID: 141798874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1374e6ad93a574abffd0b1246dd865
+      internalID: 445164711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a7a718e612d243927f6b96ec6ee61
+      internalID: -1250114675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_50
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 618
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8f07b83f961bf439d538eda5742e9a
+      internalID: -2126917646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_51
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 618
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7264d2fc2a83324ba67ca31d13264dd
+      internalID: -2053250604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38375ebb42503d4cb19a992d53b20da
+      internalID: 1615653286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_53
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eabb02e96c2d6545bbfc1ab43c2916b
+      internalID: 1681305100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 618
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91edace1f15c29043bfb844d20289616
+      internalID: 597914543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d2a6a57b4b59444b5d739e7748a148
+      internalID: -1342848116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6e763a8383cd04b97f275bb8718247
+      internalID: -741581660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e39953ae4a00b46a2c0f616db789b1
+      internalID: 844630707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_58
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f43122b7b178144b50fa7e9220f8bb
+      internalID: 1291303151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2369c64331e9024e9bd6436e328b7f6
+      internalID: -1714793849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46376357e8e9c8949aee4b6a9a68c14f
+      internalID: 529658902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404654df932b7714bb08ef221ee357ea
+      internalID: 1486909579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_62
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ef8652dad751648a858fe892912fb4
+      internalID: -937225226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c850b5407c9a47ac118b75ffdd16a
+      internalID: -1808813343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_64
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a41a481fffd4429436fcfd3f0f835
+      internalID: 1329477390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0a9e817b53b8d42b9372dca3f589e8
+      internalID: 445155238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_66
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c922a482ae168428f724ca40991d8a
+      internalID: 126666980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 618
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf2fe4bd8920f447ab25f0eb4d5c3df
+      internalID: -1106887343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92da549463817c041af9dcc91866e8ba
+      internalID: -647711825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_69
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dae7a75d1b54d44abbb130e403783df
+      internalID: 2014488633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_70
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 618
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fc6817d9d52664794c4a9bc4b2f51e
+      internalID: 322383619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_71
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 618
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc20d1438426a3449637e01d32c367e
+      internalID: 2078690004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_72
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 618
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62dc98816ffbe64284e533db02aab3c
+      internalID: 57440362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_73
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 618
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f181be80c89786d44b0e8013f0b40b93
+      internalID: 470325364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 618
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ebfae2a5878e14f86b2d0c28bfde99
+      internalID: 370485394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_75
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 618
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b004a659d98ea4f48acaea8ef9ac11ce
+      internalID: 1653788997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_76
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 610
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5224cb40b0313d4da8c6de9b89f82da
+      internalID: -384352983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 586
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc1896b6d5cdf140b74fb6d9c34e38d
+      internalID: 684044372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_78
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7049dafbe759d8a468663f708c7aec86
+      internalID: -1040625549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_79
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 586
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5187b9e226b3114880535de3f98d675
+      internalID: 1121720386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 586
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c96eccf190f30b428e6b068708f2b14
+      internalID: -1270139840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906fe305caadbd447a2a3bdbd80f07c8
+      internalID: 339791031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_82
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866964ca61925714bada6f65755e3184
+      internalID: 2052466270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_83
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 586
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec9c4e271a642d48a02e22e161251d1
+      internalID: 1514313399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_84
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73294ac4414936a41beacaab70db1057
+      internalID: -926488707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_85
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efe58e45c4869f4a8b2ab047b137c24
+      internalID: -306802895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 586
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d6dbbc7288484bb22a17886782477
+      internalID: 724060549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_87
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 586
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3304d913342c9e47b425a132706e54e
+      internalID: 2052014784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_88
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788d3a027067beb4eb19baf096d1d622
+      internalID: -1326238077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_89
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 586
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3391a79338a62914faeaea9c4dc68700
+      internalID: 1854148475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_90
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 586
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ed2f69fcb355d41b0e3d8fc240e6c2
+      internalID: 945269414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_91
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f87910293c294b97afbc72515fd86
+      internalID: -939830012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_92
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1906623e1a41b8d42a1e10b3f38e4093
+      internalID: 965409321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_93
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 586
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07f61bf8245fa4eb28ec09c24f4155
+      internalID: -257408899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 586
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2605878ab3cacef4f941e5547ec823c0
+      internalID: 773723981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_95
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699039a21836ccf48b776763f4f908b4
+      internalID: 1740843360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_96
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 586
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003c2ee84ff95a5469a79d5ccc940927
+      internalID: -469961082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_97
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 586
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8093eb3c5cd35f946b942d2192d1fed4
+      internalID: 2131305818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_98
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 586
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722600a840e5b34c8eeae8385049cba
+      internalID: 122674585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_99
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 586
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f630b8fd63e164385fe93828ab8bd0
+      internalID: -156301396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_100
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6bb3ca1d1499a40b0bce3941aff922
+      internalID: -2101426472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_101
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 586
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef06d6194422d5459576709514d3001
+      internalID: 1264043864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 554
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab47e4a05bb93a74fbbf08cd49be6500
+      internalID: 1533454400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_103
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 554
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12123362cd72df84c84299e2cddfaa12
+      internalID: -445345247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_104
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 554
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b5ea5541362bb4e85edc3cf8d79fa1
+      internalID: -1143651066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_105
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 554
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b839ed9dce803574c9ff33aff05db992
+      internalID: -2106821424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_106
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 554
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73637c29919c9554787fc5bc7d709558
+      internalID: -56476258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_107
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 554
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6736c53d21d38154e8d5a3bc63504b75
+      internalID: -2012207620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_108
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c131abc56ff5e9740ad4b378c52647ba
+      internalID: -1262661482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_109
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 554
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134dfcce7a5dcfd4b8824466e8427fba
+      internalID: -426642613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_110
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8303b1aab99b059428713daf6f763240
+      internalID: -25271721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_111
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 554
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca79bc6cf99205a49879ffac03b31536
+      internalID: 214715206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_112
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 554
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b44c1505519ba64b9fcf7d16a82ed56
+      internalID: 96048457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_113
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 554
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a95d645aef41428d7b6bb4f38ccca
+      internalID: -1835052908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_114
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cd3a52dbbd04440a5e4657c9513901
+      internalID: -125587677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_115
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ec26e484000c4bb43a0c501731646
+      internalID: 1508513695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_116
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 554
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ef0c3420031fb49bb7081999ed676a
+      internalID: -340854353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_117
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 556
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84e5f365bd78d74594d97d4639149d0
+      internalID: 61964173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_118
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 556
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a7264897c3d440ba0310973e61d22
+      internalID: 1904103968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_119
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 556
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bb76e47473b6a469cc89f9de1d60b6
+      internalID: 597418674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_120
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 556
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82d0750a6662ba4fbc2319f512e567a
+      internalID: 525416631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_121
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 554
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324064974e90f674983930c916501ed2
+      internalID: 1758088599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_122
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477994eb6e625b844a6f4f78b47d36d6
+      internalID: 1072429293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_123
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 554
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e95ce2d8a0fca44a38e80e092cd900
+      internalID: 1984201330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_124
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 554
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef76c0dfd0ba834bb8a29fa20b8a1fb
+      internalID: 202875596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_125
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 522
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad75fba926e77994dbfcbc8e11f2a5dc
+      internalID: 250223672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_126
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 522
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a6ea51724f44e4d83fb102a62cd471
+      internalID: -771948000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_127
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 522
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac81044a8f12534db61416b497bd0fc
+      internalID: -403407304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_128
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 522
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c883950cf0c5b5f4cb7946042b9b9838
+      internalID: 1932168829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_129
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 522
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9630290c4f62f504c84cf677d8365597
+      internalID: -999358432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_130
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 522
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d48c9ca4a890ba4ba0f2b1290cc3fba
+      internalID: -913613669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_131
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 522
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d44282c52f22d47b940f21cd8f3f76
+      internalID: -2049000934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_132
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 522
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b3b9c955692214fbabb81a44b9cb01
+      internalID: 389441611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_133
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 526
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777dc800536602245b62bfba59880511
+      internalID: -620616990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_134
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 526
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f09020e978782489da2eaff884313d
+      internalID: 1672302631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_135
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 526
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe7c886f26cf8f48944cac6c851f25c
+      internalID: 392458832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_136
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 526
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0595c4b91eb96224296a68d99811fe2e
+      internalID: 148284522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_137
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d74bb2f3374a849a7cbddcb9b7cd8c
+      internalID: 302750142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_138
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 526
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55263c052a79ed84886829905ba1017f
+      internalID: 2039437670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_139
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535412a750b7d245b43aeb83a8a76a8
+      internalID: -527102241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_140
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 526
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be5b88c2d9a7b849afb8c281423d109
+      internalID: -123363030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_141
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50d18e6e00333b4896bb8282e063c31
+      internalID: 1163353813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_142
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644293771b80fa347af68a56df1ad811
+      internalID: -163189511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_143
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 526
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3ae6e7aa41fb544a82b1670e562ecd
+      internalID: -1417339129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_144
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7359d5c45b294a83672505860ac44
+      internalID: 737498427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_145
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d0fa837fffdc408fe269294271aa4
+      internalID: 1412059334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_146
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02063b911dd5f554e88eee4071009ce0
+      internalID: -869753728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_147
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 526
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c20d5a610e874c9c0ee3d25356f48
+      internalID: -485093655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_148
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 526
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ae681ee8b9bd14ebe5837831af70fc
+      internalID: -1796700382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_149
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 526
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7ef8eb5decb394e8361f013cf87c6b
+      internalID: -528396797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_150
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 382
+        width: 88
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cb7f6d37165dd4ca6319f1efe94581
+      internalID: -1235390629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_151
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a794f8bcc76b824981093a774fefcd9
+      internalID: -1823456070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_152
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb98b42097200f843b7dcabd5d2637f9
+      internalID: 1216494568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_153
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3f12a7848c2c1499f7c45063acf01f
+      internalID: -969866359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_154
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977803220ac54049a937e0d5196df66
+      internalID: -1125324219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_155
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e36753c94edfa84c8cd8e7f00322c8d
+      internalID: -2014316193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_156
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea672d3dff531dc4295bec5899449209
+      internalID: 344907330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_157
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50115c257ed1de743860e32c3c29ebe9
+      internalID: 554876106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_158
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0f538912770ca4c9c8f4b301844728
+      internalID: -1676431157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_159
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432cb76f1d574946a853188c38ecad4
+      internalID: -1851207121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_160
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13479bf74e138ec4c98f57763ffd035a
+      internalID: -1137176074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_161
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e0f25cccb39c489bee9295148d0df
+      internalID: 424865553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_162
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 506
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b949873806a5514b87e3061ca1e4b91
+      internalID: -1209250703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_163
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73b206458ffad843ac7709f3a9716f4
+      internalID: 1553428960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_164
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 502
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0f68716eb6804c9a78f234093a57f
+      internalID: -503262013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_165
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4446e8556535646b489c06e734fad2
+      internalID: 1921092258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0091435b659c7049a849701853ffca0
+      internalID: 431752001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_167
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba6f2785cea6054a80fc853a9cf0b22
+      internalID: -1593149969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_168
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bda539f1504af43b8f22283211ff44
+      internalID: 1958139257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_169
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92347aaf9cf339644bd40765d045cace
+      internalID: -653918411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_170
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 502
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f174ec799deeb643ae0b8f30c087e50
+      internalID: 1805846386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_171
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 502
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf19c86ba648749927be273d8e07cb
+      internalID: 1232769418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_172
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7646fd20890635b4c97cadb8fb29c41f
+      internalID: 1857447712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_173
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5e259f7c05414449bdee4f10f1ca38
+      internalID: -1320188797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_174
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee3ced17326a284da6681ec15146d4e
+      internalID: 1856132538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_175
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 478
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67fd8e0440a21641ad7e50192808222
+      internalID: 516125354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_176
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8762faa36b81a304f9bd72dae1c5abc3
+      internalID: -282131669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_177
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329ed21b31b7ff64e95f70ea13ddd4b2
+      internalID: 1011658787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_178
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ff1f571253a424ba623faa3ce06cd5
+      internalID: -1940727856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_179
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 486
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc2da62413a23647a242cbaf681d079
+      internalID: 1718682330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_180
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef919d15cde7d9449b6ac20811daac54
+      internalID: -109036962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_181
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33717563c11b7a34f8707608ef185ad2
+      internalID: 403898494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_182
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81b89ad53927c40a8f7ed15115307b
+      internalID: 14339237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_183
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef262b22b385647a1488a10e6774c0
+      internalID: 160339584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_184
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecf035e9de501e43b506bc4909a7594
+      internalID: -1454026503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_185
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a45e410ed240428ae8800f12888b5
+      internalID: -1823594136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_186
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 478
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5334f92915aa1a4ca87a7932c4dedd8
+      internalID: 557991764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_187
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 478
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50c66b72730474ba9e4d42a72dca14
+      internalID: -1337029421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_188
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c484abc8ae5a5cf44bb57327fecaa3fd
+      internalID: 1642959725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_189
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 454
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8661eb03ced46934388bb6fbcb13ba75
+      internalID: -202552105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_190
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 478
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efe0207abb7f474ba09038df0a71f96
+      internalID: -1067907733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_191
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33699133eb3aaea48971cbf23cb8bb1a
+      internalID: -1177632150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_192
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 478
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f276362d2c3c7344bfeff7575f3247d
+      internalID: -690067431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_193
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 478
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fb852d770500c4da6de5836f11ac9a
+      internalID: 1104214688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_194
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 478
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9505900db0987e047bba07ee88826181
+      internalID: -484617211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_195
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 454
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39ff9f9a574d8848b6f6cdf6e501bd3
+      internalID: 433117334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_196
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90765fb51872c7640b44d1d90b21900f
+      internalID: -1846575372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_197
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 454
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992cbec78cde35143b2b97c5246e929f
+      internalID: 1497102352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_198
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 454
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e1b13187683c04c8545b1ea09c8f63
+      internalID: 1503879895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_199
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 454
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a453cc67646514587d34c7e1d0f639
+      internalID: 939198794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_200
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 454
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9bba0beab609949853e5de77afda39
+      internalID: 972903666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_201
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 454
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab71b3c44f1ab4bbf3c837e05cc3c7
+      internalID: -128279751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_202
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 454
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c697cf697bd05064592c03432c08e207
+      internalID: -1328837552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_203
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 454
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9315b6a612c3416468405bb0300d1965
+      internalID: -2082793143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_204
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 454
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa869989e98a544690c0521d143066d
+      internalID: 910856161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_205
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 454
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58c0b9d679f94e4dbcede44ed8f9ac2
+      internalID: 253332669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_206
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 454
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12571e5890489a4abdcc7d066e3997f
+      internalID: 394123351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_207
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 454
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998167206e7a2df4eb425a54a831c5f4
+      internalID: -222177745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_208
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 462
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c216305f9a1440a82dd1f075b046e
+      internalID: -1163163510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_209
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 454
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef82e0220ecf0e747a78fda3c66e2cd3
+      internalID: 1187748921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_210
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 454
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88a761f251c64a4eb99e58ea1048c46
+      internalID: -1194614115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_211
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 454
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731d736ea797c7a41900619c60960ef4
+      internalID: -896380806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_212
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 454
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf13a9363b0e1e43bb0b7da916bd41c
+      internalID: 1823099603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 454
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd4ddc415ff5c64888cac8297148721
+      internalID: 1232533175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_214
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 454
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483bef7808d94cb448c9fb7269bd36c9
+      internalID: -794621898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_215
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 454
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d170bf2d906974da6184eb687aa15d
+      internalID: -40332453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_216
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 418
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714e50dab265f7846928b37b57fb56bc
+      internalID: -1678729109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_217
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 440
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea2ef129e5df854aa64a9dc38d5b30e
+      internalID: 424738310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_218
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 418
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a2f27b831e752479d0c73facca584f
+      internalID: -1426908268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_219
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 432
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb322525d1b634da9406255edd99f7
+      internalID: -1634999912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_220
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 396
+        width: 92
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1ac7844f73564db7bca28653fff1e
+      internalID: -1313402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_221
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 424
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c66fec2bbd78f44b30b3575d4111a0
+      internalID: -2032546280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_222
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 416
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baf5698a528cbf47b0367423d026dbd
+      internalID: -1470264510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_223
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 386
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8769a056b93a0844a2ca0d7ea0e2f64
+      internalID: -120009501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_224
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 388
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e481c96a619884facb2cef5ffffb06
+      internalID: -900380368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_225
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 386
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c26667e7047374984b39474009c91f
+      internalID: 1239905522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_226
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 328
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770acc9358b814244aa754320c59ea0a
+      internalID: 502320170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_227
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 354
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c096e8756dfb4b9703b3f04738484
+      internalID: 442487007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_228
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 354
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082bd20b98851404cbc7401c386912ba
+      internalID: -1251512138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_229
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d5b29aa77ca0e45add892346c76f89
+      internalID: -1448145101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_230
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 322
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5c14155e953994baf73c087fe0bb57
+      internalID: -4979314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_231
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 322
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d1dc8fb3db49143a61b095a1fcd8da
+      internalID: 729137768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_232
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 116
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6b1ebf18dc40542bb63b78f1defa0c
+      internalID: -346341872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player UI Controlls_233
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 290
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bcc08009a822a45ab477afe34935b3
+      internalID: 1939746686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Player UI Controlls_0: 943767572
+      Player UI Controlls_1: -1959975243
+      Player UI Controlls_10: 275716622
+      Player UI Controlls_100: -2101426472
+      Player UI Controlls_101: 1264043864
+      Player UI Controlls_102: 1533454400
+      Player UI Controlls_103: -445345247
+      Player UI Controlls_104: -1143651066
+      Player UI Controlls_105: -2106821424
+      Player UI Controlls_106: -56476258
+      Player UI Controlls_107: -2012207620
+      Player UI Controlls_108: -1262661482
+      Player UI Controlls_109: -426642613
+      Player UI Controlls_11: 1522227
+      Player UI Controlls_110: -25271721
+      Player UI Controlls_111: 214715206
+      Player UI Controlls_112: 96048457
+      Player UI Controlls_113: -1835052908
+      Player UI Controlls_114: -125587677
+      Player UI Controlls_115: 1508513695
+      Player UI Controlls_116: -340854353
+      Player UI Controlls_117: 61964173
+      Player UI Controlls_118: 1904103968
+      Player UI Controlls_119: 597418674
+      Player UI Controlls_12: -719079709
+      Player UI Controlls_120: 525416631
+      Player UI Controlls_121: 1758088599
+      Player UI Controlls_122: 1072429293
+      Player UI Controlls_123: 1984201330
+      Player UI Controlls_124: 202875596
+      Player UI Controlls_125: 250223672
+      Player UI Controlls_126: -771948000
+      Player UI Controlls_127: -403407304
+      Player UI Controlls_128: 1932168829
+      Player UI Controlls_129: -999358432
+      Player UI Controlls_13: 17614824
+      Player UI Controlls_130: -913613669
+      Player UI Controlls_131: -2049000934
+      Player UI Controlls_132: 389441611
+      Player UI Controlls_133: -620616990
+      Player UI Controlls_134: 1672302631
+      Player UI Controlls_135: 392458832
+      Player UI Controlls_136: 148284522
+      Player UI Controlls_137: 302750142
+      Player UI Controlls_138: 2039437670
+      Player UI Controlls_139: -527102241
+      Player UI Controlls_14: -1421989656
+      Player UI Controlls_140: -123363030
+      Player UI Controlls_141: 1163353813
+      Player UI Controlls_142: -163189511
+      Player UI Controlls_143: -1417339129
+      Player UI Controlls_144: 737498427
+      Player UI Controlls_145: 1412059334
+      Player UI Controlls_146: -869753728
+      Player UI Controlls_147: -485093655
+      Player UI Controlls_148: -1796700382
+      Player UI Controlls_149: -528396797
+      Player UI Controlls_15: -395438088
+      Player UI Controlls_150: -1235390629
+      Player UI Controlls_151: -1823456070
+      Player UI Controlls_152: 1216494568
+      Player UI Controlls_153: -969866359
+      Player UI Controlls_154: -1125324219
+      Player UI Controlls_155: -2014316193
+      Player UI Controlls_156: 344907330
+      Player UI Controlls_157: 554876106
+      Player UI Controlls_158: -1676431157
+      Player UI Controlls_159: -1851207121
+      Player UI Controlls_16: 769030157
+      Player UI Controlls_160: -1137176074
+      Player UI Controlls_161: 424865553
+      Player UI Controlls_162: -1209250703
+      Player UI Controlls_163: 1553428960
+      Player UI Controlls_164: -503262013
+      Player UI Controlls_165: 1921092258
+      Player UI Controlls_166: 431752001
+      Player UI Controlls_167: -1593149969
+      Player UI Controlls_168: 1958139257
+      Player UI Controlls_169: -653918411
+      Player UI Controlls_17: -1851721974
+      Player UI Controlls_170: 1805846386
+      Player UI Controlls_171: 1232769418
+      Player UI Controlls_172: 1857447712
+      Player UI Controlls_173: -1320188797
+      Player UI Controlls_174: 1856132538
+      Player UI Controlls_175: 516125354
+      Player UI Controlls_176: -282131669
+      Player UI Controlls_177: 1011658787
+      Player UI Controlls_178: -1940727856
+      Player UI Controlls_179: 1718682330
+      Player UI Controlls_18: 460115332
+      Player UI Controlls_180: -109036962
+      Player UI Controlls_181: 403898494
+      Player UI Controlls_182: 14339237
+      Player UI Controlls_183: 160339584
+      Player UI Controlls_184: -1454026503
+      Player UI Controlls_185: -1823594136
+      Player UI Controlls_186: 557991764
+      Player UI Controlls_187: -1337029421
+      Player UI Controlls_188: 1642959725
+      Player UI Controlls_189: -202552105
+      Player UI Controlls_19: -437201246
+      Player UI Controlls_190: -1067907733
+      Player UI Controlls_191: -1177632150
+      Player UI Controlls_192: -690067431
+      Player UI Controlls_193: 1104214688
+      Player UI Controlls_194: -484617211
+      Player UI Controlls_195: 433117334
+      Player UI Controlls_196: -1846575372
+      Player UI Controlls_197: 1497102352
+      Player UI Controlls_198: 1503879895
+      Player UI Controlls_199: 939198794
+      Player UI Controlls_2: -1586092147
+      Player UI Controlls_20: -1709194841
+      Player UI Controlls_200: 972903666
+      Player UI Controlls_201: -128279751
+      Player UI Controlls_202: -1328837552
+      Player UI Controlls_203: -2082793143
+      Player UI Controlls_204: 910856161
+      Player UI Controlls_205: 253332669
+      Player UI Controlls_206: 394123351
+      Player UI Controlls_207: -222177745
+      Player UI Controlls_208: -1163163510
+      Player UI Controlls_209: 1187748921
+      Player UI Controlls_21: 1840886068
+      Player UI Controlls_210: -1194614115
+      Player UI Controlls_211: -896380806
+      Player UI Controlls_212: 1823099603
+      Player UI Controlls_213: 1232533175
+      Player UI Controlls_214: -794621898
+      Player UI Controlls_215: -40332453
+      Player UI Controlls_216: -1678729109
+      Player UI Controlls_217: 424738310
+      Player UI Controlls_218: -1426908268
+      Player UI Controlls_219: -1634999912
+      Player UI Controlls_22: -681128904
+      Player UI Controlls_220: -1313402270
+      Player UI Controlls_221: -2032546280
+      Player UI Controlls_222: -1470264510
+      Player UI Controlls_223: -120009501
+      Player UI Controlls_224: -900380368
+      Player UI Controlls_225: 1239905522
+      Player UI Controlls_226: 502320170
+      Player UI Controlls_227: 442487007
+      Player UI Controlls_228: -1251512138
+      Player UI Controlls_229: -1448145101
+      Player UI Controlls_23: 1044938232
+      Player UI Controlls_230: -4979314
+      Player UI Controlls_231: 729137768
+      Player UI Controlls_232: -346341872
+      Player UI Controlls_233: 1939746686
+      Player UI Controlls_24: -413914309
+      Player UI Controlls_25: 865712802
+      Player UI Controlls_26: 81805034
+      Player UI Controlls_27: -18035753
+      Player UI Controlls_28: 758334468
+      Player UI Controlls_29: -1906954498
+      Player UI Controlls_3: 1227880587
+      Player UI Controlls_30: -1559107517
+      Player UI Controlls_31: -680155811
+      Player UI Controlls_32: 1332617670
+      Player UI Controlls_33: -41305041
+      Player UI Controlls_34: -1663840468
+      Player UI Controlls_35: -49317941
+      Player UI Controlls_36: 799781911
+      Player UI Controlls_37: -1563445043
+      Player UI Controlls_38: 545064345
+      Player UI Controlls_39: 885532585
+      Player UI Controlls_4: 485711519
+      Player UI Controlls_40: 1315385486
+      Player UI Controlls_41: -770852164
+      Player UI Controlls_42: -2127437360
+      Player UI Controlls_43: 273628359
+      Player UI Controlls_44: -1914136608
+      Player UI Controlls_45: -2021294233
+      Player UI Controlls_46: 73986325
+      Player UI Controlls_47: 141798874
+      Player UI Controlls_48: 445164711
+      Player UI Controlls_49: -1250114675
+      Player UI Controlls_5: -1419762058
+      Player UI Controlls_50: -2126917646
+      Player UI Controlls_51: -2053250604
+      Player UI Controlls_52: 1615653286
+      Player UI Controlls_53: 1681305100
+      Player UI Controlls_54: 597914543
+      Player UI Controlls_55: -1342848116
+      Player UI Controlls_56: -741581660
+      Player UI Controlls_57: 844630707
+      Player UI Controlls_58: 1291303151
+      Player UI Controlls_59: -1714793849
+      Player UI Controlls_6: 1913323076
+      Player UI Controlls_60: 529658902
+      Player UI Controlls_61: 1486909579
+      Player UI Controlls_62: -937225226
+      Player UI Controlls_63: -1808813343
+      Player UI Controlls_64: 1329477390
+      Player UI Controlls_65: 445155238
+      Player UI Controlls_66: 126666980
+      Player UI Controlls_67: -1106887343
+      Player UI Controlls_68: -647711825
+      Player UI Controlls_69: 2014488633
+      Player UI Controlls_7: -821834190
+      Player UI Controlls_70: 322383619
+      Player UI Controlls_71: 2078690004
+      Player UI Controlls_72: 57440362
+      Player UI Controlls_73: 470325364
+      Player UI Controlls_74: 370485394
+      Player UI Controlls_75: 1653788997
+      Player UI Controlls_76: -384352983
+      Player UI Controlls_77: 684044372
+      Player UI Controlls_78: -1040625549
+      Player UI Controlls_79: 1121720386
+      Player UI Controlls_8: -693719730
+      Player UI Controlls_80: -1270139840
+      Player UI Controlls_81: 339791031
+      Player UI Controlls_82: 2052466270
+      Player UI Controlls_83: 1514313399
+      Player UI Controlls_84: -926488707
+      Player UI Controlls_85: -306802895
+      Player UI Controlls_86: 724060549
+      Player UI Controlls_87: 2052014784
+      Player UI Controlls_88: -1326238077
+      Player UI Controlls_89: 1854148475
+      Player UI Controlls_9: 1523523033
+      Player UI Controlls_90: 945269414
+      Player UI Controlls_91: -939830012
+      Player UI Controlls_92: 965409321
+      Player UI Controlls_93: -257408899
+      Player UI Controlls_94: 773723981
+      Player UI Controlls_95: 1740843360
+      Player UI Controlls_96: -469961082
+      Player UI Controlls_97: 2131305818
+      Player UI Controlls_98: 122674585
+      Player UI Controlls_99: -156301396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
