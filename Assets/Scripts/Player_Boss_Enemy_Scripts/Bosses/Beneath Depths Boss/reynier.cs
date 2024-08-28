@@ -60,11 +60,16 @@ public class reynier : MonoBehaviour
 
     private void SpawnProjectile()
     {
-        GameObject projectileRight = Instantiate(projectileAttack, rightSpawnPoint.position, Quaternion.identity);
-        projectileRight.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, 0f);
+        // Determine the direction based on the boss's scale (whether facing right or left)
+        float facingDirection = transform.localScale.x > 0 ? 1f : -1f;
 
+        // Spawn the right projectile (which should go to the right if facing right, left if facing left)
+        GameObject projectileRight = Instantiate(projectileAttack, rightSpawnPoint.position, Quaternion.identity);
+        projectileRight.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed * facingDirection, 0f);
+
+        // Spawn the left projectile (which should go to the left if facing right, right if facing left)
         GameObject projectileLeft = Instantiate(projectileAttack, leftSpawnPoint.position, Quaternion.identity);
-        projectileLeft.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, 0f);
+        projectileLeft.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed * facingDirection, 0f);
     }
     private void MoveTowardsPlayer()
     {

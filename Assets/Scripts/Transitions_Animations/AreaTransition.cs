@@ -40,9 +40,6 @@ public class AreaTransition : MonoBehaviour
                 case DoorType.BackToHouse:
                     backtoHouseButton.gameObject.SetActive(true);
                     break;
-                case DoorType.CaveToAcademy:
-                    Cave_Academy();
-                    break;
             }
         }
     }
@@ -52,9 +49,6 @@ public class AreaTransition : MonoBehaviour
         {
             switch (doorType)
             {
-                case DoorType.LumenToBeneath:
-                    gotoBeneathButton.gameObject.SetActive(false);
-                    break;
                 case DoorType.BackToHouse:
                     backtoHouseButton.gameObject.SetActive(false);
                     break;
@@ -76,6 +70,9 @@ public class AreaTransition : MonoBehaviour
                     break;
                 case DoorType.Downstair:
                     gotoDownstairButton.gameObject.SetActive(true);
+                    break;
+                case DoorType.CaveToAcademy:
+                    StartCoroutine(BeneathBeneathDepths());
                     break;
                 case DoorType.BeneathToOutpost:
                     Beneath_EdgeOutpostEntrance();
@@ -120,11 +117,6 @@ public class AreaTransition : MonoBehaviour
     {
         StartCoroutine(BackHouse());
     }
-    public void Cave_Academy()
-    {
-        StartCoroutine(CaveAcademy());
-    }
-
     public void Upstair_House()
     {
         StartCoroutine(UpstairHouse()); 
@@ -149,23 +141,19 @@ public class AreaTransition : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator CaveAcademy()
+    IEnumerator BeneathBeneathDepths()
     {
-      transitionanim.SetTrigger("End");
-       yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-       SceneManager.LoadScene(2);
+        transitionanim.SetTrigger("End");
+        yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
+        SceneManager.LoadScene(3);
+        yield return null;
     }
 
     IEnumerator LumenCave()
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        LumenArea.SetActive(false) ; 
-        BeneathArea.SetActive(true);
-        Light2D light2D = globalLight.GetComponent<Light2D>();
-        light2D.intensity = 0.8f;
-        transitionanim.SetTrigger("Start");
-        yield return null;
+        SceneManager.LoadScene(2);
     }
 
     IEnumerator BackHouse()

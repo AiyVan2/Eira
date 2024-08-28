@@ -121,20 +121,12 @@ public class DialogueSystem : MonoBehaviour
             Elder.SetActive(false);
             lumenBarrier.SetActive(false);
         }
-        if (currentDialogueIndex == 10)
-        {
-            nextButton.gameObject.SetActive(false);
-            closeButton.gameObject.SetActive(true);
-            beneathdepthsBarrier.SetActive(false);
-            beneathDepths.SetActive(false);
-        }
-        if (currentDialogueIndex == 16)
-        {
-            nextButton.gameObject.SetActive(false);
-            closeButton.gameObject.SetActive(true);
-            outpostLeader.SetActive(false);
-            edgeoutpostBarrier.SetActive(false);
-        }
+        //if (currentDialogueIndex == 10)
+        //{
+        //    nextButton.gameObject.SetActive(false);
+        //    closeButton.gameObject.SetActive(true);
+        //    beneathdepthsBarrier.SetActive(false);
+        //}
     }
 
     //void PlayDialogue(int index)
@@ -170,14 +162,6 @@ public class DialogueSystem : MonoBehaviour
     new Dialogue { text = "This rod was their final gift to you, a weapon they created to protect you. It harnesses the power of lightning—both a tool and a weapon. But, Eira... the path to the academy is dangerous. I urge you to reconsider.", speaker = "Eira" },
     new Dialogue { text = "I have to know the truth, Elder. I need to find out what happened to them and what has become of the academy.", speaker = "Elder" },
     new Dialogue { text = "Very well. The only path to the academy lies through a cave known as The Beneath. It is a treacherous journey, but it is the only way. May the light guide your path, Eira.", speaker = "Elder" },
-    new Dialogue { text = "This must be the way to the academy... But how do I get through?.", speaker = "Eira" },
-    new Dialogue { text = "My name is Eira. I’m trying to reach the academy, but the path is blocked. Can you help me?", speaker = "Eira" },
-    new Dialogue { text = "Who are you, and what business do you have in these dangerous caves?", speaker = "Outpost Leader" },
-    new Dialogue { text = "The academy... Few dare to speak of it, and fewer still seek to enter its cursed halls. The gate you're talking about is locked, and for good reason. Creatures from the academy have been pouring into these caves, threatening everyone here.", speaker = "Outpost Leader" },
-    new Dialogue { text = "What can I do to help? If I can clear the way, will you open the gate for me?", speaker = "Eira" },
-    new Dialogue { text = "We’re struggling to seal two open gates on the left side of this cave. The monsters have made it nearly impossible. If you can close those gates, I'll make sure the path to the academy is open for you.", speaker = "Outpost Leader" },
-    new Dialogue { text = "I’ll do it. Just point me in the right direction.", speaker = "Eira" },
-    new Dialogue { text = "Head through there. But be careful—those creatures are not like anything you've faced before.", speaker = "Outpost Leader" }
 };
    
 }

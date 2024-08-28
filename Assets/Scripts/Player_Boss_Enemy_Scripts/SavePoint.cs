@@ -8,14 +8,14 @@ public class SavePoint : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+
             PlayerPrefs.SetFloat("PlayerX", collision.transform.position.x);
             PlayerPrefs.SetFloat("PlayerY", collision.transform.position.y);
             PlayerPrefs.SetFloat("PlayerZ", collision.transform.position.z);
 
-            // Get the player's health from the PlayerHealth script
-            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-            PlayerPrefs.SetInt("PlayerHealth", playerHealth.currentHealth);
+            //// Get the player's health from the PlayerHealth script
+            //PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            //PlayerPrefs.SetInt("PlayerHealth", playerHealth.currentHealth);
 
             // Save the changes
             PlayerPrefs.Save();

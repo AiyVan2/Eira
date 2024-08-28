@@ -13,6 +13,10 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
     private float invincibilityDuration = 2f;
     private Color originalColor;
+
+    public Button restart;
+
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -24,19 +28,20 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Boss")&& !isInvincible)
+        if (collision.gameObject.CompareTag("Boss") && !isInvincible)
         {
             ForestGuardianMovements boss = collision.gameObject.GetComponent<ForestGuardianMovements>();
             int bossDamage = boss.GetAttackDamage();
             TakeDamage(bossDamage, collision.transform);
         }
-       else if (collision.gameObject.CompareTag("Forest Guardian Ground Attack"))
+        else if (collision.gameObject.CompareTag("Forest Guardian Ground Attack"))
         {
-           TakeDamage(40, collision.transform); 
-       }
+            TakeDamage(40, collision.transform);
+        }
         if (collision.gameObject.CompareTag("Traps"))
         {
-            TakeDamage(100, collision.transform);
+            TakeDamage(10, collision.transform);
+            Die();
         }
     }
 
@@ -50,28 +55,45 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(enemyDamage, collision.transform);
 
         }
-         
+
     }
 
-   
+
 
     public void TakeDamage(int damage, Transform damageSource)
     {
         currentHealth -= damage;
         healthSlider.value = currentHealth;
-        
-        //Player Push Back On hit
+
+        // Player Push Back On hit
         Vector2 pushbackDirection = (transform.position - damageSource.position).normalized;
-        float pushbackForce = 10f; 
+
+        // Adjust pushback force and direction based on collision type
+        float pushbackForce = 7f; // Lowered the pushback force for smoother feel
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+
+        // Apply pushback
+        rb.velocity = Vector2.zero; // Reset velocity before applying force
         rb.AddForce(pushbackDirection * pushbackForce, ForceMode2D.Impulse);
 
+        // Cap the pushback velocity to avoid excessive movement
+        float maxPushbackVelocity = 5f;
+        rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxPushbackVelocity);
 
-        StartCoroutine(timeStop());
+        //Time Scale half when getting hit
+        if (currentHealth > 0)
+        {
+            StartCoroutine(timeStop());
+        }
+
         Camera.main.GetComponent<CameraShake>().TriggerShake();
+
         if (currentHealth <= 0)
         {
-            Die();
+            Time.timeScale = 0f;
+            restart.gameObject.SetActive(true);
+            player.SetActive(false);
+            return; // Exit early if the player is dead
         }
 
         StartCoroutine(BlinkAndInvincible());
@@ -102,8 +124,7 @@ public class PlayerHealth : MonoBehaviour
 
         // Reset the player's position and health
         player.transform.position = new Vector3(playerX, playerY, playerZ);
-        currentHealth = playerHealth;
-        healthSlider.value = currentHealth;
+
 
         player.gameObject.SetActive(true);
 
@@ -112,7 +133,12 @@ public class PlayerHealth : MonoBehaviour
     private IEnumerator timeStop()
     {
         Time.timeScale = 0.5f;
-        yield return new WaitForSeconds(0.5f);
-        Time.timeScale = 1f;
+        yield return new WaitForSecondsRealtime(0.5f);
+
+        // Only reset time scale if the player is still alive
+        if (currentHealth > 0)
+        {
+            Time.timeScale = 1f;
+        }
     }
 }
