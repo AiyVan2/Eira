@@ -45,6 +45,10 @@ public class PlayerMovement : MonoBehaviour
     public enum AttackMode { Mechanic, Scholar }
     public AttackMode currentMode = AttackMode.Mechanic;
 
+
+    private bool canChangeMode = true; 
+    public float modeChangeCooldown = 2f; 
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -164,7 +168,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void changeattackButton()
     {
-        if (canAttack && !isDashing) // Ensure the player isn't attacking or dashing
+        if (canAttack && !isDashing && canChangeMode) // Ensure the player isn't attacking or dashing
     {
         if (currentMode == AttackMode.Mechanic)
         {
@@ -176,6 +180,7 @@ public class PlayerMovement : MonoBehaviour
         }
         attackCount = 0;
     }
+        StartCoroutine(ModeChangeCooldownCoroutine());
     }
 
     public void attackButton()
@@ -270,6 +275,14 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(AttackCooldown);
         canAttack = true;
     }
+
+    private IEnumerator ModeChangeCooldownCoroutine()
+    {
+        canChangeMode = false; // Prevent changing mode during cooldown
+        yield return new WaitForSeconds(modeChangeCooldown); // Wait for cooldown duration
+        canChangeMode = true; // Allow mode change again
+    }
+
 
     public void dashButton()
     {

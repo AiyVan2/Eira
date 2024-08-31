@@ -118,6 +118,8 @@ public class AreaTransition : MonoBehaviour
     }
     public void Back_House()
     {
+        backtoHouseButton.gameObject.SetActive(false);
+        gotoDownstairButton.gameObject.SetActive(false);
         StartCoroutine(BackHouse());
     }
     public void Upstair_House()
