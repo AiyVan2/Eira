@@ -52,6 +52,9 @@ public class AreaTransition : MonoBehaviour
                 case DoorType.BackToHouse:
                     backtoHouseButton.gameObject.SetActive(false);
                     break;
+                case DoorType.LumenToBeneath:
+                    gotoBeneathButton.gameObject.SetActive(false);
+                    break;
             }
         }
     }

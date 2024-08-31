@@ -1,6 +1,6 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -92,7 +92,6 @@ public class PlayerHealth : MonoBehaviour
         {
             Time.timeScale = 0f;
             restart.gameObject.SetActive(true);
-            player.SetActive(false);
             return; // Exit early if the player is dead
         }
 
@@ -125,10 +124,6 @@ public class PlayerHealth : MonoBehaviour
         // Reset the player's position and health
         player.transform.position = new Vector3(playerX, playerY, playerZ);
 
-
-        player.gameObject.SetActive(true);
-
-        Time.timeScale = 1;
     }
     private IEnumerator timeStop()
     {

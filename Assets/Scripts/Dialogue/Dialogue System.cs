@@ -12,6 +12,7 @@ public class DialogueSystem : MonoBehaviour
     //UI BUTTONS
     public GameObject dialogueBox;
     public Text dialogueText;
+    public Text speakerText;
     public Button nextButton;
     public Button closeButton;
     public Button interactButton;
@@ -21,13 +22,9 @@ public class DialogueSystem : MonoBehaviour
     public GameObject playerattackchangeButton;
     public GameObject houseBarrier;
     public GameObject lumenBarrier;
-    public GameObject beneathdepthsBarrier;
-    public GameObject edgeoutpostBarrier;
 
     public GameObject Book;
     public GameObject Elder;
-    public GameObject outpostLeader;
-    public GameObject beneathDepths;
 
     private string currentText;
     private float textSpeed = 0.02f;
@@ -85,6 +82,7 @@ public class DialogueSystem : MonoBehaviour
     //Dialouge Display System
     IEnumerator TypeText(string text)
     {
+        speakerText.text = dialogues[currentDialogueIndex].speaker;
         currentText = dialogues[currentDialogueIndex].text;
         dialogueText.text = "";
         foreach (char letter in currentText)

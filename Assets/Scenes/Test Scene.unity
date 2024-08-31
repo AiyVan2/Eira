@@ -550,6 +550,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1754768273}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.91
       objectReference: {fileID: 0}
@@ -594,7 +602,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 988067005}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8179493216508246641, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
@@ -2786,6 +2795,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2169063408497168801, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3685389
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169063408497168801, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.027063847
+      objectReference: {fileID: 0}
     - target: {fileID: 4530984650442508468, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.88
@@ -2832,7 +2849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_TagString
@@ -2999,7 +3016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5769324196428327285, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.y
