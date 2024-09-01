@@ -13,24 +13,30 @@ public class AreaNameTrigger : MonoBehaviour
     public GameObject beneathedgeoutpostName;
     public GameObject beneathdepthsName;
 
-    
+    private Coroutine fadeCoroutine;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            switch(area)
+            if (fadeCoroutine != null)
+            {
+                StopCoroutine(fadeCoroutine);
+            }
+
+            switch (area)
             {
                 case Areas.LumenVillage:
-                    StartCoroutine(FadeInText(lumenvillageName.GetComponent<Text>(), 1f));
+                    fadeCoroutine = StartCoroutine(FadeInText(lumenvillageName.GetComponent<Text>(), 1f));
                     break;
                 case Areas.Beneath:
-                    StartCoroutine(FadeInText(beneathName.GetComponent<Text>(), 1f));
+                    fadeCoroutine = StartCoroutine(FadeInText(beneathName.GetComponent<Text>(), 1f));
                     break;
                 case Areas.BeneathEdgeOutpost:
-                    StartCoroutine(FadeInText(beneathedgeoutpostName.GetComponent<Text>(), 1f));
+                    fadeCoroutine = StartCoroutine(FadeInText(beneathedgeoutpostName.GetComponent<Text>(), 1f));
                     break;
                 case Areas.BeneathDepths:
-                    StartCoroutine(FadeInText(beneathdepthsName.GetComponent<Text>(), 1f));
+                    fadeCoroutine = StartCoroutine(FadeInText(beneathdepthsName.GetComponent<Text>(), 1f));
                     break;
             }
         }
@@ -48,7 +54,7 @@ public class AreaNameTrigger : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float alpha = Mathf.Clamp01(elapsedTime / duration);
             text.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
-            yield return null; 
+            yield return null;
         }
 
         text.color = new Color(originalColor.r, originalColor.g, originalColor.b, 1);
@@ -63,10 +69,13 @@ public class AreaNameTrigger : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float alpha = Mathf.Clamp01(1f - (elapsedTime / duration));
             text.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
-            yield return null; 
+            yield return null;
         }
 
         text.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0);
         text.gameObject.SetActive(false);
+
+        // Reset the coroutine reference
+        fadeCoroutine = null;
     }
 }

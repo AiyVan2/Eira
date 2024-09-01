@@ -12,6 +12,7 @@ public class BeneathDialogueSystem : MonoBehaviour
     //UI BUTTONS
     public GameObject dialogueBox;
     public Text dialogueText;
+    public Text speakerText;
     public Button nextButton;
     public Button closeButton;
     public Button interactButton;
@@ -64,6 +65,7 @@ public class BeneathDialogueSystem : MonoBehaviour
     //Dialouge Display System
     IEnumerator TypeText(string text)
     {
+        speakerText.text = dialogues[currentDialogueIndex].speaker;
         currentText = dialogues[currentDialogueIndex].text;
         dialogueText.text = "";
         foreach (char letter in currentText)
@@ -88,19 +90,6 @@ public class BeneathDialogueSystem : MonoBehaviour
             edgeoutpostBarrier.SetActive(false);
         }
     }
-
-    //void PlayDialogue(int index)
-    //{
-    //    if (index < dialogues.Length)
-    //    {
-    //        dialogueText.text = dialogues[index].text;
-
-    //        if (!string.IsNullOrEmpty(dialogues[index].speaker))
-    //        {
-    //            dialogueText.text = dialogues[index].speaker + ": " + dialogues[index].text;
-    //        }
-    //    }
-    //}
 
     [System.Serializable]
     public class Dialogue
