@@ -20,23 +20,26 @@ public class BeneathDepthsTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        switch (areas) 
+        if (collision.gameObject.CompareTag("Player"))
         {
-            case Area.UppertoLower:
-                StartCoroutine(UppertoLowerTransition());
-            break;
-            case Area.LowertoAcademy:
-                StartCoroutine(LowertoAcademyTransition());
-            break;
-            case Area.LowertoBoss:
-                StartCoroutine(LowertoBossRoomTransition());
-            break;
-            case Area.AcademytoLower:
-                StartCoroutine(AcademytoLowerTransition());
-            break;
-            case Area.BosstoLower:
-                StartCoroutine(BossRoomtoLowerTransition());
-            break;
+            switch (areas)
+            {
+                case Area.UppertoLower:
+                    StartCoroutine(UppertoLowerTransition());
+                    break;
+                case Area.LowertoAcademy:
+                    StartCoroutine(LowertoAcademyTransition());
+                    break;
+                case Area.LowertoBoss:
+                    StartCoroutine(LowertoBossRoomTransition());
+                    break;
+                case Area.AcademytoLower:
+                    StartCoroutine(AcademytoLowerTransition());
+                    break;
+                case Area.BosstoLower:
+                    StartCoroutine(BossRoomtoLowerTransition());
+                    break;
+            }
         }
     }
 
