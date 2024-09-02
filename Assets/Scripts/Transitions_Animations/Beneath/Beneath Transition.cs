@@ -28,7 +28,7 @@ public class BeneathTransition : MonoBehaviour
                     StartCoroutine(BeneathEdgeOutpostEntrance());
                     break;
                 case DoorType.OutpostToBeneath:
-                    StartCoroutine(BeneathEdgeOutpostEntrance());
+                    StartCoroutine(BeneathEdgeOutpostExit());
                     break;
                 case DoorType.BeneathToBeneathDepths:
                     StartCoroutine(BeneathBeneathDepths());
