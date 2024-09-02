@@ -14,8 +14,14 @@ public class reynier : MonoBehaviour
     public float attackRange = 2f;
     public float moveSpeed = 2f;
     public float projectileSpeed = 5f;
+    public float attackDelay = 2f;
 
     private bool isAttacking = false;
+    private Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -35,28 +41,56 @@ public class reynier : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            animator.SetBool("isChasing", false);
+            animator.SetBool("isAttacking", false);
+            animator.SetBool("isRangeAttacking", false);
+        }
     }
 
     private IEnumerator AttackPlayer()
     {
         isAttacking = true;
+
+        // Randomly decide whether to perform a melee attack or a ranged attack first
+        bool performRangedAttackFirst = Random.value > 0.5f;
+
+        if (performRangedAttackFirst)
+        {
+            yield return StartCoroutine(ProjectileAttackPlayer());
+        }
+
         for (int i = 0; i < 2; i++)
         {
+            animator.SetBool("isAttacking", true);
+            yield return new WaitForSeconds(0.6f);
             meleeAttack.SetActive(true);
             yield return new WaitForSeconds(0.3f);
             meleeAttack.SetActive(false);
+            animator.SetBool("isAttacking", false);
             yield return new WaitForSeconds(1f);
         }
-        StartCoroutine(ProjectileAttackPlayer());
+
+        if (!performRangedAttackFirst)
+        {
+            yield return StartCoroutine(ProjectileAttackPlayer());
+        }
+
         isAttacking = false;
+
+        // Add delay before the next attack sequence starts
+        yield return new WaitForSeconds(attackDelay);
     }
 
     private IEnumerator ProjectileAttackPlayer()
     {
-        yield return new WaitForSeconds(2f);
+        animator.SetBool("isRangeAttacking", true);
+        yield return new WaitForSeconds(0.45f);
+        animator.SetBool("isRangeAttacking", false);
         SpawnProjectile();
-        yield return new WaitForSeconds(3f);
     }
+
 
     private void SpawnProjectile()
     {
@@ -75,7 +109,11 @@ public class reynier : MonoBehaviour
     {
         Vector2 direction = (player.transform.position - transform.position).normalized;
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+        animator.SetBool("isChasing", true);
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isRangeAttacking", false);
     }
+
 
     private void FacePlayer()
     {

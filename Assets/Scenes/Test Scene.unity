@@ -772,11 +772,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6971224671871168252, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.69
+      value: 2.83
       objectReference: {fileID: 0}
     - target: {fileID: 6971224671871168252, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.23
+      value: 11.86
       objectReference: {fileID: 0}
     - target: {fileID: 6971224671871168252, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -813,6 +813,10 @@ PrefabInstance:
     - target: {fileID: 7366349490656871808, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
       propertyPath: m_Name
       value: BossAirAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366349490656871808, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2475,6 +2479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5930038000611789880, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -64.900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930038000611789880, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.399994
+      objectReference: {fileID: 0}
     - target: {fileID: 6880364909583983394, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2952,11 +2964,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1133672811443287679, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.4
+      value: 26.4
       objectReference: {fileID: 0}
     - target: {fileID: 1133672811443287679, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1133672811443287679, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2990,6 +3002,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2525138941008277513, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675395673363845277, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675395673363845277, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3814313460729006798, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_Size.x
+      value: 2.965992
+      objectReference: {fileID: 0}
+    - target: {fileID: 3814313460729006798, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9127831
+      objectReference: {fileID: 0}
+    - target: {fileID: 3814313460729006798, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.3510704
+      objectReference: {fileID: 0}
+    - target: {fileID: 3814313460729006798, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.24574924
+      objectReference: {fileID: 0}
     - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: player
       value: 
@@ -3004,7 +3044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
