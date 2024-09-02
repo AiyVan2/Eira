@@ -23,13 +23,17 @@ public class ScholarAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("AncientEnemy"))
+        if (collision.gameObject.CompareTag("AncientEnemy") || collision.gameObject.CompareTag("Boss")) 
         {
-            EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
+            if(collision.gameObject.TryGetComponent<BossHealth>(out var bossHealth))
+            {
+                bossHealth.TakeDamage(damage);
+            }
+            if (collision.gameObject.TryGetComponent<EnemyHealth>(out var enemyHealth))
             {
                 enemyHealth.TakeDamage(damage);
             }
+          
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Wall"))

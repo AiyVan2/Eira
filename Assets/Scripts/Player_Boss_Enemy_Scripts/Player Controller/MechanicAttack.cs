@@ -24,7 +24,7 @@ public class MechanicAttack : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("MechanicEnemy") || collision.gameObject.CompareTag("Boss"))
         {
-            if (collision.gameObject.TryGetComponent<ForestGuardianHealth>(out var bossHealth))
+            if (collision.gameObject.TryGetComponent<BossHealth>(out var bossHealth))
             {
                 bossHealth.TakeDamage(damage);
                 playerpushBack();
