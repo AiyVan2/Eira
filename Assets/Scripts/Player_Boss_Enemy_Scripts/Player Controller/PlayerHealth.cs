@@ -119,7 +119,8 @@ public class PlayerHealth : MonoBehaviour
         float playerX = PlayerPrefs.GetFloat("PlayerX");
         float playerY = PlayerPrefs.GetFloat("PlayerY");
         float playerZ = PlayerPrefs.GetFloat("PlayerZ");
-        int playerHealth = PlayerPrefs.GetInt("PlayerHealth");
+
+        //int playerHealth = PlayerPrefs.GetInt("PlayerHealth");
 
         // Reset the player's position and health
         player.transform.position = new Vector3(playerX, playerY, playerZ);

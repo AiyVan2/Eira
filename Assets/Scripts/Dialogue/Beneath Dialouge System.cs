@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class BeneathDialogueSystem : MonoBehaviour
 {
-    private int currentDialogueIndex = 0;
+    public int currentDialogueIndex = 0;
 
     //UI BUTTONS
     public GameObject dialogueBox;
