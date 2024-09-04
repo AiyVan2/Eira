@@ -2485,7 +2485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5930038000611789880, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.399994
+      value: -4.4000244
       objectReference: {fileID: 0}
     - target: {fileID: 6880364909583983394, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2687,7 +2687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2725,10 +2725,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler
       objectReference: {fileID: 0}
-    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2746,17 +2742,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow Bat
       objectReference: {fileID: 0}
-    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5
+      value: 5.27
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3002,9 +2994,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2166918574797390549, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166918574797390549, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.18
+      objectReference: {fileID: 0}
     - target: {fileID: 2525138941008277513, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3675395673363845277, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3035,6 +3035,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1870493039}
     - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: attackRange
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: detectionRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: projectileAttack
       value: 
       objectReference: {fileID: 1821835106}
@@ -3045,6 +3053,10 @@ PrefabInstance:
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918511478821731697, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: health
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

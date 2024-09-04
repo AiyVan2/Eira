@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 27481995474518975}
   - component: {fileID: 3629808557717488158}
   - component: {fileID: 6347153504113645949}
+  - component: {fileID: 2761131181026341810}
   m_Layer: 12
   m_Name: Shadow Bat
   m_TagString: AncientEnemy
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2021927015366407656, guid: 99ca420f5d6f57948a0b7e911202593a, type: 3}
+  m_Sprite: {fileID: -544277619, guid: 3606cfd868326aa4fb940b4f59a9dcf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000000037252903, y: 0.18999985}
+  m_Offset: {x: 0, y: -0.0019897819}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: -0.027777778}
-    oldSize: {x: 0.35, y: 0.36}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.25, y: 0.171875}
     newSize: {x: 3.8750002, y: 0.94161993}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.21914083, y: 0.20559317}
+  m_Size: {x: 0.21914083, y: 0.1778833}
   m_EdgeRadius: 0
 --- !u!114 &27481995474518975
 MonoBehaviour:
@@ -191,6 +192,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!95 &2761131181026341810
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986489652996623962}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e7cc1b275b82fc4448289991ad5db154, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8384672481831638997
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +240,7 @@ Transform:
   m_GameObject: {fileID: 8384672481831638997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.21, y: 0.56, z: 0}
+  m_LocalPosition: {x: -0.21, y: 0.396, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -256,7 +278,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.20605464, y: -0.37722483}
+  m_Offset: {x: 0.2125966, y: -0.40097612}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -267,7 +289,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.30193755, y: 0.3071379}
+  m_Size: {x: 0.19290465, y: 0.15671301}
   m_EdgeRadius: 0
 --- !u!114 &8333981397919596172
 MonoBehaviour:
@@ -309,7 +331,7 @@ Transform:
   m_GameObject: {fileID: 8955180691126979201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.008, y: 0.167, z: 3.575971}
+  m_LocalPosition: {x: 0.014, y: -0.007, z: 3.575971}
   m_LocalScale: {x: 0.21637665, y: 0.19806084, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

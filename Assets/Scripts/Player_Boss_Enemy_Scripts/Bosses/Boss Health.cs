@@ -23,7 +23,6 @@ public class BossHealth : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("BossPhaseTwo defeated");
-            Destroy(gameObject);
         }
     }
     IEnumerator blink()
