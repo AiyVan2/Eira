@@ -1725,6 +1725,7 @@ GameObject:
   - component: {fileID: 331778116}
   - component: {fileID: 331778117}
   - component: {fileID: 331778118}
+  - component: {fileID: 331778119}
   m_Layer: 0
   m_Name: Main Save
   m_TagString: Untagged
@@ -1801,7 +1802,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 331778115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d8aae8571a893949af9dc29bc0aa928, type: 3}
+  m_Script: {fileID: 11500000, guid: 26ff8114fa8aa544688749087b88711a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &331778119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331778115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256767860a0d8d542ad1ce73a981524c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &352414598
@@ -116391,8 +116404,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 331778118}
-        m_TargetAssemblyTypeName: MainSave, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_TargetAssemblyTypeName: SaveManager, Assembly-CSharp
+        m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

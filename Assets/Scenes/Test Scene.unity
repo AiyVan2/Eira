@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 40299127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.56, y: 4.46, z: 0}
+  m_LocalPosition: {x: 19.4, y: 4.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -243,7 +243,7 @@ Transform:
   m_GameObject: {fileID: 213209886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.91, y: 6.72, z: -9}
+  m_LocalPosition: {x: 0, y: 4.2, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -559,11 +559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.72
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.z
@@ -632,7 +632,7 @@ Transform:
   m_GameObject: {fileID: 426830256}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.45, y: 4.46, z: 0}
+  m_LocalPosition: {x: 34.37, y: 4.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2725,6 +2725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler
       objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2741,6 +2745,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2799,14 +2807,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2169063408497168801, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: m_Size.y
-      value: 1.3685389
-      objectReference: {fileID: 0}
-    - target: {fileID: 2169063408497168801, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.027063847
-      objectReference: {fileID: 0}
     - target: {fileID: 4530984650442508468, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.88
@@ -2851,26 +2851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corrupted Sentinel
       objectReference: {fileID: 0}
-    - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: m_TagString
-      value: MechanicEnemy
-      objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1870493040}
-    - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: detectionRange
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
-      propertyPath: patrolPoints.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
@@ -2879,6 +2863,10 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[1]
       value: 
       objectReference: {fileID: 426830257}
+    - target: {fileID: 8382788544863888005, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2892,6 +2880,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2906567094461269744, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906567094461269744, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5394019466766742895, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: player
       value: 
@@ -2899,6 +2895,10 @@ PrefabInstance:
     - target: {fileID: 6164808751294089138, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_Name
       value: Corrupted Worker
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781902596809073073, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9044966418625806126, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3052,7 +3052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4918511478821731697, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: health
