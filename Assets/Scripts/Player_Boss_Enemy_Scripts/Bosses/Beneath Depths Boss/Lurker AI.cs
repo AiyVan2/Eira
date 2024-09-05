@@ -143,7 +143,7 @@ public class Lurker : MonoBehaviour
     {
         animator.SetBool("isRangeAttacking", true);
         yield return new WaitForSeconds(0.2f);
-        for (int i = 0; i < 5; i++)  // Adjust the number of projectiles in the barrage as needed
+        for (int i = 0; i < 3; i++)  // Adjust the number of projectiles in the barrage as needed
         {
             SpawnProjectile();
             yield return new WaitForSeconds(0.2f);  // Adjust the delay between each projectile in the barrage

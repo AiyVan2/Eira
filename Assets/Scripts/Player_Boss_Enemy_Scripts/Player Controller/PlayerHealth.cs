@@ -30,9 +30,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Boss") && !isInvincible)
         {
-            ForestGuardianMovements boss = collision.gameObject.GetComponent<ForestGuardianMovements>();
-            int bossDamage = boss.GetAttackDamage();
-            TakeDamage(bossDamage, collision.transform);
+            EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
+            int enemyDamage = enemy.GetEnemyDamage();
+            TakeDamage(enemyDamage, collision.transform);
         }
         else if (collision.gameObject.CompareTag("Forest Guardian Ground Attack"))
         {
@@ -102,7 +102,8 @@ public class PlayerHealth : MonoBehaviour
     {
         isInvincible = true;
         float blinkDuration = invincibilityDuration / 10f;
-
+        int originalLayer = player.layer;
+        player.layer = LayerMask.NameToLayer("Untargetable");
         for (int i = 0; i < 10; i++)
         {
             spriteRenderer.color = Color.red;
@@ -110,7 +111,7 @@ public class PlayerHealth : MonoBehaviour
             spriteRenderer.color = originalColor;
             yield return new WaitForSeconds(blinkDuration / 2);
         }
-
+        player.layer = originalLayer;
         isInvincible = false;
     }
     private void Die()

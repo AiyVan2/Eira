@@ -243,7 +243,7 @@ Transform:
   m_GameObject: {fileID: 213209886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.2, z: -9}
+  m_LocalPosition: {x: 12.58, y: 5.31, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -559,11 +559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 12.58
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.2
+      value: 5.31
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2475,6 +2475,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1177011969}
+    - target: {fileID: 3107701407683523813, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3873489884412861492, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2727,7 +2731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2748,7 +2752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2850,6 +2854,10 @@ PrefabInstance:
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_Name
       value: Corrupted Sentinel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: player
@@ -3051,8 +3059,16 @@ PrefabInstance:
       value: Depths Mini Boss
       objectReference: {fileID: 0}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: m_TagString
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 4918511478821731697, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: health
