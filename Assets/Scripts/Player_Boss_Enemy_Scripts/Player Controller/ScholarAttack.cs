@@ -23,7 +23,7 @@ public class ScholarAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("AncientEnemy") || collision.gameObject.CompareTag("Boss")) 
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss")) 
         {
             if(collision.gameObject.TryGetComponent<BossHealth>(out var bossHealth))
             {

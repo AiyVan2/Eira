@@ -13,10 +13,9 @@ TagManager:
   - Forest Guardian Ground Attack
   - GroundAttackPos
   - Traps
-  - AncientEnemy
   - Enemy
-  - MechanicEnemy
   - Ground
+  - Player Mana
   layers:
   - Default
   - TransparentFX

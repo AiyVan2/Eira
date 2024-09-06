@@ -603,6 +603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corrupted Worker
       objectReference: {fileID: 0}
+    - target: {fileID: 6164808751294089138, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8865458964224192664, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: health
       value: 30
@@ -809,6 +813,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1314,9 +1322,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: maxMana
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashSlider
       value: 
       objectReference: {fileID: 50732681}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: playerMana
+      value: 
+      objectReference: {fileID: 323991321}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: scholarAttackManaCost
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5
@@ -1368,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: restart
       value: 
-      objectReference: {fileID: 1628726052}
+      objectReference: {fileID: 0}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healthSlider
       value: 
@@ -1386,6 +1406,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
   m_PrefabInstance: {fileID: 280609009}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &289322655 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1898582390938968556, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &303884975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,11 +1740,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+--- !u!114 &323991321 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1844304345492597794, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &331778115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256767860a0d8d542ad1ce73a981524c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveButton: {fileID: 289322655}
 --- !u!1001 &352414598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1868,6 +1915,10 @@ PrefabInstance:
     - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_Name
       value: Cave Crawler (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2465,6 +2516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow Bat
       objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.9
@@ -2530,6 +2585,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3034,7 +3093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_TagString
-      value: MechanicEnemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: player
@@ -3304,7 +3363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_TagString
-      value: MechanicEnemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: player
@@ -3538,6 +3597,10 @@ PrefabInstance:
     - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_Name
       value: Cave Crawler
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27260,6 +27323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler
       objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27312,6 +27379,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27784,6 +27855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow Bat (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 119.9
@@ -27849,6 +27924,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28292,6 +28371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow Bat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -129.9
@@ -28400,7 +28483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188701809751498867, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_TagString
-      value: MechanicEnemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: player
@@ -28470,6 +28553,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28737,85 +28824,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1753791819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1176136184
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1176136185}
-  - component: {fileID: 1176136187}
-  - component: {fileID: 1176136186}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1176136185
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176136184}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1628726051}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1176136186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176136184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Button
---- !u!222 &1176136187
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176136184}
-  m_CullTransparentMesh: 1
 --- !u!1 &1199480828
 GameObject:
   m_ObjectHideFlags: 0
@@ -29046,6 +29054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow Bat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -116.1
@@ -29241,6 +29253,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -116324,139 +116340,6 @@ Transform:
   - {fileID: 356405650}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1628726050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1628726051}
-  - component: {fileID: 1628726054}
-  - component: {fileID: 1628726053}
-  - component: {fileID: 1628726052}
-  m_Layer: 5
-  m_Name: Restart
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1628726051
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628726050}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1176136185}
-  m_Father: {fileID: 1981858749}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1628726052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628726050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1628726053}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 331778118}
-        m_TargetAssemblyTypeName: SaveManager, Assembly-CSharp
-        m_MethodName: LoadGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1628726053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628726050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1628726054
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628726050}
-  m_CullTransparentMesh: 1
 --- !u!1 &1635284737
 GameObject:
   m_ObjectHideFlags: 0
@@ -116658,6 +116541,10 @@ PrefabInstance:
     - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_Name
       value: Cave Crawler (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -117282,6 +117169,10 @@ PrefabInstance:
     - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_Name
       value: Cave Crawler
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -117954,6 +117845,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100375001792765409, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Name
+      value: Ranged Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 328983671263358845, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -117978,13 +117873,29 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: changeattackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1898582390938968556, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 331778118}
+    - target: {fileID: 1898582390938968556, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SaveGame
+      objectReference: {fileID: 0}
     - target: {fileID: 1906463333249305859, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1750496646}
     - target: {fileID: 1906463333249305859, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: attackButton
+      value: MechanicAttackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803313472039370063, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 331778118}
+    - target: {fileID: 2803313472039370063, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadGame
       objectReference: {fileID: 0}
     - target: {fileID: 2927090065548758397, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -118005,6 +117916,18 @@ PrefabInstance:
     - target: {fileID: 3107701407683523813, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456388878891295034, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1750496646}
+    - target: {fileID: 3456388878891295034, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ScholarAttackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811746898694582744, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Name
+      value: Melee Attack
       objectReference: {fileID: 0}
     - target: {fileID: 3873489884412861492, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Name
@@ -118028,6 +117951,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7912551597275131309, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051579622763698228, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8135396612291881233, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
@@ -118143,9 +118070,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8135396612291881233, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2009806957}
-    - targetCorrespondingSourceObject: {fileID: 8135396612291881233, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1628726051}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
 --- !u!224 &1981858749 stripped
@@ -118410,6 +118334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5852953139855759514, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -118435,6 +118363,10 @@ PrefabInstance:
     - target: {fileID: 6164808751294089138, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_Name
       value: Corrupted Worker
+      objectReference: {fileID: 0}
+    - target: {fileID: 6164808751294089138, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8865458964224192664, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: health
@@ -118591,6 +118523,10 @@ PrefabInstance:
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_LocalPosition.x

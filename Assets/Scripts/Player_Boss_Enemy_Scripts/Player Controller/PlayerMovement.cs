@@ -17,6 +17,12 @@ public class PlayerMovement : MonoBehaviour
     public float dashSpeed;
     public float dashLifetime;
     public float dashCooldown = 5f;
+    public float mana;
+    public float maxMana; 
+    public Slider playerMana; 
+    public float scholarAttackManaCost;
+
+
     private bool isDashing = false;
     private bool canDash = true;
     private bool canAttack = true;
@@ -45,9 +51,8 @@ public class PlayerMovement : MonoBehaviour
     public enum AttackMode { Mechanic, Scholar }
     public AttackMode currentMode = AttackMode.Mechanic;
 
-
-    private bool canChangeMode = true; 
-    public float modeChangeCooldown = 2f; 
+    private bool canChangeMode = true;
+    public float modeChangeCooldown = 2f;
 
     void Start()
     {
@@ -57,12 +62,14 @@ public class PlayerMovement : MonoBehaviour
 
         dashSlider.maxValue = dashCooldown;
         dashSlider.value = dashCooldown;
+        playerMana.maxValue = maxMana;
+        playerMana.value = mana;
     }
 
     void Update()
     {
         UpdateGroundedState();
-
+        mana = playerMana.value;
         if (isDashing)
         {
             anim.SetBool("isDashing", true);
@@ -74,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
         {
             HandleMovement();
         }
+
         if (!dashSlider && canDash)
         {
             dashSlider.value += Time.deltaTime;
@@ -166,66 +174,62 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    public void changeattackButton()
-    {
-        if (canAttack && !isDashing && canChangeMode) // Ensure the player isn't attacking or dashing
-    {
-        if (currentMode == AttackMode.Mechanic)
-        {
-            currentMode = AttackMode.Scholar;
-        }
-        else if (currentMode == AttackMode.Scholar)
-        {
-            currentMode = AttackMode.Mechanic;
-        }
-        attackCount = 0;
-    }
-        StartCoroutine(ModeChangeCooldownCoroutine());
-    }
 
-    public void attackButton()
+    // Mechanic Attack Method
+    public void MechanicAttackButton()
     {
-        if (canAttack)
+        if (canAttack && !isDashing && currentMode == AttackMode.Mechanic)
         {
-            if (Time.time - lastAttackTime > comboDelay)
-            {
-                attackCount = 0;
-            }
-
             lastAttackTime = Time.time;
             attackCount++;
 
-            if (currentMode == AttackMode.Mechanic)
+            if (attackCount == 1)
             {
-                // Mechanic Mode: Physical Attacks
-                if (attackCount == 1)
-                {
-                    anim.SetBool("isAttacking2", true);
-                    SpawnMechanicProjectileShort();
-                    StartCoroutine(ResetAttackAnimation("isAttacking2"));
-                }
-                else if (attackCount == 2)
-                {
-                    anim.SetBool("isAttacking", true);
-                    SpawnMechanicProjectileLong();
-                    StartCoroutine(ResetAttackAnimation("isAttacking"));
-                    attackCount = 0;
-                }
+                anim.SetBool("isAttacking2", true);
+                SpawnMechanicProjectileShort();
+                StartCoroutine(ResetAttackAnimation("isAttacking2"));
             }
-            else if (currentMode == AttackMode.Scholar)
+            else if (attackCount == 2)
             {
-                if (attackCount == 1)
-                {
-                    anim.SetBool("isAttacking2", true);
-                    SpawnScholarProjectile();
-                    StartCoroutine(ResetAttackAnimation("isAttacking2"));
-                    attackCount = 0;
-                }
+                anim.SetBool("isAttacking", true);
+                SpawnMechanicProjectileLong();
+                StartCoroutine(ResetAttackAnimation("isAttacking"));
+                attackCount = 0;
             }
 
             StartCoroutine(AttackCooldownCoroutine());
         }
     }
+
+    // Scholar Attack Method
+    public void ScholarAttackButton()
+    {
+        if (mana >= scholarAttackManaCost) // Check if the player has enough mana
+        {
+            // Deduct mana cost
+            mana -= scholarAttackManaCost;
+
+            // Update the mana slider
+            if (playerMana != null)
+            {
+                playerMana.value = mana;
+            }
+
+            // Perform the attack
+            anim.SetBool("isAttacking2", true);
+            SpawnScholarProjectile();
+            StartCoroutine(ResetAttackAnimation("isAttacking2"));
+
+            // Start cooldown for the next attack
+            StartCoroutine(AttackCooldownCoroutine());
+        }
+        else
+        {
+            Debug.Log("Not enough mana to perform Scholar attack");
+            // Optional: Add feedback for insufficient mana, such as a sound or visual cue
+        }
+    }
+
 
     void SpawnMechanicProjectileLong()
     {
@@ -275,14 +279,6 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(AttackCooldown);
         canAttack = true;
     }
-
-    private IEnumerator ModeChangeCooldownCoroutine()
-    {
-        canChangeMode = false; // Prevent changing mode during cooldown
-        yield return new WaitForSeconds(modeChangeCooldown); // Wait for cooldown duration
-        canChangeMode = true; // Allow mode change again
-    }
-
 
     public void dashButton()
     {
