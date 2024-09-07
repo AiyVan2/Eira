@@ -1339,11 +1339,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1388,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: restart
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 936789450}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healthSlider
       value: 
@@ -27913,6 +27913,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1441469897050623837, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
   m_PrefabInstance: {fileID: 920187837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &936789450 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2803313472039370063, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &948014451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116567,6 +116578,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2834267d727104a9df06e554af1a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1750496647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+  m_PrefabInstance: {fileID: 280609009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950296369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9f829e7757fc3428544a3e30178406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1753791818
 GameObject:
   m_ObjectHideFlags: 0
@@ -117849,6 +117871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ranged Attack
       objectReference: {fileID: 0}
+    - target: {fileID: 100375001792765409, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 328983671263358845, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -117856,6 +117882,14 @@ PrefabInstance:
     - target: {fileID: 328983671263358845, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 697676745289745646, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1750496647}
+    - target: {fileID: 697676745289745646, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Heal
       objectReference: {fileID: 0}
     - target: {fileID: 1176754811131017626, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_AnchorMax.x
@@ -117889,6 +117923,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MechanicAttackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 2609920203548892137, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2803313472039370063, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -117896,6 +117934,10 @@ PrefabInstance:
     - target: {fileID: 2803313472039370063, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2827610318925543477, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2927090065548758397, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -117928,6 +117970,10 @@ PrefabInstance:
     - target: {fileID: 3811746898694582744, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Name
       value: Melee Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811746898694582744, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3873489884412861492, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Name
