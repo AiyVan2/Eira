@@ -130,6 +130,7 @@ MonoBehaviour:
   pushbackForce: 5
   enemypushbackForce: 3
   damage: 10
+  manaGain: 2
 --- !u!61 &3557499952591566640
 BoxCollider2D:
   m_ObjectHideFlags: 0

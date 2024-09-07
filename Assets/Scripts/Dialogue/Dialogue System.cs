@@ -19,7 +19,9 @@ public class DialogueSystem : MonoBehaviour
     public GameObject beneathEntrance;
     public GameObject playerControlls;
     public GameObject playerattackButton;
-    public GameObject playerattackchangeButton;
+    public GameObject playerrangedattackButton;
+    public GameObject playerhealButton;
+    public GameObject playerManaUI;
     public GameObject houseBarrier;
     public GameObject lumenBarrier;
 
@@ -115,30 +117,14 @@ public class DialogueSystem : MonoBehaviour
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             playerattackButton.gameObject.SetActive(true);
-            playerattackchangeButton.gameObject.SetActive(true);
+            playerrangedattackButton.gameObject.SetActive(true);
+            playerhealButton.gameObject.SetActive(true);
+            playerManaUI.gameObject.SetActive (true);
             Elder.SetActive(false);
             lumenBarrier.SetActive(false);
         }
-        //if (currentDialogueIndex == 10)
-        //{
-        //    nextButton.gameObject.SetActive(false);
-        //    closeButton.gameObject.SetActive(true);
-        //    beneathdepthsBarrier.SetActive(false);
-        //}
     }
 
-    //void PlayDialogue(int index)
-    //{
-    //    if (index < dialogues.Length)
-    //    {
-    //        dialogueText.text = dialogues[index].text;
-
-    //        if (!string.IsNullOrEmpty(dialogues[index].speaker))
-    //        {
-    //            dialogueText.text = dialogues[index].speaker + ": " + dialogues[index].text;
-    //        }
-    //    }
-    //}
 
     [System.Serializable]
     public class Dialogue

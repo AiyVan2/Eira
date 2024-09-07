@@ -16,6 +16,8 @@ TagManager:
   - Enemy
   - Ground
   - Player Mana
+  - AncientEnemy
+  - MechanicEnemy
   layers:
   - Default
   - TransparentFX
@@ -31,7 +33,7 @@ TagManager:
   - Wall
   - Enemy
   - Untargetable
-  - 
+  - Player
   - 
   - 
   - 

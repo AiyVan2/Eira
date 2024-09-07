@@ -1787,7 +1787,7 @@ TextureImporter:
         serializedVersion: 2
         x: 113
         y: 558
-        width: 20
+        width: 21
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1798,27 +1798,6 @@ TextureImporter:
       bones: []
       spriteID: d44dbe8a75a17f243a343b1d1cb6b068
       internalID: 185216896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sword Master Sprite Sheet 90x37_85
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 574
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 366d57496aaeaa843933eeaeb2b159f4
-      internalID: -1389190515
       vertices: []
       indices: 
       edges: []

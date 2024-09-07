@@ -16,7 +16,12 @@ public class PlayerHealth : MonoBehaviour
 
     public Button restart;
 
+    // Reference to PlayerMovement to access mana
+    private PlayerMovement playerMovement;
+    public float healAmount = 20f; // The amount of health to restore per heal
+    public float healManaCost = 10f; // The mana cost for healing
 
+    private Animator animator;
     void Start()
     {
         currentHealth = maxHealth;
@@ -24,6 +29,31 @@ public class PlayerHealth : MonoBehaviour
         healthSlider.value = currentHealth;
         spriteRenderer = player.GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
+        playerMovement = player.GetComponent<PlayerMovement>();
+        animator = player.GetComponent<Animator>();
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !isInvincible)
+        {
+            EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
+            int enemyDamage = enemy.GetEnemyDamage();
+            TakeDamage(enemyDamage, collision.transform);
+            Debug.Log("Hitting the plyaer");
+
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !isInvincible)
+        {
+            EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
+            int enemyDamage = enemy.GetEnemyDamage();
+            TakeDamage(enemyDamage, collision.transform);
+            Debug.Log("Player is inside the enemy's collider.");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -45,18 +75,6 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy") && !isInvincible)
-        {
-            EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
-            int enemyDamage = enemy.GetEnemyDamage();
-            TakeDamage(enemyDamage, collision.transform);
-
-        }
-
-    }
 
 
 
@@ -136,6 +154,48 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth > 0)
         {
             Time.timeScale = 1f;
+        }
+    }
+
+    
+    public void Heal()
+    { 
+        if (isInvincible)
+        {
+            Debug.Log("Cannot Heal");
+        }
+        else
+        {
+            StartCoroutine(HealPlayer());
+        }
+        
+    }
+
+    // Healing method using mana
+    private IEnumerator HealPlayer()
+    {
+        if (playerMovement.mana >= healManaCost && currentHealth < maxHealth)
+        {
+            // Deduct mana
+            playerMovement.mana -= healManaCost;
+            playerMovement.playerMana.value = playerMovement.mana;
+            animator.SetBool("isHealing", true);
+            yield return new WaitForSeconds(0.13f);
+            // Heal the player
+            currentHealth += (int)healAmount;
+            animator.SetBool("isHealing", false);
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+            healthSlider.value = currentHealth;
+
+            // Optional: Play healing animation or sound effect
+            Debug.Log("Player healed by " + healAmount);
+        }
+        else
+        {
+            Debug.Log("Not enough mana or health is already full");
         }
     }
 }

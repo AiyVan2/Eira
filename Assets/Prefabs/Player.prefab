@@ -32,11 +32,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.29, y: -7.785, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9144301094028427774}
-  - {fileID: 5129760494075688451}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3918668693958906444
@@ -80,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -209704830, guid: 20db6509457bc2740b9f2bdcb3cce0b9, type: 3}
+  m_Sprite: {fileID: 1120091856, guid: 783010babc4db244aacfd9cf80bc57a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.26785713, y: 0.6964286}
+  m_Size: {x: 1.4375, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -115,8 +114,8 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &1725639848868498380
 CapsuleCollider2D:
@@ -150,8 +149,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00066185, y: 0.013292313}
-  m_Size: {x: 0.22487259, y: 0.6037916}
+  m_Offset: {x: -0.0016050339, y: -0.005891323}
+  m_Size: {x: 0.56926346, y: 1.506052}
   m_Direction: 0
 --- !u!95 &104815676390138259
 Animator:
@@ -199,10 +198,15 @@ MonoBehaviour:
   dashSpeed: 30
   dashLifetime: 0.2
   dashCooldown: 1
+  mana: 0
+  maxMana: 50
+  playerMana: {fileID: 0}
+  scholarAttackManaCost: 20
   comboDelay: 1
   groundCheckDistance: 1
   dashSlider: {fileID: 0}
   currentMode: 0
+  modeChangeCooldown: 2
 --- !u!114 &8853087730529580627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +224,8 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   restart: {fileID: 0}
+  healAmount: 20
+  healManaCost: 10
 --- !u!1 &1752771033141851740
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 1752771033141851740}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -0.29, z: 0}
+  m_LocalPosition: {x: 0.01, y: -1.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5050,34 +5056,3 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &8179493216508246641
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5129760494075688451}
-  m_Layer: 0
-  m_Name: BossPhaseTwoAttackLocation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5129760494075688451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8179493216508246641}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.004, y: 0.224, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8583747634230472110}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
