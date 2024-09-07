@@ -245,7 +245,7 @@ public class PlayerMovement : MonoBehaviour
 
     void SpawnMechanicProjectileShort()
     {
-        Vector3 attackPosition = transform.position + transform.right * 1f;
+        Vector3 attackPosition = transform.position + transform.right * 3f;
         GameObject projectile = Instantiate(MechanicAttackPrefab, attackPosition, Quaternion.identity);
 
         if (isFacingLeft)
@@ -269,7 +269,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator ResetAttackAnimation(string attackBool)
     {
-        yield return new WaitForSeconds(0.18f);
+        yield return new WaitForSeconds(0.1f);
         anim.SetBool(attackBool, false);
     }
 
