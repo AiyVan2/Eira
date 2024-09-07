@@ -135,14 +135,14 @@ public class Lurker : MonoBehaviour
     private IEnumerator ProjectileAttackPlayer()
     {
         animator.SetBool("isRangeAttacking", true);
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(1.3f);
         animator.SetBool("isRangeAttacking", false);
         SpawnProjectile();
     }
     private IEnumerator ProjectileBarrage()
     {
         animator.SetBool("isRangeAttacking", true);
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1.3f);
         for (int i = 0; i < 3; i++)  // Adjust the number of projectiles in the barrage as needed
         {
             SpawnProjectile();

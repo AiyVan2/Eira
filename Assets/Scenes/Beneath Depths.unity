@@ -899,7 +899,7 @@ Transform:
   m_GameObject: {fileID: 211387244}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -172.70178, y: -16.810001, z: 13.054626}
+  m_LocalPosition: {x: -39.801773, y: 66.1, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1333,6 +1333,10 @@ PrefabInstance:
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 323991321}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: dashLifetime
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: scholarAttackManaCost
       value: 20
@@ -3151,7 +3155,7 @@ Transform:
   m_GameObject: {fileID: 592482217}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -172.17726, y: -16.810558, z: 13.054626}
+  m_LocalPosition: {x: -38.706116, y: 0.45712662, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -118108,7 +118112,11 @@ PrefabInstance:
       value: dashButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7495571786273202946, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+    - {fileID: 1102072828514480462, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+    - {fileID: 5439725513995515652, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+    - {fileID: 8323647896657472554, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8135396612291881233, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       insertIndex: -1
