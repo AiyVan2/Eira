@@ -990,7 +990,7 @@ Transform:
   m_GameObject: {fileID: 228751933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -277.2, y: -14.700005, z: 13.054626}
+  m_LocalPosition: {x: 111, y: -12.200005, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1351,11 +1351,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.9
+      value: -10.7
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.9
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1776,6 +1776,7 @@ GameObject:
   - component: {fileID: 331778117}
   - component: {fileID: 331778118}
   - component: {fileID: 331778119}
+  - component: {fileID: 331778120}
   m_Layer: 0
   m_Name: Main Save
   m_TagString: Untagged
@@ -1792,7 +1793,7 @@ Transform:
   m_GameObject: {fileID: 331778115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.4, y: 19.21, z: 0}
+  m_LocalPosition: {x: -45.4, y: 19.07, z: 23.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1830,18 +1831,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8990917, y: 1.5907025}
+  m_Offset: {x: 0.27836514, y: 0.07337093}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.375, y: 1.3125}
+    newSize: {x: 3.375, y: 1.3125}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.043083, y: 5.011338}
+  m_Size: {x: 2.80163, y: 1.5628605}
   m_EdgeRadius: 0
 --- !u!114 &331778118
 MonoBehaviour:
@@ -1868,6 +1869,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveButton: {fileID: 289322655}
+--- !u!212 &331778120
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331778115}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2134628074, guid: f56d6909f48798649b558d9b9f6438d4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.375, y: 1.3125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &352414598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2377,7 +2430,7 @@ Transform:
   m_GameObject: {fileID: 433644627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.801773, y: 41.278423, z: 13.054626}
+  m_LocalPosition: {x: -39.601772, y: 40.17842, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -117971,6 +118024,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ScholarAttackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3696378782434054076, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811746898694582744, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Name
       value: Melee Attack
@@ -117984,6 +118041,10 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 5045711518412872008, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5546068942749990184, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -118102,6 +118163,10 @@ PrefabInstance:
     - target: {fileID: 8426940307549051843, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: upButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510766167211996220, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 63.19995
       objectReference: {fileID: 0}
     - target: {fileID: 8924096658911601201, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -118290,7 +118355,7 @@ Transform:
   m_GameObject: {fileID: 2012939197}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -277.2, y: -14.700005, z: 13.054626}
+  m_LocalPosition: {x: 111, y: -12.200005, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
