@@ -106,6 +106,7 @@ public class Lurker : MonoBehaviour
                 // Phase 3: Barrage of Projectiles, Melee Attack, Barrage Again
                 yield return StartCoroutine(ProjectileBarrage());
                 yield return MeleeAttackSequence();
+                yield return DashAttack();
                 yield return StartCoroutine(ProjectileBarrage());
                 break;
         }
@@ -149,6 +150,39 @@ public class Lurker : MonoBehaviour
             yield return new WaitForSeconds(0.2f);  // Adjust the delay between each projectile in the barrage
         }
         animator.SetBool("isRangeAttacking", false);
+    }
+    private IEnumerator DashAttack()
+    {
+        // Calculate the direction towards the player
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+
+        // Set the animator state to dashing
+        animator.SetBool("isDashing", true);
+
+        // Move the colossal towards the player quickly
+        float dashSpeed = 10f; // Adjust this value to control the dash speed
+        float dashDistance = 20f; // Adjust this value to control the dash distance
+        float dashTime = dashDistance / dashSpeed;
+        float elapsedTime = 0f;
+
+        // Calculate the target position, which is slightly past the player
+        Vector2 targetPosition = new Vector2(player.transform.position.x, player.transform.position.y) + direction * dashDistance * 1.1f;
+
+        while (elapsedTime < dashTime)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, dashSpeed * Time.deltaTime);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(0.24f);
+
+        // Set the animator state to attacking
+        animator.SetBool("isDashing", false);
+
+        // Perform the melee attack sequence
+        yield return MeleeAttackSequence();
+
     }
 
     private void SpawnProjectile()
