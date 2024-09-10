@@ -33,7 +33,6 @@ public class PlayerHealth : MonoBehaviour
         animator = player.GetComponent<Animator>();
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy") && !isInvincible)
@@ -71,7 +70,7 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Traps"))
         {
             TakeDamage(10, collision.transform);
-            Die();
+            trapdamageHandler();
         }
     }
 
@@ -132,17 +131,22 @@ public class PlayerHealth : MonoBehaviour
         player.layer = originalLayer;
         isInvincible = false;
     }
-    private void Die()
+
+    private void trapdamageHandler()
     {
-        // Load the saved player state
+        // Stop the BlinkAndInvincible coroutine
+        StopCoroutine(BlinkAndInvincible());
+        // Reset player to a saved position or respawn point
         float playerX = PlayerPrefs.GetFloat("PlayerX");
         float playerY = PlayerPrefs.GetFloat("PlayerY");
         float playerZ = PlayerPrefs.GetFloat("PlayerZ");
 
-        //int playerHealth = PlayerPrefs.GetInt("PlayerHealth");
-
-        // Reset the player's position and health
+        // Reset the player's position
         player.transform.position = new Vector3(playerX, playerY, playerZ);
+        player.layer = LayerMask.NameToLayer("Player"); // or whatever the original layer is
+        isInvincible = false;
+        // Start the BlinkAndInvincible coroutine again
+        StartCoroutine(BlinkAndInvincible());
 
     }
     private IEnumerator timeStop()
