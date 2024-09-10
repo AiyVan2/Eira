@@ -66,12 +66,12 @@ public class Lurker : MonoBehaviour
     private void HandlePhaseTransitions()
     {
         // Phase 1: 300 - 200 HP (Only Melee Attacks)
-        if (bosshealth.health > 200)
+        if (bosshealth.health > 400)
         {
             currentPhase = 1;
         }
         // Phase 2: 200 - 100 HP (Melee + Occasional Projectile Attack)
-        else if (bosshealth.health <= 200 && bosshealth.health > 100)
+        else if (bosshealth.health <= 400 && bosshealth.health > 300)
         {
             currentPhase = 2;
         }
@@ -95,11 +95,9 @@ public class Lurker : MonoBehaviour
 
             case 2:
                 // Phase 2: Melee + Occasional Projectile Attack
-                if (Random.value > 0.5f)
-                {
-                    yield return StartCoroutine(ProjectileAttackPlayer());
-                }
                 yield return MeleeAttackSequence();
+                yield return DashAttack();
+                yield return StartCoroutine(ProjectileAttackPlayer());
                 break;
 
             case 3:

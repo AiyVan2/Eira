@@ -6766,6 +6766,10 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: dust
+      value: 
+      objectReference: {fileID: 820110733}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashSlider
       value: 
       objectReference: {fileID: 210418618}
@@ -7301,6 +7305,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!198 &820110733 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 282182616568966962, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+  m_PrefabInstance: {fileID: 785141990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &834983342
 GameObject:
   m_ObjectHideFlags: 0
