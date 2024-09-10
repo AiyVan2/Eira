@@ -1339,6 +1339,10 @@ PrefabInstance:
       objectReference: {fileID: 323991321}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashLifetime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: AttackCooldown
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}

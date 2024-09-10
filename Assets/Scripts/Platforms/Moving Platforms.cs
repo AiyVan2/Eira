@@ -4,34 +4,37 @@ using UnityEngine;
 
 public class MovingPlatforms : MonoBehaviour
 {
-    public Transform[] waypoints; // Array of waypoints the platform will move between
+    public Transform posA, posB;
     public float moveSpeed = 2f; // Speed of the platform's movement
-    public int startingPoint = 0; // Starting point index for the platform
-
-    private int waypointIndex; // Current waypoint index
-
-    void Start()
+    Vector2 targetPos;
+    private void Start()
     {
-        waypointIndex = startingPoint;
-        transform.position = waypoints[waypointIndex].position; // Set initial position of the platform
+        targetPos = posB.position;
     }
 
-    void Update()
+    private void Update()
     {
-        MovePlatform();
+        if (Vector2.Distance(transform.position, posA.position) < .1f) targetPos = posB.position;
+        if (Vector2.Distance(transform.position, posB.position) < .1f) targetPos = posA.position;
+
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
     }
 
-    void MovePlatform()
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (waypoints.Length == 0)
-            return;
-
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].position, moveSpeed * Time.deltaTime);
-
-        if (Vector2.Distance(transform.position, waypoints[waypointIndex].position) < 0.1f)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            // Update the waypoint index
-            waypointIndex = (waypointIndex + 1) % waypoints.Length;
+            collision.transform.SetParent(this.transform);
+        }
+    }
+
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.transform.SetParent(null);
         }
     }
 }
