@@ -1,0 +1,3661 @@
+fileFormatVersion: 2
+guid: 15cc246f1bca69643893c6797f6d8b94
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MP Decoration_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 31
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e40a664e8a9a0b40b5cab84eb4a4a9c
+      internalID: -12087100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 360
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf12a5dec7ffa4ea5b164916c652e5
+      internalID: 545602896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 8
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e0ff961d7bc6146987d0fccdd0d47e
+      internalID: -1429084242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 272
+        width: 8
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b21ee85deeb5c429e9c3bfa794a5b1
+      internalID: 226587241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 361
+        width: 101
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6153c11173765bf46815a538ed0782c8
+      internalID: 1744656297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_22
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 267
+        width: 7
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c259d58d735e47aaac6e20dd9f757
+      internalID: 987869336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_23
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 267
+        width: 7
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d2e386ef0f4144991aa36455cc448f
+      internalID: 549813674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 361
+        width: 101
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63062ccfd3930f946913948dc0b3b594
+      internalID: -654809743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 267
+        width: 7
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef67e715e3b83499799bb2c24bc259
+      internalID: -1932618522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 267
+        width: 7
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c11c4505c4bc4b83fe6ee5eba6ce8
+      internalID: -183031851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ca8b772e482ed4ea98b7ad70508c1b
+      internalID: -1786615092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3f152cc79c8746ab06117e62de4a9
+      internalID: 2116529335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 96
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acec18f9e99d5e49ad9972ade7c57bf
+      internalID: 640842265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 101
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907f6255bcdc0cf4481f0dcef15dbb81
+      internalID: -269423067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 336
+        width: 101
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a0de43a7233ff46acf74bfdf4fb4e4
+      internalID: 1183640156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87d169803667347931a36af969f15a
+      internalID: 37963121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 315
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed977564a4e8f844c855695229a3df4d
+      internalID: -26993086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_44
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 315
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318345477a5e1c44b97d4741814521df
+      internalID: -762788329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_45
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 307
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09041a5e8ccc9cf4d9c4985b0ba93a87
+      internalID: 503076305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 315
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682f508c3dca084cb36c2c05f935ae4
+      internalID: -1116084851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 297
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557675308ccf0064d936b3634eaa0ef6
+      internalID: -2146064996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0111d7babb422fb40b387fb06e92f833
+      internalID: 980994485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 314
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9516f34e25a04b954478e5c87b6d0
+      internalID: -39780827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_50
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 315
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5961ed0add56a864a8e677c845af29c5
+      internalID: -1324945526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_51
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 307
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a6815220098a488d1084c280cb5d9
+      internalID: 2091252686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 310
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d2496c3cf3754d8c2ffd6410fc9c2
+      internalID: -439524981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_53
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 310
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33023984208b5b5438d057ee0bb24a77
+      internalID: -1478606246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 310
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c14036d412d74e96a7e6e48550de7
+      internalID: 740621180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_55
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 309
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57ca471bee6edc48acea8aefbf2e27a
+      internalID: -230909656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_56
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 309
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb2e4c462b0d0743a76d885cca9bd58
+      internalID: -2117193408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_57
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 303
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c754ccd5056793468d807f57fd72948
+      internalID: 709515529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_58
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 304
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d72aba2e47a4347ad8d7645bfe2968
+      internalID: -365016352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_59
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 297
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e12c6cd7afaaf24cb2726f8fc38939d
+      internalID: 1872113321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 304
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0fcb77ddeb261438e3870b3a90cff9
+      internalID: -1335495717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_61
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 302
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a65f010dfcad4747a08dda70a8f444d
+      internalID: 287567398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_62
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 302
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6669badb129b8aa4e89e3a9b38662477
+      internalID: -162603926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 297
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9945a6ea3e017424db2ee7c5da9482fe
+      internalID: 841345690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 297
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c579892a043c64ea88b15b40d5a66d
+      internalID: -1692759407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_65
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 297
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b5141d0f8476c45bc340180a6be617
+      internalID: -1871924240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 298
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e660aaac0ed2ce439427946178be7d2
+      internalID: -53149713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_67
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 295
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac509ae5679e501498a042d98a7acef6
+      internalID: 144148833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_68
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a48d92666921a342a2e5b2d37537d57
+      internalID: 1411092165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_69
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 291
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0892af6a903dd114cb990df588707e1d
+      internalID: -598761667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_70
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 278
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6d5ef687dacfc438ac72d3d11ca030
+      internalID: 2121617286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_71
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 278
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d33390b6c447449aa536193ce846c5
+      internalID: -1979870189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 290
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79654c9d6b03b4740825af1aaf78c61b
+      internalID: 8978655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 290
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7192c39300c356c40b5eb001e667f0d0
+      internalID: -643950339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 291
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740042114b1ae3419135375d0be9254
+      internalID: 2122711125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 290
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16584e320bddcf04481afff660773b28
+      internalID: 1235383455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_76
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 285
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c01a2523ea8c40b6d7a924fdd08ed
+      internalID: -2128818968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_77
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 289
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2a701a6c4b87842a9788449d69398b
+      internalID: -1730681983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 290
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e24352033102e4d8fb1f3611934f64
+      internalID: -2040776770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 283
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2403df0e046c85046975e58d0b1cf88c
+      internalID: -1467329724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_80
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 285
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9199e2254a28d4898e046e8849a3a2
+      internalID: 1363817096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_81
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 285
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f71255d8cab0f46a1c3f1dfa7f1475
+      internalID: 1182867625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 284
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa14c4a7b44a064db449bff9b653c61
+      internalID: -674404690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_83
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 284
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe6c9f62ec8a34ab6d055f1101e088
+      internalID: 227734580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_84
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 275
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ef63a428b4474e934d53eeef66140
+      internalID: 1827570003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_85
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 278
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9573f51d1672b584eac21b0269317b87
+      internalID: 1847379684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_86
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 278
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf5e5945235014f97a98c85dd2a343
+      internalID: -418026091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_87
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 279
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cef29a243bd52f438b3a1453ac52a9d
+      internalID: 249751364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 273
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187c0453e158f0e4db3ead3947d6773b
+      internalID: 1600924726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_89
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 279
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27540ff25e050694ea9996966428f007
+      internalID: 1844687151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_90
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 279
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359a6fb623a3e544294924b210273080
+      internalID: -186492362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_91
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 279
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dfd6a9a4b509e4f9dcd9435db6641a
+      internalID: 1311103843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_92
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 273
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf2e7cdd064f34684161d69b166224
+      internalID: 2109617145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_93
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 273
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efd7a11a70b25948a465d03f1e22153
+      internalID: -1032986412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_94
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 273
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a6b212da6646a4db881cd5b08dbcf1
+      internalID: 621703030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_95
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 273
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166c0c11d2ac86f40b90007b310fc804
+      internalID: -1511631837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_96
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 273
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831a1c9473a478f46b4fa13ab034e7f6
+      internalID: -352938854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_97
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 273
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfb3abed14079b44a26ccc7c6443b2b
+      internalID: 943139644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_98
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 251
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6056854ce59c347a3a6c29c5e62241
+      internalID: -1830269959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_99
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 243
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bcf732df85fca4c823f72a024ec1c7
+      internalID: -964990630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_100
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 243
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c8aee3629f39245a9a91f527f5d2f5
+      internalID: -397333898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_101
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 251
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f634cce12a88b41a45b925179a86f3
+      internalID: 703878927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_105
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 199
+        width: 103
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72688518eae8984484c118da377c70b
+      internalID: -2079384412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_106
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 202
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dae12b1ba2fbd4898af78714498e54
+      internalID: 1804601771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 188
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8eba9ff8e500488046e8669864898
+      internalID: 376584717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_108
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 188
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db718e508a269b4a853764a2e54afbd
+      internalID: 608420803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_109
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 202
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4015e77819438844198c4e34264571a1
+      internalID: 982676434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_110
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 203
+        width: 93
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f691baead406bb0488fee857e06a6b2c
+      internalID: 255807624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_111
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 23
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3014d19f5a5b264d8e511bb4397cf10
+      internalID: -704400960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_112
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 160
+        width: 23
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130b42420e6419f469bd6c73e8a9a73d
+      internalID: -2126354259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_113
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 209
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581a2f86c0dfabe45968653607b41d33
+      internalID: 274638524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_114
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 195
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3afeea70dcc54b925ba68f47e2c65
+      internalID: -1610619438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_115
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 184
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ebd06b8a59844faf21bb05022d1a5
+      internalID: -1068027580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_116
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 185
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86878b23223bf7d458cc73804ca41c19
+      internalID: -1291648257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_117
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 185
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f19a04f018bd43bd0586178288071
+      internalID: 121763719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_118
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 184
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cde646eee39b247bf7af10f7b15927
+      internalID: -955825953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_119
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 195
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558238c35a344a5489b81ca3354a0760
+      internalID: 614888479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_120
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 179
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e217cc6a7c82148b27813cb08b0e6f
+      internalID: 1209428945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_121
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 178
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba79011c80b2b3847aa493d1fda5d5ee
+      internalID: -1893511949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_122
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 176
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f1a7409bdb5224dbd87ae501e666b8
+      internalID: 1365644786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_123
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 176
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c69d1edb88571d409d4b66ffc971c37
+      internalID: 597590994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_124
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 178
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed5e7f6897baf94c90420ccf8c6d931
+      internalID: 1774123155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_125
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 179
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd356bc5bc46364c93516161afdc066
+      internalID: 841907901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_126
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 155
+        width: 93
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d187bb1c31914390f5616e2b3ba3d
+      internalID: 927390459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_127
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 135
+        width: 103
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e334b8f183865f343b3f80c3eee3a591
+      internalID: 1645736671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_128
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 146
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb9155c75dd53f42b85f048b3cdcab5
+      internalID: 2019394831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_129
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 152
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cf66aa66de38645b8a726e66812301
+      internalID: 861562392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_130
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 152
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee3087eb747e14188e64ab23635fcd
+      internalID: 437058583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_131
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 146
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d846488d11f742a48baf038062fa72c1
+      internalID: -733547450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_132
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 121
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4281866dc8f7c084ebfb050269a5edcd
+      internalID: 1184576664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_133
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f70ff9cf591214fad9d5a9264fca1c
+      internalID: -1235940009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_134
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 118
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa04ed69653664c860f82c7d6baa46
+      internalID: -1406614151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_135
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 118
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f5fbe2eca1bfb46ace744d9f905a27
+      internalID: 151931378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_136
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0621cadc9b417e468a529fee04af141
+      internalID: -617626432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_137
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 145
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a84ce0f7b8e242be9a4bcfc697f25
+      internalID: 1095202789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_138
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 129
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d541b791d4ba74db95c772c050419f
+      internalID: -1292314349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_139
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 129
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64ee9ea75b9bf945b5f522a3c03f6df
+      internalID: -1560917922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_140
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 112
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d519e4e49e8da6408ebc2700c1e3a8d
+      internalID: -1928474962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_141
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 117
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8025db2a51f1d3348a5a435bfeaab722
+      internalID: -2056180526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_142
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 107
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042eb9ae0205fef4783d4bd68a43e47b
+      internalID: 396394771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_143
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 107
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132f898ddf857f3479692bbfda67e3d2
+      internalID: -31544442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_144
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 117
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6521ed97e7e664ca0b6b98ca3bde7f
+      internalID: 449040876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_145
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 101
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f95bd31efd7624ab4e4d29a0f52799
+      internalID: 1806203569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_146
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 94
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6855a24e2f2cc40b150e01628ed228
+      internalID: 543737272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_147
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 100
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9729d8d3741b097459951b8fa692a6bb
+      internalID: -616539959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_148
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 100
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f17a911df1f1849ae9eef3d860ddc5
+      internalID: 1422216423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_149
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 94
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab84765156547e41abd840ad65cc8e5
+      internalID: 1112315493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_150
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 101
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd19dba5934a2084fb21242692c7bf83
+      internalID: -824503500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f2dbccf152e4c4b887f6c2ffad2568
+      internalID: -22097110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_152
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8725aa0aa4021243977f0835a14bba7
+      internalID: -855009553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_153
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 96
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ba0ab4fff2174790c8214f7411818
+      internalID: -1476939282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_154
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 87
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113daf8c328b3a54b9910e757169e986
+      internalID: 32605006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_155
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e18beeb57df4b48b8865345879ead1
+      internalID: -1086439992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_156
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 89
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1ab19c8a720644b95fabd0c5cdaabf
+      internalID: 1322309684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_157
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 87
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee505e804f8e184aa109e37388f02fe
+      internalID: 1232211224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_158
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 80
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b26682efd05364cb7a82a3ba60fe54
+      internalID: 219940748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_159
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 80
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c01a3491564d394f90301da42bc947e
+      internalID: 242961474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_167
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 57
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7874f24469645b04fb078ae9ad759750
+      internalID: -1211449468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_168
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71f3afef16b14a42ba7bd50e58ce0a1
+      internalID: -992175448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_169
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9681d93fe251fa34899463b76576cee9
+      internalID: 1791830189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_170
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2c8fb1db0c1ec4fb03628c082594e9
+      internalID: -1589714889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_171
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ce4eda5b93f4e418aaf02fc190ba19
+      internalID: -1936402936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_172
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 57
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90c5b9ba03874c44bdd78cb2130e264
+      internalID: 413786031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_173
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551a642611c8da245ae27520d26d9c83
+      internalID: -1286394484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_174
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 68
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cade45f5282dfe3478def1f38f34c20c
+      internalID: 1587935829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_175
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 44
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbcf5fa9f4715e44acc55635633b4bf
+      internalID: -848500335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_176
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 50
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab80e56f177ff842bbc41fbab139171
+      internalID: -1626991874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_182
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 70
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e061e6f286f8d45a0e5ccf4307c4fd
+      internalID: 364675957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_185
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 56
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8326abc4c5201724a8af51d83137b120
+      internalID: 937070389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_186
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 56
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720172263c7e08048b26edb183b417a8
+      internalID: 1537489496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_187
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 17
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d05d38401ef41458167d2fd33dda15
+      internalID: -321508410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_188
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da9504081bd0c047862612edffac24e
+      internalID: -1343483182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_189
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da833dd59ea1f468f00658ae09d54c
+      internalID: -1652817303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_190
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbad861f85709d4ca509c35de913188
+      internalID: -2028785587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_191
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 17
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0333071345b961f49941cb298be7893c
+      internalID: -1576751407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_192
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 28
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb80c04300a0345bd8aaa8c4936e8a
+      internalID: 412757339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_193
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138d8369156667c4b98d27acc4485395
+      internalID: 952325943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6386dcf224572814a8f48b279dfccf1d
+      internalID: -37917609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_195
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac402968d17a2bc49816b9fba4c1b9f5
+      internalID: -1895011752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_196
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 16
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c44fc7aa9b5a044b62f049e3b98d59
+      internalID: -1841725568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_197
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 16
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e65b48740eb3ce4ebdf1ac024d973cf
+      internalID: -1518152057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8437aab303ec49b4fa0f849029d587ec
+      internalID: 625325881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_199
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 16
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd13106ad9b014bbef56c7a96c2762
+      internalID: 865295210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_200
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c79790045d4aca44bb491e8bcae317f
+      internalID: 1643073526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP Decoration_201
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fde5b8460e658946b67e440593118ab
+      internalID: 1600840259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MP Decoration_0: -148169741
+      MP Decoration_1: 556574391
+      MP Decoration_10: 380620605
+      MP Decoration_100: -397333898
+      MP Decoration_101: 703878927
+      MP Decoration_102: -834716805
+      MP Decoration_103: -839816690
+      MP Decoration_104: 1412338990
+      MP Decoration_105: -2079384412
+      MP Decoration_106: 1804601771
+      MP Decoration_107: 376584717
+      MP Decoration_108: 608420803
+      MP Decoration_109: 982676434
+      MP Decoration_11: 1220785489
+      MP Decoration_110: 255807624
+      MP Decoration_111: -704400960
+      MP Decoration_112: -2126354259
+      MP Decoration_113: 274638524
+      MP Decoration_114: -1610619438
+      MP Decoration_115: -1068027580
+      MP Decoration_116: -1291648257
+      MP Decoration_117: 121763719
+      MP Decoration_118: -955825953
+      MP Decoration_119: 614888479
+      MP Decoration_12: -752135384
+      MP Decoration_120: 1209428945
+      MP Decoration_121: -1893511949
+      MP Decoration_122: 1365644786
+      MP Decoration_123: 597590994
+      MP Decoration_124: 1774123155
+      MP Decoration_125: 841907901
+      MP Decoration_126: 927390459
+      MP Decoration_127: 1645736671
+      MP Decoration_128: 2019394831
+      MP Decoration_129: 861562392
+      MP Decoration_13: -960383616
+      MP Decoration_130: 437058583
+      MP Decoration_131: -733547450
+      MP Decoration_132: 1184576664
+      MP Decoration_133: -1235940009
+      MP Decoration_134: -1406614151
+      MP Decoration_135: 151931378
+      MP Decoration_136: -617626432
+      MP Decoration_137: 1095202789
+      MP Decoration_138: -1292314349
+      MP Decoration_139: -1560917922
+      MP Decoration_14: -1401977958
+      MP Decoration_140: -1928474962
+      MP Decoration_141: -2056180526
+      MP Decoration_142: 396394771
+      MP Decoration_143: -31544442
+      MP Decoration_144: 449040876
+      MP Decoration_145: 1806203569
+      MP Decoration_146: 543737272
+      MP Decoration_147: -616539959
+      MP Decoration_148: 1422216423
+      MP Decoration_149: 1112315493
+      MP Decoration_15: -1852710118
+      MP Decoration_150: -824503500
+      MP Decoration_151: -22097110
+      MP Decoration_152: -855009553
+      MP Decoration_153: -1476939282
+      MP Decoration_154: 32605006
+      MP Decoration_155: -1086439992
+      MP Decoration_156: 1322309684
+      MP Decoration_157: 1232211224
+      MP Decoration_158: 219940748
+      MP Decoration_159: 242961474
+      MP Decoration_16: -1258009490
+      MP Decoration_160: -10343568
+      MP Decoration_161: -2103711784
+      MP Decoration_162: -491408671
+      MP Decoration_163: 1581871582
+      MP Decoration_164: -341621595
+      MP Decoration_165: -1938997186
+      MP Decoration_166: 1429375152
+      MP Decoration_167: -1211449468
+      MP Decoration_168: -992175448
+      MP Decoration_169: 1791830189
+      MP Decoration_17: -12087100
+      MP Decoration_170: -1589714889
+      MP Decoration_171: -1936402936
+      MP Decoration_172: 413786031
+      MP Decoration_173: -1286394484
+      MP Decoration_174: 1587935829
+      MP Decoration_175: -848500335
+      MP Decoration_176: -1626991874
+      MP Decoration_177: -112327378
+      MP Decoration_178: -1060148059
+      MP Decoration_179: -1578351362
+      MP Decoration_18: 545602896
+      MP Decoration_180: -153960768
+      MP Decoration_181: -1254337692
+      MP Decoration_182: 364675957
+      MP Decoration_183: 488647352
+      MP Decoration_184: 849347913
+      MP Decoration_185: 937070389
+      MP Decoration_186: 1537489496
+      MP Decoration_187: -321508410
+      MP Decoration_188: -1343483182
+      MP Decoration_189: -1652817303
+      MP Decoration_19: -1429084242
+      MP Decoration_190: -2028785587
+      MP Decoration_191: -1576751407
+      MP Decoration_192: 412757339
+      MP Decoration_193: 952325943
+      MP Decoration_194: -37917609
+      MP Decoration_195: -1895011752
+      MP Decoration_196: -1841725568
+      MP Decoration_197: -1518152057
+      MP Decoration_198: 625325881
+      MP Decoration_199: 865295210
+      MP Decoration_2: -232321492
+      MP Decoration_20: 226587241
+      MP Decoration_200: 1643073526
+      MP Decoration_201: 1600840259
+      MP Decoration_202: -1152175714
+      MP Decoration_21: 1744656297
+      MP Decoration_22: 987869336
+      MP Decoration_23: 549813674
+      MP Decoration_24: -654809743
+      MP Decoration_25: -1932618522
+      MP Decoration_26: -183031851
+      MP Decoration_27: -1786615092
+      MP Decoration_28: 2116529335
+      MP Decoration_29: 640842265
+      MP Decoration_3: -283090782
+      MP Decoration_30: -269423067
+      MP Decoration_31: 1183640156
+      MP Decoration_32: 248490249
+      MP Decoration_33: 272365025
+      MP Decoration_34: -1817043671
+      MP Decoration_35: 2032444701
+      MP Decoration_36: 1194390727
+      MP Decoration_37: 1053181502
+      MP Decoration_38: 1765543415
+      MP Decoration_39: 756056032
+      MP Decoration_4: 1872368692
+      MP Decoration_40: -897168384
+      MP Decoration_41: -873049728
+      MP Decoration_42: 37963121
+      MP Decoration_43: -26993086
+      MP Decoration_44: -762788329
+      MP Decoration_45: 503076305
+      MP Decoration_46: -1116084851
+      MP Decoration_47: -2146064996
+      MP Decoration_48: 980994485
+      MP Decoration_49: -39780827
+      MP Decoration_5: 1068099832
+      MP Decoration_50: -1324945526
+      MP Decoration_51: 2091252686
+      MP Decoration_52: -439524981
+      MP Decoration_53: -1478606246
+      MP Decoration_54: 740621180
+      MP Decoration_55: -230909656
+      MP Decoration_56: -2117193408
+      MP Decoration_57: 709515529
+      MP Decoration_58: -365016352
+      MP Decoration_59: 1872113321
+      MP Decoration_6: -1957953511
+      MP Decoration_60: -1335495717
+      MP Decoration_61: 287567398
+      MP Decoration_62: -162603926
+      MP Decoration_63: 841345690
+      MP Decoration_64: -1692759407
+      MP Decoration_65: -1871924240
+      MP Decoration_66: -53149713
+      MP Decoration_67: 144148833
+      MP Decoration_68: 1411092165
+      MP Decoration_69: -598761667
+      MP Decoration_7: 1065710106
+      MP Decoration_70: 2121617286
+      MP Decoration_71: -1979870189
+      MP Decoration_72: 8978655
+      MP Decoration_73: -643950339
+      MP Decoration_74: 2122711125
+      MP Decoration_75: 1235383455
+      MP Decoration_76: -2128818968
+      MP Decoration_77: -1730681983
+      MP Decoration_78: -2040776770
+      MP Decoration_79: -1467329724
+      MP Decoration_8: -506140635
+      MP Decoration_80: 1363817096
+      MP Decoration_81: 1182867625
+      MP Decoration_82: -674404690
+      MP Decoration_83: 227734580
+      MP Decoration_84: 1827570003
+      MP Decoration_85: 1847379684
+      MP Decoration_86: -418026091
+      MP Decoration_87: 249751364
+      MP Decoration_88: 1600924726
+      MP Decoration_89: 1844687151
+      MP Decoration_9: 466389073
+      MP Decoration_90: -186492362
+      MP Decoration_91: 1311103843
+      MP Decoration_92: 2109617145
+      MP Decoration_93: -1032986412
+      MP Decoration_94: 621703030
+      MP Decoration_95: -1511631837
+      MP Decoration_96: -352938854
+      MP Decoration_97: 943139644
+      MP Decoration_98: -1830269959
+      MP Decoration_99: -964990630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

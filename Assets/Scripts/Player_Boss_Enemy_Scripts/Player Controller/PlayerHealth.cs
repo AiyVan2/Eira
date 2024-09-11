@@ -18,8 +18,8 @@ public class PlayerHealth : MonoBehaviour
 
     // Reference to PlayerMovement to access mana
     private PlayerMovement playerMovement;
-    public float healAmount = 20f; // The amount of health to restore per heal
-    public float healManaCost = 10f; // The mana cost for healing
+    public float healAmount = 15f; // The amount of health to restore per heal
+    public float healManaCost = 25f; // The mana cost for healing
 
     private Animator animator;
     void Start()

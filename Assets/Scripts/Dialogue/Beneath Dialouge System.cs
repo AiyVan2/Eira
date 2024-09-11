@@ -19,6 +19,7 @@ public class BeneathDialogueSystem : MonoBehaviour
   
 
     public GameObject playerControlls;
+    public GameObject pauseButton;
     public GameObject beneathdepthsBarrier;
     public GameObject edgeoutpostBarrier;
 
@@ -36,6 +37,7 @@ public class BeneathDialogueSystem : MonoBehaviour
         PlayNextDialogue();
         interactButton.gameObject.SetActive(false);
         playerControlls.SetActive(false);
+        pauseButton.gameObject.SetActive(false);
 
     }
 
@@ -46,6 +48,7 @@ public class BeneathDialogueSystem : MonoBehaviour
         nextButton.gameObject.SetActive(false);
         closeButton.gameObject.SetActive(false);
         playerControlls.gameObject.SetActive(true);
+        pauseButton.gameObject.SetActive(true);
     }
 
     //Next Dialouge Button

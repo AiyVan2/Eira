@@ -18,6 +18,7 @@ public class DialogueSystem : MonoBehaviour
     public Button interactButton;
     public GameObject beneathEntrance;
     public GameObject playerControlls;
+    public GameObject pauseButton;
     public GameObject playerattackButton;
     public GameObject playerrangedattackButton;
     public GameObject playerhealButton;
@@ -45,6 +46,7 @@ public class DialogueSystem : MonoBehaviour
         PlayNextDialogue();
         interactButton.gameObject.SetActive(false);
         playerControlls.SetActive(false);
+        pauseButton.gameObject.SetActive(false);
        
     }
 
@@ -55,6 +57,7 @@ public class DialogueSystem : MonoBehaviour
         nextButton.gameObject.SetActive(false);
         closeButton.gameObject.SetActive(false);
         playerControlls.gameObject.SetActive(true);
+        pauseButton.gameObject.SetActive(true);
     }
 
     //Next Dialouge Button
@@ -96,12 +99,14 @@ public class DialogueSystem : MonoBehaviour
 
         if (currentDialogueIndex == 0)
         {
+            
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(true);
         }
         if (currentDialogueIndex == 2)
         {
+           
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(false);
@@ -122,6 +127,7 @@ public class DialogueSystem : MonoBehaviour
             playerManaUI.gameObject.SetActive (true);
             Elder.SetActive(false);
             lumenBarrier.SetActive(false);
+            
         }
     }
 

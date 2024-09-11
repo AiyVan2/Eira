@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class BeneathDepthsTransition : MonoBehaviour
 {
-    public enum Area { UppertoLower, LowertoAcademy, LowertoBoss, AcademytoLower, BosstoLower};
+    public enum Area { UppertoLower, LowertoAcademy, LowertoBoss, BosstoLower};
     public Area areas;
     public Animator transitionanim;
 
@@ -33,9 +34,6 @@ public class BeneathDepthsTransition : MonoBehaviour
                 case Area.LowertoBoss:
                     StartCoroutine(LowertoBossRoomTransition());
                     break;
-                case Area.AcademytoLower:
-                    StartCoroutine(AcademytoLowerTransition());
-                    break;
                 case Area.BosstoLower:
                     StartCoroutine(BossRoomtoLowerTransition());
                     break;
@@ -58,10 +56,8 @@ public class BeneathDepthsTransition : MonoBehaviour
     IEnumerator LowertoAcademyTransition()
     {
         transitionanim.SetTrigger("End");
-        yield return new WaitForSeconds(0.2f);
-        DepthsLowerLevel.SetActive(false);
-        DepthsToAcademy.SetActive(true);
-        transitionanim.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
+        SceneManager.LoadScene(4);
         yield return null;
     }
     IEnumerator LowertoBossRoomTransition()
@@ -70,15 +66,6 @@ public class BeneathDepthsTransition : MonoBehaviour
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
         DepthsLowerLevel.SetActive(false);
         DepthsBossRoom.SetActive(true);
-        transitionanim.SetTrigger("Start");
-        yield return null;
-    }
-    IEnumerator AcademytoLowerTransition()
-    {
-        transitionanim.SetTrigger("End");
-        yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        DepthsToAcademy.SetActive(false);
-        DepthsLowerLevel.SetActive(true);
         transitionanim.SetTrigger("Start");
         yield return null;
     }

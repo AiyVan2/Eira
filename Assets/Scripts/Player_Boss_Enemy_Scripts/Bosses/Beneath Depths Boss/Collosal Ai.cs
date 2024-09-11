@@ -66,12 +66,12 @@ public class Lurker : MonoBehaviour
     private void HandlePhaseTransitions()
     {
         // Phase 1: 300 - 200 HP (Only Melee Attacks)
-        if (bosshealth.health > 400)
+        if (bosshealth.health > 500)
         {
             currentPhase = 1;
         }
         // Phase 2: 200 - 100 HP (Melee + Occasional Projectile Attack)
-        else if (bosshealth.health <= 400 && bosshealth.health > 300)
+        else if (bosshealth.health <= 500 && bosshealth.health > 300)
         {
             currentPhase = 2;
         }
@@ -219,7 +219,7 @@ public class Lurker : MonoBehaviour
    IEnumerator lurkerdeathAnimation()
     {
         animator.SetBool("isDead", true);
-        yield return new WaitForSeconds(1.9f);
+        yield return new WaitForSeconds(1.5f);
         Destroy(gameObject);
     }
 }
