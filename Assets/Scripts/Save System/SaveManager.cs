@@ -46,6 +46,8 @@ public class SaveManager : MonoBehaviour
 
     public void LoadGame()
     {
+        // Reset player health before loading the game
+        ResetPlayerHealth();
         if (File.Exists(Application.persistentDataPath + "/savedGame.dat"))
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -77,5 +79,17 @@ public class SaveManager : MonoBehaviour
         // Remove the event listener
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-
+    public void ResetPlayerHealth()
+    {
+        // Find the player object
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.ResetHealth();
+            }
+        }
+    }
 }

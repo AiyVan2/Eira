@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -24,13 +25,44 @@ public class PlayerHealth : MonoBehaviour
     private Animator animator;
     void Start()
     {
-        currentHealth = maxHealth;
+        // Load saved health from PlayerPrefs or set it to max health
+        if (PlayerPrefs.HasKey("PlayerHealth"))
+        {
+            currentHealth = PlayerPrefs.GetInt("PlayerHealth");
+        }
+        else
+        {
+            currentHealth = maxHealth;
+        }
+        // Ensure health is within valid range
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
         healthSlider.maxValue = maxHealth;
         healthSlider.value = currentHealth;
+
+        // Set up other components
         spriteRenderer = player.GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
         playerMovement = player.GetComponent<PlayerMovement>();
         animator = player.GetComponent<Animator>();
+
+        // Ensure health is reset to max if starting a new game
+        if (SceneManager.GetActiveScene().name == "Eira Beginning") // Adjust scene name accordingly
+        {
+            ResetHealth();
+        }
+    }
+    public void SaveHealth()
+    {
+        PlayerPrefs.SetInt("PlayerHealth", currentHealth);
+        PlayerPrefs.Save(); // Ensure the health is saved
+        Debug.Log("Saving Health");
+    }
+    public void ResetHealth()
+    {
+        currentHealth = maxHealth;
+        healthSlider.value = currentHealth;
+        SaveHealth(); // Optional: Save health to PlayerPrefs if you want to preserve it
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -113,6 +145,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
         StartCoroutine(BlinkAndInvincible());
+        SaveHealth();
     }
 
     private IEnumerator BlinkAndInvincible()
@@ -201,5 +234,6 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Not enough mana or health is already full");
         }
+        SaveHealth();
     }
 }

@@ -44,12 +44,8 @@ public class BeneathDepthsTransition : MonoBehaviour
     IEnumerator UppertoLowerTransition()
     {
         transitionanim.SetTrigger("End");
-        PlayerControlls.gameObject.SetActive(false);
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        DepthsUpperLevel.SetActive(false);
-        PlayerControlls.gameObject.SetActive(true);
-        DepthsLowerLevel.SetActive(true);
-        transitionanim.SetTrigger("Start");
+        SceneManager.LoadScene(4);
         yield return null;
     }
     
@@ -57,7 +53,7 @@ public class BeneathDepthsTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
         yield return null;
     }
     IEnumerator LowertoBossRoomTransition()
