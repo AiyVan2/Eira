@@ -1,0 +1,1086 @@
+fileFormatVersion: 2
+guid: ca96af56392c33a4aac489b7111ea595
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ancient Cave Deco_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0c735fb6ebab499ba2bd337aa26e1
+      internalID: -1887144160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d36761a8fa6304a813530846a159ec
+      internalID: 2033513288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1725b241205b741a285993157de7d9
+      internalID: -1928114221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 364
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa546cddbdf4d14ab0827d36fc17118
+      internalID: -1938598998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 365
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10343e1d84278204591d8c86e8e2b19f
+      internalID: 1217980298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 299
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e9e3e9ddffa584f9622db292d5ba9c
+      internalID: 363274751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 338
+        width: 80
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1c01e7b3ed5194fb26229c246aba88
+      internalID: -1734704684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 240
+        width: 146
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909ad84c07ec1d0419257bfdc41976dc
+      internalID: -552309796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab30214dbec98b46bc920c803aaae5a
+      internalID: -1653474532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835ce596d8155474fab3a87b11c6fa0d
+      internalID: -216381065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7a92fdbd237341a6069020c832dc7
+      internalID: -1902116994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647f283d6b4c1d243a411b3ef651373d
+      internalID: -1913784624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 275
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77897d5e7dcf0fc4fa9c083bc9f96ca0
+      internalID: -1390734277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 256
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7923bd56d9daefd4ba19ad50d45c35fe
+      internalID: -2058135460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 240
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3a040dcec005d4dbd33ba79ee4c7e1
+      internalID: 2009221320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 211
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23595167d9c4a3d4ab8842d86ad081fa
+      internalID: -673163525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 176
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affcb662d45f4ed4e96944279d71779e
+      internalID: -1987951536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 176
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14468d827426a194c90523322de98ae3
+      internalID: -1897950252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3581ef8a0421c4b8c1de1b65060710
+      internalID: -423124082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 208
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d21e4415db416499f6465f82780507
+      internalID: 786906661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 176
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59953674008dd004fbd6e5ead626b87c
+      internalID: -1370884329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 176
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d9b87963aa5394991bf4455bbbb932
+      internalID: -1575915114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2711827f6e4564199bf71ef2d1ef0c
+      internalID: 648289139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_23
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 144
+        width: 15
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fa9af21cd9767488435c494a8d0d11
+      internalID: -912771309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 15
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8e06931479b724b908b212eedd4442
+      internalID: 765556772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 177
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90171b42cba21ab43b290ea3983e9712
+      internalID: -2096310969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 176
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048eceadfdf13f4081aaf970f123d51
+      internalID: -619988244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 177
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6198e034ba96d284797915322de7871b
+      internalID: 1444901180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 112
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de1a8b0dac4d5140a8b4ac3c3f0c609
+      internalID: -1639744278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 112
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a283bc5dd18da5f4e87e257abbbd51e0
+      internalID: -221820894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 112
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4388de9ac80ed864b928530fcade2f60
+      internalID: 837806683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 112
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6bfd9a644225a49a84ff50d8dccbba
+      internalID: 892293880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 112
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d2a89576b7ca94787c5f874d5673d5
+      internalID: -315212773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 112
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d973849a688fc479d50821000f0ef2
+      internalID: -1383463441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 124
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a61ddedc8f2f554388661c83b9842e4
+      internalID: 1519236352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83343b411836b844f9dcb4400a0afb8c
+      internalID: 2083702642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0daebb1be1ffee40bd42ba6d425a61d
+      internalID: -8805735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b5699d170aa434c954cb836d990e70
+      internalID: -525307255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_38
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 78
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6299143bc2b498548b80a4d987715586
+      internalID: 593270914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 30
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3da63bf5def1e4ca924bb35f6c95d1
+      internalID: 1937192135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 28
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d53326ab46335b4d99cada716410dd0
+      internalID: -280225018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 76
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0021b02e3bfaa3640ace75f474c4a64f
+      internalID: -468104436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Cave Deco_42
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 16
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2380701a56f1540885e3c8e6c31810
+      internalID: -1054648627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ancient Cave Deco_0: -1887144160
+      Ancient Cave Deco_1: 2033513288
+      Ancient Cave Deco_10: -1902116994
+      Ancient Cave Deco_11: -1913784624
+      Ancient Cave Deco_12: -1390734277
+      Ancient Cave Deco_13: -2058135460
+      Ancient Cave Deco_14: 2009221320
+      Ancient Cave Deco_15: -673163525
+      Ancient Cave Deco_16: -1987951536
+      Ancient Cave Deco_17: -1897950252
+      Ancient Cave Deco_18: -423124082
+      Ancient Cave Deco_19: 786906661
+      Ancient Cave Deco_2: -1928114221
+      Ancient Cave Deco_20: -1370884329
+      Ancient Cave Deco_21: -1575915114
+      Ancient Cave Deco_22: 648289139
+      Ancient Cave Deco_23: -912771309
+      Ancient Cave Deco_24: 765556772
+      Ancient Cave Deco_25: -2096310969
+      Ancient Cave Deco_26: -619988244
+      Ancient Cave Deco_27: 1444901180
+      Ancient Cave Deco_28: -1639744278
+      Ancient Cave Deco_29: -221820894
+      Ancient Cave Deco_3: -1938598998
+      Ancient Cave Deco_30: 837806683
+      Ancient Cave Deco_31: 892293880
+      Ancient Cave Deco_32: -315212773
+      Ancient Cave Deco_33: -1383463441
+      Ancient Cave Deco_34: 1519236352
+      Ancient Cave Deco_35: 2083702642
+      Ancient Cave Deco_36: -8805735
+      Ancient Cave Deco_37: -525307255
+      Ancient Cave Deco_38: 593270914
+      Ancient Cave Deco_39: 1937192135
+      Ancient Cave Deco_4: 1217980298
+      Ancient Cave Deco_40: -280225018
+      Ancient Cave Deco_41: -468104436
+      Ancient Cave Deco_42: -1054648627
+      Ancient Cave Deco_5: 363274751
+      Ancient Cave Deco_6: -1734704684
+      Ancient Cave Deco_7: -552309796
+      Ancient Cave Deco_8: -1653474532
+      Ancient Cave Deco_9: -216381065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
