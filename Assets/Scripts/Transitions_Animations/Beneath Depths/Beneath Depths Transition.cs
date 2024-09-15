@@ -48,30 +48,28 @@ public class BeneathDepthsTransition : MonoBehaviour
         SceneManager.LoadScene(4);
         yield return null;
     }
-    
-    IEnumerator LowertoAcademyTransition()
+
+    IEnumerator LowertoBossRoomTransition()
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
         SceneManager.LoadScene(5);
         yield return null;
     }
-    IEnumerator LowertoBossRoomTransition()
+
+    IEnumerator LowertoAcademyTransition()
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        DepthsLowerLevel.SetActive(false);
-        DepthsBossRoom.SetActive(true);
-        transitionanim.SetTrigger("Start");
+        SceneManager.LoadScene(6);
         yield return null;
     }
+  
     IEnumerator BossRoomtoLowerTransition()
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        DepthsBossRoom.SetActive(false);
-        DepthsLowerLevel.SetActive(true);
-        transitionanim.SetTrigger("Start");
+        SceneManager.LoadScene(4);
         yield return null;
     }
 
