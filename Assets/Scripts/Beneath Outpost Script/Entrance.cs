@@ -90,7 +90,7 @@ public class Entrance : MonoBehaviour
     public void FinishFirstMission()
     {
         BeneathOne.SetActive(false);
-        missionText.text = "Mission: Go back to the outpost leader to open the beneath depths entrance door";
+        missionText.text = "Objective: Return to the outpost leader to unlock the Beneath Depths entrance.";
         outpostLeader.SetActive(true);
     }
 }

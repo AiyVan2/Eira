@@ -80,7 +80,7 @@ public class BeneathDialogueSystem : MonoBehaviour
 
         if (currentDialogueIndex == 1)
         {
-            missionText.text = "Mission: Find a way to open the beneath depths entrance";
+            missionText.text = "Objective: Find a way to unlock the Beneath Depths entrance.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             beneathdepthsBarrier.SetActive(false);
@@ -88,7 +88,7 @@ public class BeneathDialogueSystem : MonoBehaviour
         }
         if (currentDialogueIndex == 8)
         {
-            missionText.text = "Mission: Close 2 open door";
+            missionText.text = "Objective: Seal the two doors allowing enemies to enter.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             outpostLeader.SetActive(false);
@@ -96,7 +96,7 @@ public class BeneathDialogueSystem : MonoBehaviour
         }
         if (currentDialogueIndex == 9)
         {
-            missionText.text = "Mission: Go back to the beneath depths entrance";
+            missionText.text = "Objective: Head back to the Beneath Depths entrance.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             outpostLeader.SetActive(false);

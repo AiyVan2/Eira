@@ -99,14 +99,14 @@ public class EiraBeginningDialogueSystem: MonoBehaviour
 
         if (currentDialogueIndex == 0)
         {
-            missionText.text = "Mission: Go downstairs and find something new to read.";
+            missionText.text = "Objective: Head downstairs and discover something new to read.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(true);
         }
         if (currentDialogueIndex == 2)
         {
-            missionText.text = "Mission: Find the Elder in the Lumen Village";
+            missionText.text = "Objective: Locate the Elder in Lumen Village.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(false);
@@ -119,7 +119,7 @@ public class EiraBeginningDialogueSystem: MonoBehaviour
         }
         if (currentDialogueIndex == 9)
         {
-            missionText.text = "Mission: Head to the Beneath Cave";
+            missionText.text = "Objective: Journey to the entrance of the Beneath Cave.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             playerattackButton.gameObject.SetActive(true);
