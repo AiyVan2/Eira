@@ -16,13 +16,13 @@ public class BeneathDialogueSystem : MonoBehaviour
     public Button nextButton;
     public Button closeButton;
     public Button interactButton;
-  
-
     public GameObject playerControlls;
     public GameObject pauseButton;
+    public Text missionText;
+
+
     public GameObject beneathdepthsBarrier;
     public GameObject edgeoutpostBarrier;
-
     public GameObject outpostLeader;
     public GameObject beneathDepths;
 
@@ -80,6 +80,7 @@ public class BeneathDialogueSystem : MonoBehaviour
 
         if (currentDialogueIndex == 1)
         {
+            missionText.text = "Mission: Find a way to open the beneath depths entrance";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             beneathdepthsBarrier.SetActive(false);
@@ -87,10 +88,18 @@ public class BeneathDialogueSystem : MonoBehaviour
         }
         if (currentDialogueIndex == 8)
         {
+            missionText.text = "Mission: Close 2 open door";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             outpostLeader.SetActive(false);
             edgeoutpostBarrier.SetActive(false);
+        }
+        if (currentDialogueIndex == 9)
+        {
+            missionText.text = "Mission: Go back to the beneath depths entrance";
+            nextButton.gameObject.SetActive(false);
+            closeButton.gameObject.SetActive(true);
+            outpostLeader.SetActive(false);
         }
     }
 
@@ -112,7 +121,8 @@ public class BeneathDialogueSystem : MonoBehaviour
     new Dialogue { text = "What can I do to help? If I can clear the way, will you open the gate for me?", speaker = "Eira" },
     new Dialogue { text = "We’re struggling to seal two open gates on the left side of this cave. The monsters have made it nearly impossible. If you can close those gates, I'll make sure the path to the academy is open for you.", speaker = "Outpost Leader" },
     new Dialogue { text = "I’ll do it. Just point me in the right direction.", speaker = "Eira" },
-    new Dialogue { text = "Head through there. But be careful—those creatures are not like anything you've faced before.", speaker = "Outpost Leader" }
+    new Dialogue { text = "Head through there. But be careful—those creatures are not like anything you've faced before.", speaker = "Outpost Leader" },
+    new Dialogue { text = "Well Done Ill open the gate for you, you should head back and go to the entrance it should be open", speaker = "Outpost Leader" }
     };
 
 }

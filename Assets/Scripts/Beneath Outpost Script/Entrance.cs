@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Entrance : MonoBehaviour
 {
 
+    public GameObject outpostLeader;
     public enum lever { lever1, lever2};
     public lever currentLever;
     public GameObject OutpostAnimOne;
@@ -26,7 +27,8 @@ public class Entrance : MonoBehaviour
 
     private bool lever1Pulled = false;
     private bool lever2Pulled = false;
-   
+
+    public Text missionText;
 
     private void Start()
     {
@@ -88,5 +90,7 @@ public class Entrance : MonoBehaviour
     public void FinishFirstMission()
     {
         BeneathOne.SetActive(false);
+        missionText.text = "Mission: Go back to the outpost leader to open the beneath depths entrance door";
+        outpostLeader.SetActive(true);
     }
 }

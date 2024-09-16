@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class DialogueSystem : MonoBehaviour
+public class EiraBeginningDialogueSystem: MonoBehaviour
 {
     private int currentDialogueIndex = 0;
 
@@ -24,10 +24,10 @@ public class DialogueSystem : MonoBehaviour
     public GameObject playerhealButton;
     public GameObject playerManaUI;
     public GameObject houseBarrier;
-    public GameObject lumenBarrier;
-
+    public GameObject lumenBarrier; 
     public GameObject Book;
     public GameObject Elder;
+    public Text missionText;
 
     private string currentText;
     private float textSpeed = 0.02f;
@@ -99,14 +99,14 @@ public class DialogueSystem : MonoBehaviour
 
         if (currentDialogueIndex == 0)
         {
-            
+            missionText.text = "Mission: Go downstairs and find something new to read.";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(true);
         }
         if (currentDialogueIndex == 2)
         {
-           
+            missionText.text = "Mission: Find the Elder in the Lumen Village";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             Book.SetActive(false);
@@ -119,6 +119,7 @@ public class DialogueSystem : MonoBehaviour
         }
         if (currentDialogueIndex == 9)
         {
+            missionText.text = "Mission: Head to the Beneath Cave";
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             playerattackButton.gameObject.SetActive(true);

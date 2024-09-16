@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Interactable : MonoBehaviour
 {
     public Button interactButton;
-    public DialogueSystem dialogueSystem;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
