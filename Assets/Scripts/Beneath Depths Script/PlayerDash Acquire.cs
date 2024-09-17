@@ -7,6 +7,8 @@ public class PlayerDashAcquire : MonoBehaviour
 {
     public Button acquireButton;
     public Button playerdashButton;
+
+    public GameObject playerdashUI;
     private PlayerInventory playerInventory;  // Reference to PlayerInventory
 
     private void Start()
@@ -35,6 +37,7 @@ public class PlayerDashAcquire : MonoBehaviour
         playerInventory.hasDash = true;
         playerInventory.hasbeneathDepthsKey = true;
         playerdashButton.gameObject.SetActive(true);
+        playerdashUI.gameObject.SetActive(true);
         Destroy(gameObject);
     }
 }

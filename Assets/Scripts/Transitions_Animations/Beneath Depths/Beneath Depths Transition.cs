@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class BeneathDepthsTransition : MonoBehaviour
 {
-    public enum Area { UppertoLower, LowertoAcademy, LowertoBoss, BosstoLower};
+    public enum Area { UppertoLower, LowertoAcademy, LowertoBoss, BosstoLower, BeneathDepthstoAcademyOutskirts};
     public Area areas;
     public Animator transitionanim;
 
@@ -36,6 +36,9 @@ public class BeneathDepthsTransition : MonoBehaviour
                     break;
                 case Area.BosstoLower:
                     StartCoroutine(BossRoomtoLowerTransition());
+                    break;
+                case Area.BeneathDepthstoAcademyOutskirts:
+                    StartCoroutine(BeneathDepthstoAcademyOutskirtsTransition());
                     break;
             }
         }
@@ -70,6 +73,13 @@ public class BeneathDepthsTransition : MonoBehaviour
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
         SceneManager.LoadScene(4);
+        yield return null;
+    }
+    IEnumerator BeneathDepthstoAcademyOutskirtsTransition()
+    {
+        transitionanim.SetTrigger("End");
+        yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
+        SceneManager.LoadScene(7);
         yield return null;
     }
 
