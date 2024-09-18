@@ -25,11 +25,14 @@ public class SaveManager : MonoBehaviour
         sceneData = new SceneData();
         sceneData.sceneName = SceneManager.GetActiveScene().name;
 
-        // Get all game objects, including children
+        // Get all game objects, excluding those with a Canvas component
         List<GameObject> allGameObjects = new List<GameObject>();
         foreach (GameObject rootObj in SceneManager.GetActiveScene().GetRootGameObjects())
         {
-            GetAllChildGameObjects(rootObj, allGameObjects);
+            if (!rootObj.GetComponentInChildren<Canvas>()) // Skip objects with Canvas
+            {
+                GetAllChildGameObjects(rootObj, allGameObjects);
+            }
         }
 
         sceneData.gameObjectNames = new string[allGameObjects.Count];
@@ -58,7 +61,10 @@ public class SaveManager : MonoBehaviour
         allGameObjects.Add(parent); // Add the parent itself
         foreach (Transform child in parent.transform)
         {
-            GetAllChildGameObjects(child.gameObject, allGameObjects); // Recursively add child objects
+            if (!child.gameObject.GetComponentInChildren<Canvas>()) // Skip objects with Canvas
+            {
+                GetAllChildGameObjects(child.gameObject, allGameObjects); // Recursively add child objects
+            }
         }
     }
 
@@ -80,6 +86,7 @@ public class SaveManager : MonoBehaviour
             // Wait for the scene to finish loading
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
+        Time.timeScale = 1.0f;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -87,7 +94,10 @@ public class SaveManager : MonoBehaviour
         List<GameObject> allGameObjects = new List<GameObject>();
         foreach (GameObject rootObj in scene.GetRootGameObjects())
         {
-            GetAllChildGameObjects(rootObj, allGameObjects);
+            if (!rootObj.GetComponentInChildren<Canvas>()) // Skip objects with Canvas
+            {
+                GetAllChildGameObjects(rootObj, allGameObjects);
+            }
         }
 
         for (int i = 0; i < sceneData.gameObjectNames.Length; i++)

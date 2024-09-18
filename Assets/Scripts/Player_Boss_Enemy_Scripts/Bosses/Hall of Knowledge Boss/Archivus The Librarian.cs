@@ -51,11 +51,13 @@ public class alapapangalan : MonoBehaviour
 
         if (isTop)
         {
+            yield return new WaitForSeconds(2f);
             // Spawn attack prefabs at all 6 top locations
             SpawnAttackPrefabs(topAttackLocations);
         }
         else
         {
+            yield return new WaitForSeconds(2f);
             // Spawn attack prefabs at 3 side locations
             SpawnAttackPrefabs(sideAttackLocations);
         }

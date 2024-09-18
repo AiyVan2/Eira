@@ -12,6 +12,9 @@ public class EnchantedQuillAI : MonoBehaviour
     public GameObject inkPoolPrefab;
     public float inkPoolDuration = 3.0f;
     public float inkPoolDamage = 5.0f;
+    public float detectionRange = 10.0f;
+    public float stopFollowRange = 3.0f;
+
 
     private Transform player;
     private bool isAttacking = false;
@@ -24,9 +27,15 @@ public class EnchantedQuillAI : MonoBehaviour
 
     private void Update()
     {
-        if (!isAttacking)
+        if (player != null)
         {
-            MoveTowardsPlayer();
+            float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+            // Only move towards player if within detection range and not within stop follow range
+            if (distanceToPlayer <= detectionRange && distanceToPlayer > stopFollowRange)
+            {
+                MoveTowardsPlayer();
+            }
         }
     }
 

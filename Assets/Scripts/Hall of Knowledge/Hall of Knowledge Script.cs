@@ -49,22 +49,27 @@ public class HallofKnowledgeScript : MonoBehaviour
     public void flipButton_1()
     {
         Door1.SetActive(false);
+        flipButton.gameObject.SetActive(false);
     }
     public void flipButton_2()
     {
         Door2.SetActive(false);
+        flipButton2.gameObject.SetActive(false);
     }
     public void flipButton_3()
     {
         Door3.SetActive(false);
+        flipButton3.gameObject.SetActive(false);
     }
     public void flipButton_4()
     {
         Door4.SetActive(false);
+        flipButton4.gameObject.SetActive(false);
     }
     public void flipButton_5()
     {
         Door5.SetActive(false);
+        flipButton5.gameObject.SetActive(false);
     }
 }
 
