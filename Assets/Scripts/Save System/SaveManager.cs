@@ -3,12 +3,13 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Collections.Generic;
 
 [System.Serializable]
 public class SceneData
 {
     public string sceneName;
-    public GameObject[] gameObjects;
+    public string[] gameObjectNames; // Add this line
     public bool[] gameObjectActiveStates;
     public Vector3[] gameObjectPositions;
     public Quaternion[] gameObjectRotations;
@@ -24,17 +25,25 @@ public class SaveManager : MonoBehaviour
         sceneData = new SceneData();
         sceneData.sceneName = SceneManager.GetActiveScene().name;
 
-        GameObject[] gameObjects = SceneManager.GetActiveScene().GetRootGameObjects();
-        sceneData.gameObjects = gameObjects;
-        sceneData.gameObjectActiveStates = new bool[gameObjects.Length];
-        sceneData.gameObjectPositions = new Vector3[gameObjects.Length];
-        sceneData.gameObjectRotations = new Quaternion[gameObjects.Length];
-
-        for (int i = 0; i < gameObjects.Length; i++)
+        // Get all game objects, including children
+        List<GameObject> allGameObjects = new List<GameObject>();
+        foreach (GameObject rootObj in SceneManager.GetActiveScene().GetRootGameObjects())
         {
-            sceneData.gameObjectActiveStates[i] = gameObjects[i].activeSelf;
-            sceneData.gameObjectPositions[i] = gameObjects[i].transform.position;
-            sceneData.gameObjectRotations[i] = gameObjects[i].transform.rotation;
+            GetAllChildGameObjects(rootObj, allGameObjects);
+        }
+
+        sceneData.gameObjectNames = new string[allGameObjects.Count];
+        sceneData.gameObjectActiveStates = new bool[allGameObjects.Count];
+        sceneData.gameObjectPositions = new Vector3[allGameObjects.Count];
+        sceneData.gameObjectRotations = new Quaternion[allGameObjects.Count];
+
+        for (int i = 0; i < allGameObjects.Count; i++)
+        {
+            GameObject obj = allGameObjects[i];
+            sceneData.gameObjectNames[i] = obj.name;
+            sceneData.gameObjectActiveStates[i] = obj.activeSelf;
+            sceneData.gameObjectPositions[i] = obj.transform.position;
+            sceneData.gameObjectRotations[i] = obj.transform.rotation;
         }
 
         string json = JsonUtility.ToJson(sceneData);
@@ -44,10 +53,19 @@ public class SaveManager : MonoBehaviour
         file.Close();
     }
 
+    private void GetAllChildGameObjects(GameObject parent, List<GameObject> allGameObjects)
+    {
+        allGameObjects.Add(parent); // Add the parent itself
+        foreach (Transform child in parent.transform)
+        {
+            GetAllChildGameObjects(child.gameObject, allGameObjects); // Recursively add child objects
+        }
+    }
+
     public void LoadGame()
     {
-        // Reset player health before loading the game
         ResetPlayerHealth();
+
         if (File.Exists(Application.persistentDataPath + "/savedGame.dat"))
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -61,27 +79,33 @@ public class SaveManager : MonoBehaviour
 
             // Wait for the scene to finish loading
             SceneManager.sceneLoaded += OnSceneLoaded;
-            Time.timeScale = 1f;
         }
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Restore the state of the GameObjects
-        GameObject[] gameObjects = scene.GetRootGameObjects();
-        for (int i = 0; i < gameObjects.Length; i++)
+        List<GameObject> allGameObjects = new List<GameObject>();
+        foreach (GameObject rootObj in scene.GetRootGameObjects())
         {
-            gameObjects[i].SetActive(sceneData.gameObjectActiveStates[i]);
-            gameObjects[i].transform.position = sceneData.gameObjectPositions[i];
-            gameObjects[i].transform.rotation = sceneData.gameObjectRotations[i];
+            GetAllChildGameObjects(rootObj, allGameObjects);
         }
 
-        // Remove the event listener
+        for (int i = 0; i < sceneData.gameObjectNames.Length; i++)
+        {
+            GameObject obj = allGameObjects.Find(g => g.name == sceneData.gameObjectNames[i]);
+            if (obj != null)
+            {
+                obj.SetActive(sceneData.gameObjectActiveStates[i]);
+                obj.transform.position = sceneData.gameObjectPositions[i];
+                obj.transform.rotation = sceneData.gameObjectRotations[i];
+            }
+        }
+
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
+
     public void ResetPlayerHealth()
     {
-        // Find the player object
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
