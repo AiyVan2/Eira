@@ -240,14 +240,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   teleportCooldown: 5
-  spellCooldown: 3
-  spellPrefab: {fileID: 4920386262834733180, guid: 175cdabada2b4bb46932ded814538339, type: 3}
-  spellSpawnPoint: {fileID: 7877565563327624176}
-  illusionPrefab: {fileID: 8168320227179941092, guid: 2a5ed81d3eaca20459e5cc40a100451e, type: 3}
-  illusionDuration: 5
-  maxIllusions: 2
-  teleportPosition1: {fileID: 3492846345413316978}
-  teleportPosition2: {fileID: 6304104593061125222}
+  attackCooldown: 3
+  projectilePrefab: {fileID: 2502981401809760482, guid: 162222fc318303143a30fd74246cf362, type: 3}
+  teleportPositions:
+  - {fileID: 3492846345413316978}
+  - {fileID: 6304104593061125222}
+  detectionRange: 10
 --- !u!114 &2117832384674292661
 MonoBehaviour:
   m_ObjectHideFlags: 0

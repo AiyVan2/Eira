@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LibraryBossTrigger : MonoBehaviour
+public class ArchivusBossTrigger : MonoBehaviour
 {
     public GameObject libraryBoss;
     public GameObject bossareaBarier;
-
     public GameObject readButton;
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +28,7 @@ public class LibraryBossTrigger : MonoBehaviour
     {
         libraryBoss.SetActive(true);
         bossareaBarier.SetActive(true);
+        gameObject.SetActive(false);
     }
 
 }

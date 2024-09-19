@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
 
-public class HallofKnowledgeScript : MonoBehaviour
+public class LeverScript: MonoBehaviour
 {
     public enum Levers { Lever1, Lever2, Lever3, Lever4, Lever5 }
     public Levers currentLever;

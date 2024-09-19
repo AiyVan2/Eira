@@ -6,48 +6,62 @@ public class SpectralScholarAI : MonoBehaviour
 {
     public float moveSpeed = 3.0f;
     public float teleportCooldown = 5.0f;
-    public float spellCooldown = 3.0f;
-    public GameObject spellPrefab;
-    public Transform spellSpawnPoint;
-    public GameObject illusionPrefab;
-    public float illusionDuration = 5.0f;
-    public int maxIllusions = 2;
+    public float attackCooldown = 3.0f;
+    public GameObject projectilePrefab;
+    public Transform[] teleportPositions;
+    public float detectionRange = 10.0f;
 
     private Transform player;
     private bool isTeleporting = false;
-    private bool isCastingSpell = false;
-
-    // Define two fixed teleport positions
-    public Transform teleportPosition1;
-    public Transform teleportPosition2;
-    private bool useFirstPosition = true;
+    private bool isAttacking = false;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         StartCoroutine(TeleportRoutine());
-        StartCoroutine(SpellRoutine());
+        StartCoroutine(AttackRoutine());
     }
 
     private void Update()
     {
-        if (!isTeleporting && !isCastingSpell)
+        if (PlayerInRange() && !isTeleporting && !isAttacking)
         {
-            MoveRandomly();
+            FacePlayer();
         }
     }
 
-    private void MoveRandomly()
+    private bool PlayerInRange()
     {
-        // Implement movement logic here if needed
-        // e.g., random movement or following a pattern
+        return player != null && Vector3.Distance(transform.position, player.position) <= detectionRange;
+    }
+
+    private void FacePlayer()
+    {
+        if (player == null) return;
+
+        Vector3 direction = player.position - transform.position;
+        if (direction.x > 0 && transform.localScale.x < 0)
+        {
+            Flip();
+        }
+        else if (direction.x < 0 && transform.localScale.x > 0)
+        {
+            Flip();
+        }
+    }
+
+    private void Flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
     }
 
     private IEnumerator TeleportRoutine()
     {
         while (true)
         {
-            if (!isTeleporting)
+            if (!isTeleporting && PlayerInRange())
             {
                 isTeleporting = true;
                 Teleport();
@@ -62,51 +76,37 @@ public class SpectralScholarAI : MonoBehaviour
     {
         if (player == null) return;
 
-        // Choose between the two predefined positions
-        Transform targetPosition = useFirstPosition ? teleportPosition1 : teleportPosition2;
-        transform.position = targetPosition.position;
-
-        // Toggle between the two positions
-        useFirstPosition = !useFirstPosition;
+        int randomIndex = Random.Range(0, teleportPositions.Length);
+        transform.position = teleportPositions[randomIndex].position;
     }
 
-    private IEnumerator SpellRoutine()
+    private IEnumerator AttackRoutine()
     {
         while (true)
         {
-            if (!isCastingSpell)
+            if (!isAttacking && PlayerInRange())
             {
-                isCastingSpell = true;
-                CastSpell();
-                yield return new WaitForSeconds(spellCooldown);
-                isCastingSpell = false;
+                isAttacking = true;
+                Attack();
+                yield return new WaitForSeconds(attackCooldown);
+                isAttacking = false;
             }
             yield return null;
         }
     }
 
-    private void CastSpell()
+    private void Attack()
     {
-        if (spellPrefab != null && spellSpawnPoint != null)
+        if (projectilePrefab != null)
         {
-            Instantiate(spellPrefab, spellSpawnPoint.position, Quaternion.identity);
+            Vector3 direction = (player.position - transform.position).normalized;
+            Vector3 spawnPosition = transform.position + direction * 0.5f;
+            GameObject projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = direction * moveSpeed;
+            }
         }
-        CreateIllusions();
-    }
-
-    private void CreateIllusions()
-    {
-        for (int i = 0; i < maxIllusions; i++)
-        {
-            Instantiate(illusionPrefab, transform.position, Quaternion.identity);
-        }
-        // Optionally, destroy illusions after some time
-        StartCoroutine(DestroyIllusionsAfterTime(illusionDuration));
-    }
-
-    private IEnumerator DestroyIllusionsAfterTime(float duration)
-    {
-        yield return new WaitForSeconds(duration);
-        // Destroy all illusions here (if needed)
     }
 }
