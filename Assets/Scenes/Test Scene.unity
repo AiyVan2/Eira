@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &21732617
 Transform:
   m_ObjectHideFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &450302000
 Transform:
   m_ObjectHideFlags: 0
@@ -1143,7 +1143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &720861668
 Transform:
   m_ObjectHideFlags: 0
@@ -1365,7 +1365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &815885529
 Transform:
   m_ObjectHideFlags: 0
@@ -1396,11 +1396,11 @@ GameObject:
   - component: {fileID: 818013497}
   m_Layer: 0
   m_Name: Library Boss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &818013494
 Rigidbody2D:
   serializedVersion: 4
@@ -1427,7 +1427,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!212 &818013495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5116,7 +5116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1663730123
 Transform:
   m_ObjectHideFlags: 0
@@ -5576,7 +5576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675346892329573719, guid: e68debbca0cf1a44eb8790ca46edc714, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5737,17 +5737,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Library Boss Attack
       objectReference: {fileID: 0}
-    - target: {fileID: 2502981401809760482, guid: 162222fc318303143a30fd74246cf362, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3770913796760938557, guid: 162222fc318303143a30fd74246cf362, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.03
+      value: 11.43
       objectReference: {fileID: 0}
     - target: {fileID: 3770913796760938557, guid: 162222fc318303143a30fd74246cf362, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 11.91
       objectReference: {fileID: 0}
     - target: {fileID: 3770913796760938557, guid: 162222fc318303143a30fd74246cf362, type: 3}
       propertyPath: m_LocalPosition.z
