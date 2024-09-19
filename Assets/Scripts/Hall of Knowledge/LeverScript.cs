@@ -21,6 +21,12 @@ public class LeverScript: MonoBehaviour
     public GameObject flipButton4;
     public GameObject flipButton5;
 
+    public GameObject lever1;
+    public GameObject lever2;
+    public GameObject lever3;
+    public GameObject lever4;
+    public GameObject lever5;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -50,26 +56,31 @@ public class LeverScript: MonoBehaviour
     {
         Door1.SetActive(false);
         flipButton.gameObject.SetActive(false);
+        lever1.SetActive(false);
     }
     public void flipButton_2()
     {
         Door2.SetActive(false);
         flipButton2.gameObject.SetActive(false);
+        lever2.SetActive(false);
     }
     public void flipButton_3()
     {
         Door3.SetActive(false);
         flipButton3.gameObject.SetActive(false);
+        lever3.SetActive(false);
     }
     public void flipButton_4()
     {
         Door4.SetActive(false);
         flipButton4.gameObject.SetActive(false);
+        lever4.SetActive(false);
     }
     public void flipButton_5()
     {
         Door5.SetActive(false);
         flipButton5.gameObject.SetActive(false);
+        lever5.SetActive(false);
     }
 }
 
