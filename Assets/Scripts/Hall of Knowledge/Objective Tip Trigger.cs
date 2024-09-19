@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ObjectiveTipTrigger : MonoBehaviour
 {
-    public Text objectiveText;
     public GameObject eiraSay;
 
 
@@ -21,7 +20,6 @@ public class ObjectiveTipTrigger : MonoBehaviour
     {
         eiraSay.SetActive(true);
         yield return new WaitForSeconds(3);
-        objectiveText.text = "Objective: Find the Librarian Room to uncover a clue about the academy’s fall";
         eiraSay.SetActive(false);
         yield return new WaitForSeconds(2);
         gameObject.SetActive(false);

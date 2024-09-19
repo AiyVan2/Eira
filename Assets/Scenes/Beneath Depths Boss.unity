@@ -1018,7 +1018,7 @@ GameObject:
   - component: {fileID: 425069456}
   - component: {fileID: 425069455}
   m_Layer: 0
-  m_Name: Background
+  m_Name: BDB Main Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40055,6 +40055,7 @@ MonoBehaviour:
   beneathedgeoutpostName: {fileID: 0}
   beneathdepthsName: {fileID: 885627051}
   academyoutskirtsName: {fileID: 0}
+  hallofknowledgeName: {fileID: 0}
 --- !u!1 &1954593343
 GameObject:
   m_ObjectHideFlags: 0

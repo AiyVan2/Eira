@@ -1121,6 +1121,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 8384672481831638997, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (1) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955180691126979201, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (1) Hit Effect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10671,6 +10679,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 1745399358406095720, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (2) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063588450437048335, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (2) Hit Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241629273475658767, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (2) GroundCheck
+      objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.36
@@ -14306,7 +14326,7 @@ GameObject:
   - component: {fileID: 425069456}
   - component: {fileID: 425069455}
   m_Layer: 0
-  m_Name: Background
+  m_Name: BDU Main Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14468,7 +14488,7 @@ Transform:
   m_GameObject: {fileID: 433644627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.080086, y: 22.062822, z: 13.054626}
+  m_LocalPosition: {x: -47.135574, y: 22.079731, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14627,6 +14647,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 8384672481831638997, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955180691126979201, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat Hit Effect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14645,6 +14673,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 1745399358406095720, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (3) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063588450437048335, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (3) Hit Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241629273475658767, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (3) GroundCheck
+      objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -14944,6 +14984,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 873057996433427124, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_Name
+      value: Corrupted Sentinel Hit Effect
+      objectReference: {fileID: 0}
     - target: {fileID: 4530984650442508468, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -15008,6 +15052,10 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[1]
       value: 
       objectReference: {fileID: 956454281}
+    - target: {fileID: 8989429847739627046, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: m_Name
+      value: Corrupted Sentinel Fire Point
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16436,6 +16484,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 1745399358406095720, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063588450437048335, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler Hit Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241629273475658767, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler GroundCheck
+      objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.54
@@ -17545,6 +17605,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 8384672481831638997, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (3) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955180691126979201, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (3) Hit Effect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20656,6 +20724,8 @@ MonoBehaviour:
   beneathName: {fileID: 0}
   beneathedgeoutpostName: {fileID: 0}
   beneathdepthsName: {fileID: 885627051}
+  academyoutskirtsName: {fileID: 0}
+  hallofknowledgeName: {fileID: 0}
 --- !u!1 &1960440026
 GameObject:
   m_ObjectHideFlags: 0
@@ -21358,6 +21428,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 1745399358406095720, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (1) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063588450437048335, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (1) Hit Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241629273475658767, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: m_Name
+      value: Cave Crawler (1) GroundCheck
+      objectReference: {fileID: 0}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.5
@@ -21592,6 +21674,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 4763941141173487850, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_Name
+      value: Corrupted Worker Hit Effect
+      objectReference: {fileID: 0}
     - target: {fileID: 5394019466766742895, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: player
       value: 
@@ -21603,6 +21689,10 @@ PrefabInstance:
     - target: {fileID: 6164808751294089138, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781902596809073073, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: m_Name
+      value: Corrupted Worker Attack
       objectReference: {fileID: 0}
     - target: {fileID: 8865458964224192664, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: health
@@ -21649,7 +21739,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8328963117191590729, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
@@ -21808,6 +21899,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 8384672481831638997, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (2) Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955180691126979201, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: m_Name
+      value: Shadow Bat (2) Hit Effect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
