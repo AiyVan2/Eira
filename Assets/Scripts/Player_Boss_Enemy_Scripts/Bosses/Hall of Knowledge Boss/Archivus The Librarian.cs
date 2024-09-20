@@ -8,9 +8,13 @@ public class alapapangalan : MonoBehaviour
     public float teleportCooldown = 5.0f;
     public float attackCooldown = 1.0f;
     public float idleDuration = 2.0f;
+    public GameObject projectileRightPrefab;
+    public GameObject projectileLeftPrefab;
     public GameObject attackPrefab; // Prefab for attack
     public Transform[] topAttackLocations; // 6 locations for top attack
     public Transform[] sideAttackLocations; // 3 locations for side attack
+    public Transform[] projectileLeftAttackLocations;
+    public Transform[] projectileRightAttackLocations;
 
     public Transform topPosition; // Position where the boss teleports to the top
     public Transform leftPosition; // Position where the boss teleports to the left side
@@ -20,9 +24,12 @@ public class alapapangalan : MonoBehaviour
     private Transform player;
     private bool isAttacking = false;
 
+    private BossHealth bossHealth;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        bossHealth = GetComponent<BossHealth>();
         StartCoroutine(BossRoutine());
     }
 
@@ -60,6 +67,14 @@ public class alapapangalan : MonoBehaviour
             yield return new WaitForSeconds(2f);
             // Spawn attack prefabs at 3 side locations
             SpawnAttackPrefabs(sideAttackLocations);
+
+            if(bossHealth.health < 200)
+            {
+                SpawnAttackPrefabs(sideAttackLocations);
+                SpawnRightProjectileAttackPrefabs(projectileRightAttackLocations);
+                SpawnLeftProjectileAttackPrefabs(projectileLeftAttackLocations);
+
+            }
         }
 
         // Wait for attack cooldown
@@ -73,6 +88,23 @@ public class alapapangalan : MonoBehaviour
             Instantiate(attackPrefab, location.position, Quaternion.identity);
         }
     }
+
+    private void SpawnLeftProjectileAttackPrefabs(Transform[] locations)
+    {
+        foreach (Transform location in locations)
+        {
+            Instantiate(projectileRightPrefab, location.position, Quaternion.identity);
+        }
+    }
+
+    private void SpawnRightProjectileAttackPrefabs(Transform[] locations)
+    {
+        foreach (Transform location in locations)
+        {
+            Instantiate(projectileLeftPrefab, location.position, Quaternion.identity);
+        }
+    }
+
 
     private IEnumerator Idle()
     {
