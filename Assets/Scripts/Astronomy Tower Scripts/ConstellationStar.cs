@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ConstellationStar : MonoBehaviour
 {
-    public LineRenderer lineRenderer; // Reference to the LineRenderer component
+   public LineRenderer lineRenderer; // Reference to the LineRenderer component
     private bool isConnected = false; // To track if the star has been activated
     private static int starsConnected = 0; // Track how many stars have been connected
 
-    // This array will hold the stars to connect for Capricorn
+    // This array will hold the stars to connect for Aries
     private static GameObject[] constellationStars;
     private static GameObject[] incorrectConstellationStars; // Set this from another script
 
@@ -29,22 +29,32 @@ public class ConstellationStar : MonoBehaviour
             }
             else
             {
-                // If it's a correct star
-                GlowEffect();
-
-                if (!isConnected)
+                // If it's a correct star, we need to check the sequence
+                int currentIndex = ArrayIndex(constellationStars, gameObject);
+                
+                // If the current star is the next one in the correct sequence
+                if (currentIndex == starsConnected)
                 {
-                    isConnected = true;
-                    starsConnected++;
+                    GlowEffect();
 
-                    // Add this star's position to the LineRenderer
-                    DrawLine();
-
-                    // Check if the entire constellation is connected
-                    if (starsConnected == constellationStars.Length)
+                    if (!isConnected)
                     {
-                        CompleteConstellation();
+                        isConnected = true;
+                        starsConnected++;
+
+                        // Add this star's position to the LineRenderer
+                        DrawLine();
+
+                        // Check if the entire constellation is connected
+                        if (starsConnected == constellationStars.Length)
+                        {
+                            CompleteConstellation();
+                        }
                     }
+                }
+                else
+                {
+                    Debug.Log("This is not the correct star in sequence!");
                 }
             }
         }
@@ -104,5 +114,15 @@ public class ConstellationStar : MonoBehaviour
             if (item == obj) return true;
         }
         return false;
+    }
+
+    private int ArrayIndex(GameObject[] array, GameObject obj)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] == obj)
+                return i;
+        }
+        return -1; // Return -1 if not found
     }
 }
