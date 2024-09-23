@@ -14,7 +14,7 @@ public class EnchantedQuillAI : MonoBehaviour
     public float inkPoolDamage = 5.0f;
     public float detectionRange = 10.0f;
     public float stopFollowRange = 3.0f;
-
+    private float projectileLifetime = 2f;
 
     private Transform player;
     private bool isAttacking = false;
@@ -55,7 +55,7 @@ public class EnchantedQuillAI : MonoBehaviour
             {
                 isAttacking = true;
                 ShootProjectile();
-                yield return new WaitForSeconds(1.0f); // Time between attacks
+                yield return new WaitForSeconds(3.0f); // Time between attacks
                 CreateInkPool();
                 yield return new WaitForSeconds(inkPoolDuration); // Duration of ink pool
                 isAttacking = false;
@@ -79,6 +79,7 @@ public class EnchantedQuillAI : MonoBehaviour
             {
                 Vector2 direction = (player.position - projectileSpawnPoint.position).normalized;
                 rb.velocity = direction * projectileSpeed;
+                Destroy(projectile, projectileLifetime);
             }
         }
     }
@@ -89,15 +90,6 @@ public class EnchantedQuillAI : MonoBehaviour
         {
             GameObject inkPool = Instantiate(inkPoolPrefab, transform.position, Quaternion.identity);
             Destroy(inkPool, inkPoolDuration);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            // Handle player interaction with ink pool or projectiles
-            // e.g., applying damage, slowing down, etc.
         }
     }
 }
