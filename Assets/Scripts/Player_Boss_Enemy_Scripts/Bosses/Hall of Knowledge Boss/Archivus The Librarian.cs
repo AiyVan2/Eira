@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class alapapangalan : MonoBehaviour
+public class ArchivusTheLibrarianAI: MonoBehaviour
 {
     public float moveSpeed = 2.0f;
     public float teleportCooldown = 5.0f;

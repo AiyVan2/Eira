@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ArchivusRightProjectileAttack : MonoBehaviour
@@ -14,5 +15,12 @@ public class ArchivusRightProjectileAttack : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * -speed;
         Destroy(gameObject, lifetime);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerAttack"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -175,15 +175,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  attackRange: 5
+  attackRange: 8
   projectileSpeed: 5
-  projectilePrefab: {fileID: 7366349490656871808, guid: d38fd72c7301f894cb2185aad85ce3a8, type: 3}
+  projectilePrefab: {fileID: 183989024165296356, guid: ffb251f21dd15f846b2157791f05739b, type: 3}
   projectileSpawnPoint: {fileID: 1504394931105958748}
   inkPoolPrefab: {fileID: 8168320227179941092, guid: 2a5ed81d3eaca20459e5cc40a100451e, type: 3}
   inkPoolDuration: 3
   inkPoolDamage: 5
-  detectionRange: 7
-  stopFollowRange: 5
+  detectionRange: 9
+  stopFollowRange: 8
 --- !u!114 &2546177404866413660
 MonoBehaviour:
   m_ObjectHideFlags: 0

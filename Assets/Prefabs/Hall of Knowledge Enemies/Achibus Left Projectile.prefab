@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1444908919268891633}
   - component: {fileID: 8458045358507880202}
   - component: {fileID: 2214477280871393327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Achibus Left Projectile
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 946e00f6ac41ff74db002ce941684e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 10
   lifetime: 2
 --- !u!114 &2214477280871393327
 MonoBehaviour:

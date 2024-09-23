@@ -208,11 +208,13 @@ MonoBehaviour:
   moveSpeed: 3
   teleportCooldown: 5
   attackCooldown: 3
-  projectilePrefab: {fileID: 2502981401809760482, guid: 162222fc318303143a30fd74246cf362, type: 3}
+  homingProjectilePrefab: {fileID: 5624967002205292768, guid: 4e8d49e3b7641c24b98df517e15c3c13, type: 3}
   teleportPositions:
   - {fileID: 0}
   - {fileID: 0}
   detectionRange: 10
+  projectileSpeed: 3
+  firePoint: {fileID: 7877565563327624176}
 --- !u!114 &2117832384674292661
 MonoBehaviour:
   m_ObjectHideFlags: 0

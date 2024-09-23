@@ -7,9 +7,11 @@ public class SpectralScholarAI : MonoBehaviour
     public float moveSpeed = 3.0f;
     public float teleportCooldown = 5.0f;
     public float attackCooldown = 3.0f;
-    public GameObject projectilePrefab;
+    public GameObject homingProjectilePrefab;
     public Transform[] teleportPositions;
     public float detectionRange = 10.0f;
+    public float projectileSpeed = 3f;
+    public Transform firePoint;
 
     private Transform player;
     private bool isTeleporting = false;
@@ -94,18 +96,29 @@ public class SpectralScholarAI : MonoBehaviour
             yield return null;
         }
     }
-
-    private void Attack()
+  
+ private void Attack()
     {
-        if (projectilePrefab != null)
+        if (player != null)
         {
-            Vector3 direction = (player.position - transform.position).normalized;
-            Vector3 spawnPosition = transform.position + direction * 0.5f;
-            GameObject projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
-            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-            if (rb != null)
+            int numberofProjectile = 5;
+            int spreadAngle = 500;
+            float angleStep = spreadAngle / (numberofProjectile - 1);
+
+            for (int i = 0; i < numberofProjectile; i++)
             {
-                rb.velocity = direction * moveSpeed;
+                // Calculate the angle for this specific projectile
+                float angle = -spreadAngle / 2 + angleStep * i; 
+
+                GameObject homingProjectile = Instantiate(homingProjectilePrefab, firePoint.position, Quaternion.identity);
+
+                homingProjectile.transform.Rotate(0,0,angle);
+                // Pass the player to the homing projectile to follow
+                HomingProjectile projectileScript = homingProjectile.GetComponent<HomingProjectile>();
+                if (projectileScript != null)
+                {
+                    projectileScript.Initialize(player, projectileSpeed); // Pass the player and speed to the projectile
+                }
             }
         }
     }

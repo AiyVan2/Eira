@@ -15,4 +15,11 @@ public class ArchivusLeftProjectileAttack : MonoBehaviour
         rb.velocity = transform.right * speed;
         Destroy(gameObject, lifetime);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerAttack"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
