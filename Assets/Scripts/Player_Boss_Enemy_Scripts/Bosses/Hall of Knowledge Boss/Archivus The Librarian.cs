@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
-public class ArchivusTheLibrarianAI: MonoBehaviour
+public class ArchivusTheLibrarianAI : MonoBehaviour
 {
     public float moveSpeed = 2.0f;
     public float teleportCooldown = 5.0f;
@@ -10,11 +11,13 @@ public class ArchivusTheLibrarianAI: MonoBehaviour
     public float idleDuration = 2.0f;
     public GameObject projectileRightPrefab;
     public GameObject projectileLeftPrefab;
+    public GameObject homingProjectilePrefab;
     public GameObject attackPrefab; // Prefab for attack
     public Transform[] topAttackLocations; // 6 locations for top attack
     public Transform[] sideAttackLocations; // 3 locations for side attack
     public Transform[] projectileLeftAttackLocations;
     public Transform[] projectileRightAttackLocations;
+    public Transform[] homingProjectileAttackLocations;
 
     public Transform topPosition; // Position where the boss teleports to the top
     public Transform leftPosition; // Position where the boss teleports to the left side
@@ -73,6 +76,7 @@ public class ArchivusTheLibrarianAI: MonoBehaviour
                 SpawnAttackPrefabs(sideAttackLocations);
                 SpawnRightProjectileAttackPrefabs(projectileRightAttackLocations);
                 SpawnLeftProjectileAttackPrefabs(projectileLeftAttackLocations);
+                SpawnHomingProjecitle(homingProjectileAttackLocations);
 
             }
         }
@@ -105,6 +109,36 @@ public class ArchivusTheLibrarianAI: MonoBehaviour
         }
     }
 
+    private void SpawnHomingProjecitle(Transform[] locations)
+    {
+        int numberofProjectile = 4;
+        int projectileSpeed = 5;
+        int spreadAngle = 100;
+        float angleStep = spreadAngle / (numberofProjectile - 1);
+
+
+        foreach (Transform location in locations)
+        {
+
+            for(int i = 0; i < numberofProjectile; i++ )
+            {
+                float angle = -spreadAngle / 2 + angleStep * i;
+
+                // Instantiate the homing projectile from the prefab
+                GameObject homingProjectile = Instantiate(homingProjectilePrefab, location.position, Quaternion.identity);
+
+                homingProjectile.transform.Rotate(0, 0, angle);
+
+                // Get the HomingProjectile script and initialize it
+                HomingProjectile projectileScript = homingProjectile.GetComponent<HomingProjectile>();
+                if (projectileScript != null)
+                {
+                    // Pass the player and speed to the projectile
+                    projectileScript.Initialize(player, projectileSpeed);
+                }
+            }
+        }
+    }
 
     private IEnumerator Idle()
     {
