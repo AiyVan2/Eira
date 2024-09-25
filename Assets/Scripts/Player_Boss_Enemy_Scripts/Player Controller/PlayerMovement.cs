@@ -17,10 +17,10 @@ public class PlayerMovement : MonoBehaviour
     public float dashSpeed;
     public float dashLifetime;
     public float dashCooldown = 5f;
-    public float mana;
-    public float maxMana; 
-    public Slider playerMana; 
-    public float scholarAttackManaCost;
+    //public float mana;
+    //public float maxMana; 
+    //public Slider playerMana; 
+    public int scholarAttackManaCost;
 
 
     private bool isDashing = false;
@@ -54,22 +54,24 @@ public class PlayerMovement : MonoBehaviour
     private bool canChangeMode = true;
     public float modeChangeCooldown = 2f;
 
+    private PlayerHealth playerMana;
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        playerMana = GetComponent<PlayerHealth>();
 
         dashSlider.maxValue = dashCooldown;
         dashSlider.value = dashCooldown;
-        playerMana.maxValue = maxMana;
-        playerMana.value = mana;
+        //playerMana.maxValue = maxMana;
+        //playerMana.value = mana;
     }
 
     void Update()
     {
         UpdateGroundedState();
-        mana = playerMana.value;
+        //mana = playerMana.value;
         if (isDashing)
         {
             anim.SetBool("isDashing", true);
@@ -204,16 +206,10 @@ public class PlayerMovement : MonoBehaviour
     // Scholar Attack Method
     public void ScholarAttackButton()
     {
-        if (mana >= scholarAttackManaCost) // Check if the player has enough mana
+        if (playerMana.currentMana >= scholarAttackManaCost) // Check if the player has enough mana
         {
             // Deduct mana cost
-            mana -= scholarAttackManaCost;
-
-            // Update the mana slider
-            if (playerMana != null)
-            {
-                playerMana.value = mana;
-            }
+            playerMana.DeductMana(scholarAttackManaCost);
 
             // Perform the attack
             anim.SetBool("isAttacking2", true);
@@ -228,6 +224,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Not enough mana to perform Scholar attack");
             // Optional: Add feedback for insufficient mana, such as a sound or visual cue
         }
+        playerMana.SaveMana();
     }
 
 

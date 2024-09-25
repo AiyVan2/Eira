@@ -9,20 +9,19 @@ public class MechanicAttack : MonoBehaviour
     public float pushbackForce = 5f;
     public float enemypushbackForce;
     public int damage = 10;
-    public float manaGain = 5f;
+    public int manaGain = 5;
 
 
-    private Slider playerMana;
-    private Rigidbody2D rb;
+ 
     private GameObject player;
     private GameObject boss;
+    private PlayerHealth playerHealth;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, lifetime);
         player = GameObject.FindWithTag("Player");
         boss = GameObject.FindWithTag("Boss");
-        playerMana = GameObject.Find("Player Mana").GetComponent<Slider>();
+        playerHealth = player.GetComponent<PlayerHealth>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -66,11 +65,12 @@ public class MechanicAttack : MonoBehaviour
     private void GainMana()
     {
         // Assuming the mana slider goes from 0 to 100
-        playerMana.value += manaGain; // Increase mana based on the manaGain value
-        if (playerMana.value > playerMana.maxValue)
+        playerHealth.currentMana += manaGain; // Increase mana based on the manaGain value
+        if (playerHealth.currentMana > playerHealth.maxMana)
         {
-            playerMana.value = playerMana.maxValue; 
+           playerHealth.currentMana = playerHealth.maxMana; 
         }
+        playerHealth.SaveMana();
     }
 }
 

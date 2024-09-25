@@ -17958,6 +17958,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 318611}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: playerMana
+      value: 
+      objectReference: {fileID: 1746429832}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1578802889}
@@ -20654,7 +20658,7 @@ Transform:
   m_GameObject: {fileID: 1696486485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.1530085, y: 3.2134566, z: -9.979007}
+  m_LocalPosition: {x: 7.4863596, y: 3.2009268, z: -9.979007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

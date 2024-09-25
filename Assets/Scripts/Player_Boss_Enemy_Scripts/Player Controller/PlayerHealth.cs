@@ -19,9 +19,11 @@ public class PlayerHealth : MonoBehaviour
 
     // Reference to PlayerMovement to access mana
     private PlayerMovement playerMovement;
-    public float healAmount = 15f; // The amount of health to restore per heal
-    public float healManaCost = 25f; // The mana cost for healing
-
+    public int healAmount = 15; // The amount of health to restore per heal
+    public int maxMana = 50; // Maximum mana
+    public int currentMana; // Current mana
+    public int healManaCost = 25; // Mana cost for healing
+    public Slider playerMana;
     private Animator animator;
     void Start()
     {
@@ -34,11 +36,23 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+
+
+        if(PlayerPrefs.HasKey("Player Mana"))
+        {
+           currentMana = PlayerPrefs.GetInt("Player Mana");
+        }
+        else
+        {
+            currentMana = maxMana;
+        }
         // Ensure health is within valid range
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         healthSlider.maxValue = maxHealth;
         healthSlider.value = currentHealth;
+        playerMana.maxValue = maxMana;
+        playerMana.value = currentMana;
 
         // Set up other components
         spriteRenderer = player.GetComponent<SpriteRenderer>();
@@ -50,7 +64,12 @@ public class PlayerHealth : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Eira Beginning") // Adjust scene name accordingly
         {
             ResetHealth();
+            ResetMana();
         }
+    }
+    private void Update()
+    {
+        playerMana.value = currentMana;
     }
     public void SaveHealth()
     {
@@ -63,6 +82,18 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         healthSlider.value = currentHealth;
         SaveHealth(); // Optional: Save health to PlayerPrefs if you want to preserve it
+    }
+    public void SaveMana()
+    {
+        PlayerPrefs.SetInt("Player Mana", currentMana);
+        PlayerPrefs.Save();
+        Debug.Log("Saving mana");
+    }
+    public void ResetMana()
+    {
+      currentMana = maxMana;
+      playerMana.value = currentMana;
+      SaveMana();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -211,20 +242,19 @@ public class PlayerHealth : MonoBehaviour
     // Healing method using mana
     private IEnumerator HealPlayer()
     {
-        if (playerMovement.mana >= healManaCost && currentHealth < maxHealth)
+        if (currentMana >= healManaCost && currentHealth < maxHealth)
         {
             // Deduct mana
-            playerMovement.mana -= healManaCost;
-            playerMovement.playerMana.value = playerMovement.mana;
-            animator.SetBool("isHealing", true);
+           currentMana -= (int)healManaCost;
+            SaveMana(); 
+           // Update mana slider (if you have one)
+           // ...
+
+           animator.SetBool("isHealing", true);
             yield return new WaitForSeconds(0.13f);
             // Heal the player
-            currentHealth += (int)healAmount;
+            currentHealth = Mathf.Min(currentHealth + (int)healAmount, maxHealth);
             animator.SetBool("isHealing", false);
-            if (currentHealth > maxHealth)
-            {
-                currentHealth = maxHealth;
-            }
             healthSlider.value = currentHealth;
 
             // Optional: Play healing animation or sound effect
@@ -235,5 +265,20 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Not enough mana or health is already full");
         }
         SaveHealth();
+    }
+    // Method to deduct mana
+    public void DeductMana(int amount)
+    {
+        currentMana -= amount;
+        playerMana.value = currentMana;
+        SaveMana();
+    }
+
+    // Method to add mana
+    public void AddMana(int amount)
+    {
+        currentMana = Mathf.Min(currentMana + amount, maxMana);
+        playerMana.value = currentMana;
+        SaveMana();
     }
 }

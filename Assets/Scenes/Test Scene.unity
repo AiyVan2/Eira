@@ -1454,6 +1454,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8529581605359822323, guid: d635f9c55fc676a419412f946754bd27, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2025,6 +2029,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7693728197295345026, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8458045358507880202, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: lifetime
       value: 1000
@@ -2460,6 +2468,7 @@ MonoBehaviour:
   idleDuration: 2
   projectileRightPrefab: {fileID: 8529581605359822323, guid: d635f9c55fc676a419412f946754bd27, type: 3}
   projectileLeftPrefab: {fileID: 7693728197295345026, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
+  homingProjectilePrefab: {fileID: 0}
   attackPrefab: {fileID: 2502981401809760482, guid: 162222fc318303143a30fd74246cf362, type: 3}
   topAttackLocations:
   - {fileID: 226349816}
@@ -2475,6 +2484,7 @@ MonoBehaviour:
   - {fileID: 1717329488}
   projectileRightAttackLocations:
   - {fileID: 541885508}
+  homingProjectileAttackLocations: []
   topPosition: {fileID: 720861668}
   leftPosition: {fileID: 815885529}
   rightPosition: {fileID: 21732617}
@@ -7331,7 +7341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1901160926
 Transform:
   m_ObjectHideFlags: 0
@@ -7860,7 +7870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3497121043140219131, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6188593846456831165, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: player
@@ -8222,7 +8232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3287759691869411995, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330184851275139801, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: player
@@ -8905,8 +8915,8 @@ SceneRoots:
   - {fileID: 2003397247}
   - {fileID: 780749398}
   - {fileID: 5319871262620998735}
-  - {fileID: 231925350}
   - {fileID: 333719079}
+  - {fileID: 231925350}
   - {fileID: 244438732}
   - {fileID: 1669589145}
   - {fileID: 1648355354290445276}
