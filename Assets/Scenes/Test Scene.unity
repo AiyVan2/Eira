@@ -1456,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8529581605359822323, guid: d635f9c55fc676a419412f946754bd27, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1987,7 +1987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5620618838121843470, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4
+      value: 5.79
       objectReference: {fileID: 0}
     - target: {fileID: 5620618838121843470, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2027,11 +2027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693728197295345026, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7693728197295345026, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8458045358507880202, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: lifetime
@@ -8020,7 +8020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124186565488741163, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

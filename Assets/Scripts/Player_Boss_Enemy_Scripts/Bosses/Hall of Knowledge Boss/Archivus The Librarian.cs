@@ -64,6 +64,11 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
             yield return new WaitForSeconds(2f);
             // Spawn attack prefabs at all 6 top locations
             SpawnAttackPrefabs(topAttackLocations);
+            if(bossHealth.health < 200)
+            {
+                SpawnAttackPrefabs(topAttackLocations);
+                SpawnHomingProjecitle(homingProjectileAttackLocations);
+            }
         }
         else
         {
@@ -76,8 +81,6 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
                 SpawnAttackPrefabs(sideAttackLocations);
                 SpawnRightProjectileAttackPrefabs(projectileRightAttackLocations);
                 SpawnLeftProjectileAttackPrefabs(projectileLeftAttackLocations);
-                SpawnHomingProjecitle(homingProjectileAttackLocations);
-
             }
         }
 
@@ -111,7 +114,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     private void SpawnHomingProjecitle(Transform[] locations)
     {
-        int numberofProjectile = 4;
+        int numberofProjectile = 2;
         int projectileSpeed = 5;
         int spreadAngle = 100;
         float angleStep = spreadAngle / (numberofProjectile - 1);
