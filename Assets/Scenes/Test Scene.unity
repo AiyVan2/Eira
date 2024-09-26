@@ -949,6 +949,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: playerMana
+      value: 
+      objectReference: {fileID: 1670710882}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 988067005}
@@ -1456,7 +1460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8529581605359822323, guid: d635f9c55fc676a419412f946754bd27, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2031,7 +2035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693728197295345026, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8458045358507880202, guid: bdbb4d94b7efa1243821724c10217b0b, type: 3}
       propertyPath: lifetime
@@ -7876,6 +7880,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1870493040}
+    - target: {fileID: 6188593846456831165, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
+      propertyPath: chargeDistance
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8003,6 +8011,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1870493040}
     - target: {fileID: 6265244886757787589, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
+      propertyPath: detectionArea
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265244886757787589, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
       propertyPath: teleportPoints.Array.data[0]
       value: 
       objectReference: {fileID: 768824132}
@@ -8020,7 +8032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124186565488741163, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8238,13 +8250,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1870493040}
+    - target: {fileID: 3330184851275139801, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
+      propertyPath: shootingRange
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330184851275139801, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
+      propertyPath: detectionCollider
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.06
+      value: 30.9
       objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.93
+      value: 21.7
       objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.z

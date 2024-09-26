@@ -14,7 +14,7 @@ public class AstroSentinelAI : MonoBehaviour
 
     private Vector3 startPosition;          // Starting position to calculate hover range
     private bool movingUp = true;           // To determine hover direction (up or down)
-
+    public int shootingRange = 8;
     private void Start()
     {
         startPosition = transform.position; // Store the initial position to handle hovering
@@ -51,17 +51,24 @@ public class AstroSentinelAI : MonoBehaviour
     {
         if (player != null)
         {
-            // Create the projectile
-            GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+            // Calculate distance to the player
+            float distanceToPlayer = Vector2.Distance(shootPoint.position, player.position);
 
-            // Calculate direction to the player
-            Vector2 direction = (player.position - shootPoint.position).normalized;
-
-            // Get Rigidbody2D of the projectile to apply force
-            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-            if (rb != null)
+            // Check if the player is within range
+            if (distanceToPlayer <= shootingRange)
             {
-                rb.velocity = direction * projectileSpeed; // Set the projectile's velocity
+                // Create the projectile
+                GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+                // Calculate direction to the player
+                Vector2 direction = (player.position - shootPoint.position).normalized;
+
+                // Get Rigidbody2D of the projectile to apply force
+                Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.velocity = direction * projectileSpeed; // Set the projectile's velocity
+                }
             }
         }
     }

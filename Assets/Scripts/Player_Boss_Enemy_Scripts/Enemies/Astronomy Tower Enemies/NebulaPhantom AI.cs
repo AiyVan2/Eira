@@ -11,6 +11,7 @@ public class NebulaPhantomAI : MonoBehaviour
     public float projectileSpeed = 5f;  // Speed of the projectiles
     public Transform shootPoint;        // The point from which it shoots the projectile
     public float attackDelay = 1f;      // Delay before shooting after teleporting
+    public float detectionRange = 10f;  // Range at which the phantom detects the player
 
     private int currentTeleportIndex = -1; // To track which teleport point the phantom is at
 
@@ -24,17 +25,26 @@ public class NebulaPhantomAI : MonoBehaviour
     {
         while (true)
         {
-            // Teleport to a random point
-            Teleport();
+            // Check if the player is within detection range
+            if (Vector2.Distance(transform.position, player.position) <= detectionRange)
+            {
+                // Teleport to a random point
+                Teleport();
 
-            // Wait before shooting
-            yield return new WaitForSeconds(attackDelay);
+                // Wait before shooting
+                yield return new WaitForSeconds(attackDelay);
 
-            // Shoot at the player
-            ShootHomingProjectile();
+                // Shoot at the player
+                ShootHomingProjectile();
 
-            // Wait for the teleport cooldown before teleporting again
-            yield return new WaitForSeconds(teleportCooldown);
+                // Wait for the teleport cooldown before teleporting again
+                yield return new WaitForSeconds(teleportCooldown);
+            }
+            else
+            {
+                // Wait for a short period before checking again
+                yield return new WaitForSeconds(0.1f);
+            }
         }
     }
 

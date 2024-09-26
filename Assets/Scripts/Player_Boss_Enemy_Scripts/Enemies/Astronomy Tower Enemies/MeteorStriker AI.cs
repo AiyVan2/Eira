@@ -36,15 +36,21 @@ public class MeteorStrikerAI : MonoBehaviour
         GameObject fireTrail = Instantiate(fireTrailPrefab, transform.position, Quaternion.identity);
         Destroy(fireTrail, fireTrailDuration);
 
-        // Move towards the player
-        Vector2 targetPosition = player.position;
-        while (Vector2.Distance(transform.position, targetPosition) > 0.1f)
+        // Calculate direction towards the player
+        Vector2 direction = (player.position - transform.position).normalized;
+
+        // Dash towards the player for a fixed distance or time
+        float dashTime = 1f; // adjust the dash time to your liking
+        float timer = 0f;
+        while (timer < dashTime)
         {
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+            transform.position = new Vector2(transform.position.x, transform.position.y) + direction * moveSpeed * Time.deltaTime;
+            timer += Time.deltaTime;
             yield return null;
         }
 
         Explode();
+
         canAttack = false; // Prevent further attacks until cooldown is over
         yield return new WaitForSeconds(attackCooldown); // Wait for cooldown
         canAttack = true; // Reset the ability to attack
