@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: 37ec13ceecf0c544d950f518683f2e04
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 58
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7d0f7a90894f24db7486a819631e0a
+      internalID: 950877020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_15
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 58
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c524213b7b1264f924664ebb3dfc31
+      internalID: -923618254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 58
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d7e23ed64d7e4ba757f0bd34181d3
+      internalID: 1550581902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_21
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 58
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95bdd3e3661d0d419f32df649039c0c
+      internalID: -998986003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_24
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 58
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1d057eb5824b848a86a0f6e49bbf5a
+      internalID: -867852524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_27
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 26
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4001d439cfcecd34fa959cc6b39a322f
+      internalID: 868919136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_95
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 204
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed2f8a7be2448140b69e9d7b0cd1663
+      internalID: -1632735251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_105
+      rect:
+        serializedVersion: 2
+        x: 5907
+        y: 0
+        width: 240
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b427c1613e25e44296e2e0138ed0b00
+      internalID: -1016206987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_106
+      rect:
+        serializedVersion: 2
+        x: 6152
+        y: 0
+        width: 242
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95e799cfa254d342b39893b5894e99c
+      internalID: 1407787257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_117
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 0
+        width: 220
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986fb9438d03ffc4486c17e8c46a0bec
+      internalID: 391404453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_157
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 0
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c1f0d7cd9470440b088e324c08edba
+      internalID: 1794919156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_158
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 0
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a69a3ca964b54d9faf7d62b7483e3
+      internalID: 217230380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_159
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 0
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465776bcac75c8047b5015ec531b4f52
+      internalID: -570126712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_160
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 0
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a515fcc8d77a1458374e3440786b90
+      internalID: -1872941192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_161
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 0
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e912eb757bab104da070b32a48d85d1
+      internalID: -672994212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_162
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 0
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc2296edeaedf0488a3e650c121a49b
+      internalID: 837896006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_163
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 0
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a833244bca0076b46884555ae53b1ec4
+      internalID: 1376678222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_164
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65b8969e6c656a46aaab3e40e85ffde
+      internalID: 1381719612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_165
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 0
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643569c1e251b04ba9cc21fe7359638
+      internalID: 660581786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_166
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 0
+        width: 166
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6291cdc662b54de48901c7e6e2143f0b
+      internalID: -1935694882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_167
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 0
+        width: 191
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c91e5df90318d24a8018b8d818cdaa1
+      internalID: -921030826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_169
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 0
+        width: 222
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1440fbb943328a343a3fccfe65cdc1cd
+      internalID: 2115061144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_171
+      rect:
+        serializedVersion: 2
+        x: 4685
+        y: 0
+        width: 222
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36bb90ea94b6cc408b74139b355f1fd
+      internalID: 1933986749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_173
+      rect:
+        serializedVersion: 2
+        x: 4939
+        y: 0
+        width: 219
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdea28fac2bea0428dff0496b02b617
+      internalID: 805391415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_175
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 0
+        width: 242
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2840fcb46935c0b4fab3194da33ea2dd
+      internalID: 917529901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_178
+      rect:
+        serializedVersion: 2
+        x: 5413
+        y: 0
+        width: 240
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b24b29707453fa4d951b4b80f0729ce
+      internalID: -1398559136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_180
+      rect:
+        serializedVersion: 2
+        x: 5661
+        y: 0
+        width: 239
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c7be97235e80e4785fc0566897f8d3
+      internalID: -1208463429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_183
+      rect:
+        serializedVersion: 2
+        x: 6655
+        y: 0
+        width: 220
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec6bcfed150f1444bf9150fcc80d0f9
+      internalID: -1243816328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_184
+      rect:
+        serializedVersion: 2
+        x: 6901
+        y: 0
+        width: 220
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f17522894e22b046b16fa5084f998c5
+      internalID: -2011906078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Attack Slam Sprite sheet 246x121_185
+      rect:
+        serializedVersion: 2
+        x: 7147
+        y: 0
+        width: 220
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57ee76843f6ab64188ef92e5daec973
+      internalID: -1044270474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Air Attack Slam Sprite sheet 246x121_0: 356691537
+      Air Attack Slam Sprite sheet 246x121_1: 181374369
+      Air Attack Slam Sprite sheet 246x121_10: 363590304
+      Air Attack Slam Sprite sheet 246x121_100: 1088086685
+      Air Attack Slam Sprite sheet 246x121_101: -1304590573
+      Air Attack Slam Sprite sheet 246x121_102: -109135994
+      Air Attack Slam Sprite sheet 246x121_103: 1746451997
+      Air Attack Slam Sprite sheet 246x121_104: 1619735816
+      Air Attack Slam Sprite sheet 246x121_105: -1016206987
+      Air Attack Slam Sprite sheet 246x121_106: 1407787257
+      Air Attack Slam Sprite sheet 246x121_107: 347499013
+      Air Attack Slam Sprite sheet 246x121_108: 1871137313
+      Air Attack Slam Sprite sheet 246x121_109: -1871502853
+      Air Attack Slam Sprite sheet 246x121_11: 631774853
+      Air Attack Slam Sprite sheet 246x121_110: 1165259292
+      Air Attack Slam Sprite sheet 246x121_111: -1790229019
+      Air Attack Slam Sprite sheet 246x121_112: -841961088
+      Air Attack Slam Sprite sheet 246x121_113: 1624251563
+      Air Attack Slam Sprite sheet 246x121_114: 2065778094
+      Air Attack Slam Sprite sheet 246x121_115: -618539635
+      Air Attack Slam Sprite sheet 246x121_116: 1363427619
+      Air Attack Slam Sprite sheet 246x121_117: 391404453
+      Air Attack Slam Sprite sheet 246x121_118: 279719302
+      Air Attack Slam Sprite sheet 246x121_119: 16711884
+      Air Attack Slam Sprite sheet 246x121_12: 950877020
+      Air Attack Slam Sprite sheet 246x121_120: 1233613979
+      Air Attack Slam Sprite sheet 246x121_121: 1610250886
+      Air Attack Slam Sprite sheet 246x121_122: 1945039393
+      Air Attack Slam Sprite sheet 246x121_123: -1866127432
+      Air Attack Slam Sprite sheet 246x121_124: 1420592521
+      Air Attack Slam Sprite sheet 246x121_125: -1818524711
+      Air Attack Slam Sprite sheet 246x121_126: -1678937982
+      Air Attack Slam Sprite sheet 246x121_127: 305165203
+      Air Attack Slam Sprite sheet 246x121_128: -1834740434
+      Air Attack Slam Sprite sheet 246x121_129: -607861575
+      Air Attack Slam Sprite sheet 246x121_13: 326125584
+      Air Attack Slam Sprite sheet 246x121_130: -387563280
+      Air Attack Slam Sprite sheet 246x121_131: -1700600698
+      Air Attack Slam Sprite sheet 246x121_132: -575170380
+      Air Attack Slam Sprite sheet 246x121_133: 2066386282
+      Air Attack Slam Sprite sheet 246x121_134: -657406368
+      Air Attack Slam Sprite sheet 246x121_135: -1486483549
+      Air Attack Slam Sprite sheet 246x121_136: -1004719757
+      Air Attack Slam Sprite sheet 246x121_137: -1321554499
+      Air Attack Slam Sprite sheet 246x121_138: 1824241836
+      Air Attack Slam Sprite sheet 246x121_139: 1607921038
+      Air Attack Slam Sprite sheet 246x121_14: 1271182083
+      Air Attack Slam Sprite sheet 246x121_140: 1219654173
+      Air Attack Slam Sprite sheet 246x121_141: 778915585
+      Air Attack Slam Sprite sheet 246x121_142: 976947614
+      Air Attack Slam Sprite sheet 246x121_143: 1092187723
+      Air Attack Slam Sprite sheet 246x121_144: -1361982982
+      Air Attack Slam Sprite sheet 246x121_145: 995289409
+      Air Attack Slam Sprite sheet 246x121_146: 699450394
+      Air Attack Slam Sprite sheet 246x121_147: -1794229644
+      Air Attack Slam Sprite sheet 246x121_148: -786314438
+      Air Attack Slam Sprite sheet 246x121_149: -1397962074
+      Air Attack Slam Sprite sheet 246x121_15: -923618254
+      Air Attack Slam Sprite sheet 246x121_150: -673223072
+      Air Attack Slam Sprite sheet 246x121_151: -1602597938
+      Air Attack Slam Sprite sheet 246x121_152: -1396381752
+      Air Attack Slam Sprite sheet 246x121_153: -1340888298
+      Air Attack Slam Sprite sheet 246x121_154: -46344243
+      Air Attack Slam Sprite sheet 246x121_155: -1425916459
+      Air Attack Slam Sprite sheet 246x121_156: 1967787778
+      Air Attack Slam Sprite sheet 246x121_157: 1794919156
+      Air Attack Slam Sprite sheet 246x121_158: 217230380
+      Air Attack Slam Sprite sheet 246x121_159: -570126712
+      Air Attack Slam Sprite sheet 246x121_16: 709930401
+      Air Attack Slam Sprite sheet 246x121_160: -1872941192
+      Air Attack Slam Sprite sheet 246x121_161: -672994212
+      Air Attack Slam Sprite sheet 246x121_162: 837896006
+      Air Attack Slam Sprite sheet 246x121_163: 1376678222
+      Air Attack Slam Sprite sheet 246x121_164: 1381719612
+      Air Attack Slam Sprite sheet 246x121_165: 660581786
+      Air Attack Slam Sprite sheet 246x121_166: -1935694882
+      Air Attack Slam Sprite sheet 246x121_167: -921030826
+      Air Attack Slam Sprite sheet 246x121_168: -345238298
+      Air Attack Slam Sprite sheet 246x121_169: 2115061144
+      Air Attack Slam Sprite sheet 246x121_17: -2110247856
+      Air Attack Slam Sprite sheet 246x121_170: -527400012
+      Air Attack Slam Sprite sheet 246x121_171: 1933986749
+      Air Attack Slam Sprite sheet 246x121_172: 1237818633
+      Air Attack Slam Sprite sheet 246x121_173: 805391415
+      Air Attack Slam Sprite sheet 246x121_174: -829844151
+      Air Attack Slam Sprite sheet 246x121_175: 917529901
+      Air Attack Slam Sprite sheet 246x121_176: 1619683032
+      Air Attack Slam Sprite sheet 246x121_177: 639602547
+      Air Attack Slam Sprite sheet 246x121_178: -1398559136
+      Air Attack Slam Sprite sheet 246x121_179: -966234245
+      Air Attack Slam Sprite sheet 246x121_18: 1550581902
+      Air Attack Slam Sprite sheet 246x121_180: -1208463429
+      Air Attack Slam Sprite sheet 246x121_181: -1720997592
+      Air Attack Slam Sprite sheet 246x121_182: -293724745
+      Air Attack Slam Sprite sheet 246x121_183: -1243816328
+      Air Attack Slam Sprite sheet 246x121_184: -2011906078
+      Air Attack Slam Sprite sheet 246x121_185: -1044270474
+      Air Attack Slam Sprite sheet 246x121_186: 1277381647
+      Air Attack Slam Sprite sheet 246x121_187: -1550551247
+      Air Attack Slam Sprite sheet 246x121_188: 303758205
+      Air Attack Slam Sprite sheet 246x121_189: 1776094305
+      Air Attack Slam Sprite sheet 246x121_19: -1910004892
+      Air Attack Slam Sprite sheet 246x121_190: -1069908486
+      Air Attack Slam Sprite sheet 246x121_191: -1028197138
+      Air Attack Slam Sprite sheet 246x121_192: -1772987246
+      Air Attack Slam Sprite sheet 246x121_193: -437356275
+      Air Attack Slam Sprite sheet 246x121_194: -951828194
+      Air Attack Slam Sprite sheet 246x121_195: 151381914
+      Air Attack Slam Sprite sheet 246x121_196: -1137739664
+      Air Attack Slam Sprite sheet 246x121_197: 491857263
+      Air Attack Slam Sprite sheet 246x121_198: 126920908
+      Air Attack Slam Sprite sheet 246x121_199: 31716025
+      Air Attack Slam Sprite sheet 246x121_2: -156854158
+      Air Attack Slam Sprite sheet 246x121_20: -2142052434
+      Air Attack Slam Sprite sheet 246x121_200: -1204339043
+      Air Attack Slam Sprite sheet 246x121_201: -1437118625
+      Air Attack Slam Sprite sheet 246x121_202: -120974600
+      Air Attack Slam Sprite sheet 246x121_203: -630772355
+      Air Attack Slam Sprite sheet 246x121_204: -809684662
+      Air Attack Slam Sprite sheet 246x121_205: 1346279806
+      Air Attack Slam Sprite sheet 246x121_206: -2143415879
+      Air Attack Slam Sprite sheet 246x121_207: -1515631478
+      Air Attack Slam Sprite sheet 246x121_208: -1906103986
+      Air Attack Slam Sprite sheet 246x121_209: 1991825908
+      Air Attack Slam Sprite sheet 246x121_21: -998986003
+      Air Attack Slam Sprite sheet 246x121_210: -748364930
+      Air Attack Slam Sprite sheet 246x121_211: 1905774228
+      Air Attack Slam Sprite sheet 246x121_212: -140667693
+      Air Attack Slam Sprite sheet 246x121_213: -1253192528
+      Air Attack Slam Sprite sheet 246x121_214: 2073201902
+      Air Attack Slam Sprite sheet 246x121_215: -1018285775
+      Air Attack Slam Sprite sheet 246x121_216: -1172819922
+      Air Attack Slam Sprite sheet 246x121_217: 1666279139
+      Air Attack Slam Sprite sheet 246x121_218: -803284986
+      Air Attack Slam Sprite sheet 246x121_219: -1534075733
+      Air Attack Slam Sprite sheet 246x121_22: -785178116
+      Air Attack Slam Sprite sheet 246x121_220: -1180135044
+      Air Attack Slam Sprite sheet 246x121_221: -1839456344
+      Air Attack Slam Sprite sheet 246x121_222: 444672814
+      Air Attack Slam Sprite sheet 246x121_223: 821231122
+      Air Attack Slam Sprite sheet 246x121_224: -1476586431
+      Air Attack Slam Sprite sheet 246x121_225: 961907491
+      Air Attack Slam Sprite sheet 246x121_226: -1239167155
+      Air Attack Slam Sprite sheet 246x121_227: -423948073
+      Air Attack Slam Sprite sheet 246x121_228: -1892292949
+      Air Attack Slam Sprite sheet 246x121_229: -2098212298
+      Air Attack Slam Sprite sheet 246x121_23: -935982683
+      Air Attack Slam Sprite sheet 246x121_230: 1003969764
+      Air Attack Slam Sprite sheet 246x121_231: 1123217184
+      Air Attack Slam Sprite sheet 246x121_232: -433292202
+      Air Attack Slam Sprite sheet 246x121_233: -1569818386
+      Air Attack Slam Sprite sheet 246x121_234: -1899687559
+      Air Attack Slam Sprite sheet 246x121_235: 1044815562
+      Air Attack Slam Sprite sheet 246x121_236: 813262317
+      Air Attack Slam Sprite sheet 246x121_237: -933331323
+      Air Attack Slam Sprite sheet 246x121_238: -606264859
+      Air Attack Slam Sprite sheet 246x121_239: 331337283
+      Air Attack Slam Sprite sheet 246x121_24: -867852524
+      Air Attack Slam Sprite sheet 246x121_240: 706661170
+      Air Attack Slam Sprite sheet 246x121_241: 380648969
+      Air Attack Slam Sprite sheet 246x121_25: 697912684
+      Air Attack Slam Sprite sheet 246x121_26: 773523800
+      Air Attack Slam Sprite sheet 246x121_27: 868919136
+      Air Attack Slam Sprite sheet 246x121_28: 971594501
+      Air Attack Slam Sprite sheet 246x121_29: 1181617218
+      Air Attack Slam Sprite sheet 246x121_3: 968618384
+      Air Attack Slam Sprite sheet 246x121_30: 1300562469
+      Air Attack Slam Sprite sheet 246x121_31: -239938184
+      Air Attack Slam Sprite sheet 246x121_32: -1268936469
+      Air Attack Slam Sprite sheet 246x121_33: 2104461869
+      Air Attack Slam Sprite sheet 246x121_34: 577922434
+      Air Attack Slam Sprite sheet 246x121_35: 1642568841
+      Air Attack Slam Sprite sheet 246x121_36: 1155422068
+      Air Attack Slam Sprite sheet 246x121_37: 1510758513
+      Air Attack Slam Sprite sheet 246x121_38: 384502858
+      Air Attack Slam Sprite sheet 246x121_39: 949348840
+      Air Attack Slam Sprite sheet 246x121_4: -32483816
+      Air Attack Slam Sprite sheet 246x121_40: 1605892500
+      Air Attack Slam Sprite sheet 246x121_41: 21711347
+      Air Attack Slam Sprite sheet 246x121_42: -206994814
+      Air Attack Slam Sprite sheet 246x121_43: 1457822147
+      Air Attack Slam Sprite sheet 246x121_44: -969543252
+      Air Attack Slam Sprite sheet 246x121_45: -728555200
+      Air Attack Slam Sprite sheet 246x121_46: 615853525
+      Air Attack Slam Sprite sheet 246x121_47: -1268342043
+      Air Attack Slam Sprite sheet 246x121_48: 2026689846
+      Air Attack Slam Sprite sheet 246x121_49: 1460993464
+      Air Attack Slam Sprite sheet 246x121_5: -1472227908
+      Air Attack Slam Sprite sheet 246x121_50: -1503732488
+      Air Attack Slam Sprite sheet 246x121_51: -1466870932
+      Air Attack Slam Sprite sheet 246x121_52: 400178017
+      Air Attack Slam Sprite sheet 246x121_53: 923013224
+      Air Attack Slam Sprite sheet 246x121_54: -913774835
+      Air Attack Slam Sprite sheet 246x121_55: -185109252
+      Air Attack Slam Sprite sheet 246x121_56: 756284367
+      Air Attack Slam Sprite sheet 246x121_57: 1920898331
+      Air Attack Slam Sprite sheet 246x121_58: -1325990708
+      Air Attack Slam Sprite sheet 246x121_59: 1283421660
+      Air Attack Slam Sprite sheet 246x121_6: -557678395
+      Air Attack Slam Sprite sheet 246x121_60: 617126005
+      Air Attack Slam Sprite sheet 246x121_61: 1655499596
+      Air Attack Slam Sprite sheet 246x121_62: 882088185
+      Air Attack Slam Sprite sheet 246x121_63: -1316866282
+      Air Attack Slam Sprite sheet 246x121_64: 616651622
+      Air Attack Slam Sprite sheet 246x121_65: 799816202
+      Air Attack Slam Sprite sheet 246x121_66: 979311871
+      Air Attack Slam Sprite sheet 246x121_67: 926980911
+      Air Attack Slam Sprite sheet 246x121_68: 930312196
+      Air Attack Slam Sprite sheet 246x121_69: -955231846
+      Air Attack Slam Sprite sheet 246x121_7: -1713521918
+      Air Attack Slam Sprite sheet 246x121_70: 1815867815
+      Air Attack Slam Sprite sheet 246x121_71: 1906833448
+      Air Attack Slam Sprite sheet 246x121_72: -769339307
+      Air Attack Slam Sprite sheet 246x121_73: -584919491
+      Air Attack Slam Sprite sheet 246x121_74: 2018227879
+      Air Attack Slam Sprite sheet 246x121_75: 368864319
+      Air Attack Slam Sprite sheet 246x121_76: -808192105
+      Air Attack Slam Sprite sheet 246x121_77: -429853915
+      Air Attack Slam Sprite sheet 246x121_78: 1929022667
+      Air Attack Slam Sprite sheet 246x121_79: -687100427
+      Air Attack Slam Sprite sheet 246x121_8: 1314095481
+      Air Attack Slam Sprite sheet 246x121_80: 68260458
+      Air Attack Slam Sprite sheet 246x121_81: -884378613
+      Air Attack Slam Sprite sheet 246x121_82: 1440220125
+      Air Attack Slam Sprite sheet 246x121_83: -1966846409
+      Air Attack Slam Sprite sheet 246x121_84: -814148964
+      Air Attack Slam Sprite sheet 246x121_85: -1744298609
+      Air Attack Slam Sprite sheet 246x121_86: -1894169386
+      Air Attack Slam Sprite sheet 246x121_87: -409701998
+      Air Attack Slam Sprite sheet 246x121_88: -275577636
+      Air Attack Slam Sprite sheet 246x121_89: 682573906
+      Air Attack Slam Sprite sheet 246x121_9: -145779149
+      Air Attack Slam Sprite sheet 246x121_90: 437920984
+      Air Attack Slam Sprite sheet 246x121_91: -1125071327
+      Air Attack Slam Sprite sheet 246x121_92: 1424306794
+      Air Attack Slam Sprite sheet 246x121_93: 341562165
+      Air Attack Slam Sprite sheet 246x121_94: -147886693
+      Air Attack Slam Sprite sheet 246x121_95: -1632735251
+      Air Attack Slam Sprite sheet 246x121_96: -939918336
+      Air Attack Slam Sprite sheet 246x121_97: 1279402879
+      Air Attack Slam Sprite sheet 246x121_98: -1122918516
+      Air Attack Slam Sprite sheet 246x121_99: 1696761445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
