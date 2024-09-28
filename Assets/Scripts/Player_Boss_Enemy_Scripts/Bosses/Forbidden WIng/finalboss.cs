@@ -13,7 +13,7 @@ public class finalboss : MonoBehaviour
 
     //Attack Prefab
     public GameObject attackPrefab;
-
+    private float attackLifetime = 0.5f;
     //Attack 1 Locations
     public Transform leftSpawnPoint;       
     public Transform rightSpawnPoint;
@@ -139,9 +139,11 @@ public class finalboss : MonoBehaviour
         // Attack 3 (Wider attack - spawn 3 prefabs)
         animator.SetBool("idle", false);
         animator.SetBool("Attack3", true);
-        yield return new WaitForSeconds(0.3f); // Timing to match animation
+        yield return new WaitForSeconds(0.3f);
+        SpawnAttackPrefabs(1);
+        yield return new WaitForSeconds(1f); // Timing to match animation
         SpawnAttackPrefabs(3); // Spawns 3 prefabs for wider attack
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         animator.SetBool("Attack3", false);
         animator.SetBool("idle", true);
         yield return new WaitForSeconds(2f);
@@ -160,14 +162,24 @@ public class finalboss : MonoBehaviour
 
         if (numberOfPrefabs == 2)
         {
-            Instantiate(attackPrefab, leftSpawnPoint.position, Quaternion.identity);
-            Instantiate(attackPrefab, rightSpawnPoint.position, Quaternion.identity);
+            GameObject leftattack = Instantiate(attackPrefab, leftSpawnPoint.position, Quaternion.identity);
+            GameObject rightattack = Instantiate(attackPrefab, rightSpawnPoint.position, Quaternion.identity);
+            Destroy(leftattack, attackLifetime);
+            Destroy(rightattack, attackLifetime);
+        }
+        else if(numberOfPrefabs == 1)
+        {
+            GameObject middleattack3 = Instantiate(attackPrefab, middleAttack3SpawnPoint.position, Quaternion.identity);
+            Destroy(middleattack3, attackLifetime);
         }
         else if (numberOfPrefabs == 3)
         {
-            Instantiate(attackPrefab, leftAttack3SpawnPoint.position, Quaternion.identity);
-            Instantiate(attackPrefab, middleAttack3SpawnPoint.position, Quaternion.identity);
-            Instantiate(attackPrefab, rightAttack3SpawnPoint.position, Quaternion.identity);
+            GameObject leftattack3 = Instantiate(attackPrefab, leftAttack3SpawnPoint.position, Quaternion.identity);
+            //GameObject middleattack3 = Instantiate(attackPrefab, middleAttack3SpawnPoint.position, Quaternion.identity);
+            GameObject rightattack3 = Instantiate(attackPrefab, rightAttack3SpawnPoint.position, Quaternion.identity);
+            Destroy(leftattack3, attackLifetime);
+            //Destroy(middleattack3, attackLifetime);
+             Destroy(rightattack3 , attackLifetime);
         }
     }
 
