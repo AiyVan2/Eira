@@ -1056,6 +1056,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &365343104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 365343105}
+  m_Layer: 0
+  m_Name: Left Attack 3 Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365343105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365343104}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.05, y: -0.77000046, z: 3.013038}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 748207473}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368326544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2440,9 +2471,10 @@ GameObject:
   - component: {fileID: 748207471}
   - component: {fileID: 748207470}
   - component: {fileID: 748207474}
+  - component: {fileID: 748207477}
   - component: {fileID: 748207475}
   - component: {fileID: 748207476}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Umbra Solis
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -2469,7 +2501,9 @@ MonoBehaviour:
   attackPrefab: {fileID: 921928950}
   leftSpawnPoint: {fileID: 792154420}
   rightSpawnPoint: {fileID: 1990688194}
-  middleSpawnPoint: {fileID: 1169375063}
+  leftAttack3SpawnPoint: {fileID: 365343105}
+  rightAttack3SpawnPoint: {fileID: 2020436359}
+  middleAttack3SpawnPoint: {fileID: 1169375063}
 --- !u!70 &748207471
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2566,12 +2600,14 @@ Transform:
   m_GameObject: {fileID: 748207469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.65, y: 7.13, z: 0}
+  m_LocalPosition: {x: 21.65, y: 5.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 792154420}
   - {fileID: 1990688194}
+  - {fileID: 365343105}
+  - {fileID: 2020436359}
   - {fileID: 1169375063}
   - {fileID: 1498357750}
   m_Father: {fileID: 0}
@@ -2638,6 +2674,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &748207477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748207469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b99b28a3174abd448b6616923632262d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemydamage: 40
 --- !u!1 &768824131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,7 +3057,7 @@ Transform:
   m_GameObject: {fileID: 792154419}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5199986, y: -0.77000046, z: 3.013038}
+  m_LocalPosition: {x: -4.65, y: -0.77000046, z: 3.013038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7131,7 +7180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169375063}
   m_Layer: 0
-  m_Name: Middle Attack
+  m_Name: Middle Attack 3 Location
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12565,7 +12614,7 @@ Transform:
   m_GameObject: {fileID: 1498357747}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2800007, y: 3.459999, z: 0}
+  m_LocalPosition: {x: -0, y: 0.22, z: 0}
   m_LocalScale: {x: 6.9993734, y: 7.0587654, z: 5.44868}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13554,7 +13603,7 @@ Transform:
   m_GameObject: {fileID: 1990688193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7600002, y: -0.8300004, z: 3.013038}
+  m_LocalPosition: {x: 4.2, y: -0.8300004, z: 3.013038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13593,6 +13642,37 @@ Transform:
   - {fileID: 995947417}
   - {fileID: 592669413}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2020436358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020436359}
+  m_Layer: 0
+  m_Name: Right Attack 3 Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020436359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020436358}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.48, y: -0.8300004, z: 3.013038}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 748207473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2105848770 stripped
 Transform:
@@ -14284,10 +14364,6 @@ PrefabInstance:
     - target: {fileID: 2867394935018704592, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
       propertyPath: m_Name
       value: Umbra Solis Attack
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867394935018704592, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3860423471731815894, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
       propertyPath: m_LocalPosition.x

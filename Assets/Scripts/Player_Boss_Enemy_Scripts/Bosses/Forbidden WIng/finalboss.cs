@@ -10,10 +10,18 @@ public class finalboss : MonoBehaviour
     public Transform rightSpawnLocation;   // Right side of the arena for Attack 2
     public float moveSpeed = 5f;           // Speed at which the boss moves
     public float chargeSpeed = 7f;         // Speed for charging towards the player
-    public GameObject attackPrefab;        // Projectile for Attack 1 and 3
-    public Transform leftSpawnPoint;       // Left spawn point for Attack 1 and 3
-    public Transform rightSpawnPoint;      // Right spawn point for Attack 1 and 3
-    public Transform middleSpawnPoint;     // Middle spawn point for Attack 3
+
+    //Attack Prefab
+    public GameObject attackPrefab;
+
+    //Attack 1 Locations
+    public Transform leftSpawnPoint;       
+    public Transform rightSpawnPoint;
+
+    //Attack 3 Locations
+    public Transform leftAttack3SpawnPoint;
+    public Transform rightAttack3SpawnPoint;
+    public Transform middleAttack3SpawnPoint;    
 
     private Animator animator;
     private bool isVanishing = false;
@@ -23,6 +31,7 @@ public class finalboss : MonoBehaviour
     private bool isFlipped = false;  // Flag to track if the sprite is flipped
     private BossHealth bossHealth;
 
+    private bool stopSpawning = false;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -38,12 +47,25 @@ public class finalboss : MonoBehaviour
             {
                 StartCoroutine(AttackCycle());
             }
-        } if(bossHealth.health < 250)
+        } 
+        if(bossHealth.health < 250)
         {
             if(canAttack && !isVanishing)
             {
                 StartCoroutine(AttackCycleSecondPhase());
             }
+        }
+        
+        // Umbra Solis Death
+        if(bossHealth.health <= 0)
+        {
+            stopSpawning = true;
+            StopCoroutine(AttackCycle());
+            StopCoroutine(AttackCycleSecondPhase());
+            StopCoroutine(ChargeInStraightLine());
+            StopCoroutine(VanishAndMoveToCenter());
+            StopCoroutine(VanishAndReappearForAttack2());
+            StartCoroutine(UmbraSolisDeath());
         }
       
     }
@@ -59,7 +81,7 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.1f); // Timing to match animation
+        yield return new WaitForSeconds(0.2f); // Timing to match animation
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
         animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);
@@ -101,7 +123,7 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.1f); // Timing to match animation
+        yield return new WaitForSeconds(0.2f); // Timing to match animation
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
         animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);
@@ -134,6 +156,8 @@ public class finalboss : MonoBehaviour
 
     void SpawnAttackPrefabs(int numberOfPrefabs)
     {
+        if (stopSpawning) return;
+
         if (numberOfPrefabs == 2)
         {
             Instantiate(attackPrefab, leftSpawnPoint.position, Quaternion.identity);
@@ -141,9 +165,9 @@ public class finalboss : MonoBehaviour
         }
         else if (numberOfPrefabs == 3)
         {
-            Instantiate(attackPrefab, leftSpawnPoint.position, Quaternion.identity);
-            Instantiate(attackPrefab, middleSpawnPoint.position, Quaternion.identity);
-            Instantiate(attackPrefab, rightSpawnPoint.position, Quaternion.identity);
+            Instantiate(attackPrefab, leftAttack3SpawnPoint.position, Quaternion.identity);
+            Instantiate(attackPrefab, middleAttack3SpawnPoint.position, Quaternion.identity);
+            Instantiate(attackPrefab, rightAttack3SpawnPoint.position, Quaternion.identity);
         }
     }
 
@@ -210,5 +234,16 @@ public class finalboss : MonoBehaviour
 
       
         animator.SetBool("Vanish", false);
+    }
+    IEnumerator UmbraSolisDeath()
+    {
+        animator.SetBool("idle", false);
+        animator.SetBool("Attack1", false);
+        animator.SetBool("Attack2", false);
+        animator.SetBool("Attack3", false);
+        animator.SetBool("Vanish", false);
+        animator.SetBool("Death", true);
+        yield return new WaitForSeconds(2.3f);
+        Destroy(gameObject);
     }
 }
