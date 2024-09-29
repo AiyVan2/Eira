@@ -649,6 +649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160774592}
   - component: {fileID: 160774591}
+  - component: {fileID: 160774595}
   - component: {fileID: 160774593}
   - component: {fileID: 160774594}
   m_Layer: 0
@@ -782,6 +783,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4375, y: 2.0625}
   m_EdgeRadius: 0
+--- !u!114 &160774595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160774590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256767860a0d8d542ad1ce73a981524c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveButton: {fileID: 1546861237}
 --- !u!1 &176332898
 GameObject:
   m_ObjectHideFlags: 0
@@ -21707,6 +21721,17 @@ PrefabInstance:
       addedObject: {fileID: 1468472531}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+--- !u!114 &1546861237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1898582390938968556, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1546861236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1554039649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2521539092285913892, guid: 63f0adcd0b09116448afef2587578006, type: 3}
@@ -23008,6 +23033,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 0}
   academyoutskirtsName: {fileID: 15153171}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!1 &1625897233
 GameObject:
   m_ObjectHideFlags: 0
@@ -23265,7 +23292,7 @@ Transform:
   m_GameObject: {fileID: 1696486485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.330806, y: 3.201767, z: -9.979007}
+  m_LocalPosition: {x: 5.1530085, y: 3.2134566, z: -9.979007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
