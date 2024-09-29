@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AreaNameTrigger : MonoBehaviour
 {
-    public enum Areas { LumenVillage, Beneath, BeneathEdgeOutpost, BeneathDepths, AcademyOutskirts, HallOfKnowledge};
+    public enum Areas { LumenVillage, Beneath, BeneathEdgeOutpost, BeneathDepths, AcademyOutskirts, HallOfKnowledge, AstronomyTower, ForbiddenWing};
     public Areas area;
 
     public GameObject lumenvillageName;
@@ -14,6 +14,8 @@ public class AreaNameTrigger : MonoBehaviour
     public GameObject beneathdepthsName;
     public GameObject academyoutskirtsName;
     public GameObject hallofknowledgeName;
+    public GameObject astronomytowerName;
+    public GameObject forbiddenwingName;
 
     private Coroutine fadeCoroutine;
 
@@ -46,6 +48,12 @@ public class AreaNameTrigger : MonoBehaviour
                 case Areas.HallOfKnowledge:
                     fadeCoroutine = StartCoroutine(FadeInText(hallofknowledgeName.GetComponent<Text>(), 1f));
                     break;
+                case Areas.AstronomyTower:
+                    fadeCoroutine = StartCoroutine(FadeInText(astronomytowerName.GetComponent<Text>(), 1f));
+                    break;
+                case Areas.ForbiddenWing:
+                    fadeCoroutine = StartCoroutine(FadeInText(forbiddenwingName.GetComponent<Text>(), 1f));
+                    break;  
             }
         }
     }

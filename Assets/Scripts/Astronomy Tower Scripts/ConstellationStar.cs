@@ -12,6 +12,12 @@ public class ConstellationStar : MonoBehaviour
     private static GameObject[] constellationStars;
     private static GameObject[] incorrectConstellationStars; // Set this from another script
 
+    //Constellation Puzzle
+    public GameObject constellationPuzzle;
+
+    //One Way Platform Switch
+    public GameObject platformSwitch;
+
     private void Start()
     {
         // Set up the LineRenderer
@@ -77,6 +83,8 @@ public class ConstellationStar : MonoBehaviour
     private void CompleteConstellation()
     {
         // Logic for completing the constellation (unlock door, etc.)
+        platformSwitch.SetActive(true);
+        constellationPuzzle.SetActive(false);
         Debug.Log("Constellation complete! Unlocking the door...");
     }
 
