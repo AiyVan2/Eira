@@ -21,6 +21,7 @@ public class LeverScript: MonoBehaviour
     public GameObject lever4;
     public GameObject lever5;
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("PlayerAttack"))

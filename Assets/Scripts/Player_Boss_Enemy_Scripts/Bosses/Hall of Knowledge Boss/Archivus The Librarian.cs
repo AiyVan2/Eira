@@ -29,13 +29,25 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     private BossHealth bossHealth;
 
+    public GameObject astronomytowerLever;
+
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         bossHealth = GetComponent<BossHealth>();
         StartCoroutine(BossRoutine());
     }
+    private void Update()
+    {
+    if(bossHealth.health <= 0)
+        {
+            StartCoroutine(ArchivusDeath());
+        }     
+    }
 
+
+    
     private IEnumerator BossRoutine()
     {
         while (true)
@@ -156,5 +168,12 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         }
 
         yield return new WaitForSeconds(idleDuration);
+    }
+
+    IEnumerator ArchivusDeath()
+    {
+        astronomytowerLever.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        gameObject.SetActive(false);
     }
 }
