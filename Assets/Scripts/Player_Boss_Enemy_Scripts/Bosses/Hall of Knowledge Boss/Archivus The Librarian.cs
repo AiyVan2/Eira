@@ -30,7 +30,8 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     private BossHealth bossHealth;
 
     public GameObject astronomytowerLever;
-
+    public GameObject bossroomBarrier;
+    public CameraSwap swap;
 
     private void Start()
     {
@@ -172,7 +173,9 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     IEnumerator ArchivusDeath()
     {
+        swap.returntoPlayerCamera();
         astronomytowerLever.SetActive(true);
+        bossroomBarrier.SetActive(false);
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }

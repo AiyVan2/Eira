@@ -23,6 +23,9 @@ public class Lurker : MonoBehaviour
     private float nextActionTime = 0f;
     private int currentPhase = 1;
     private BossHealth bosshealth;
+
+    public CameraSwap swap;
+    public GameObject Doors;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -220,6 +223,8 @@ public class Lurker : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1.5f);
-        Destroy(gameObject);
+        swap.returntoPlayerCamera();
+        Doors.SetActive(false);
+        gameObject.SetActive(false);
     }
 }

@@ -8,6 +8,7 @@ public class ArchivusBossTrigger : MonoBehaviour
     public GameObject bossareaBarier;
     public GameObject readButton;
 
+    public CameraSwap swap;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -28,6 +29,7 @@ public class ArchivusBossTrigger : MonoBehaviour
     {
         libraryBoss.SetActive(true);
         bossareaBarier.SetActive(true);
+        swap.swaptoboosRoom();
         gameObject.SetActive(false);
     }
 

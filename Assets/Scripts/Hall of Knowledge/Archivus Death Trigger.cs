@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class ArchivusDeathTrigger : MonoBehaviour
@@ -8,12 +9,14 @@ public class ArchivusDeathTrigger : MonoBehaviour
     public GameObject Lever5;
     public GameObject bossroomBarrier;
 
+    public CameraSwap swap;
     private void Update()
     {
         if(Archivus == null)
         {
             Lever5.gameObject.SetActive(true);
             bossroomBarrier.gameObject.SetActive(false);
+            swap.returntoPlayerCamera();
             
         }
     }
