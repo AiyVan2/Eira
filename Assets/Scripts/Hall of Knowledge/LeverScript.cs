@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using Cinemachine;
 using UnityEngine;
 
 public class LeverScript: MonoBehaviour
 {
     public enum Levers { Lever1, Lever2, Lever3, Lever4, Lever5 }
     public Levers currentLever;
-
 
     public GameObject Door1;
     public GameObject Door2;
@@ -21,6 +21,24 @@ public class LeverScript: MonoBehaviour
     public GameObject lever4;
     public GameObject lever5;
 
+    // Cinemachine camera reference
+    public CinemachineVirtualCamera cinemachineCam;
+
+    // Targets for panning when doors open
+    public Transform door1PanTarget;
+    public Transform door2PanTarget;
+    public Transform door3PanTarget;
+    public Transform door4PanTarget;
+    public Transform door5PanTarget;
+
+    private Transform originalCamTarget;
+    public float panDuration = 2.0f; // Duration of the pan
+
+    private void Start()
+    {
+        // Save the initial camera follow target (the player, typically)
+        originalCamTarget = cinemachineCam.Follow;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,48 +47,37 @@ public class LeverScript: MonoBehaviour
             switch (currentLever)
             {
                 case Levers.Lever1:
-                    flipButton_1();
+                    StartCoroutine(ActivateLeverAndPan(1, door1PanTarget, Door1, lever1));
                     break;
                 case Levers.Lever2:
-                    flipButton_2();
+                    StartCoroutine(ActivateLeverAndPan(2, door2PanTarget, Door2, lever2));
                     break;
                 case Levers.Lever3:
-                    flipButton_3();
+                    StartCoroutine(ActivateLeverAndPan(3, door3PanTarget, Door3, lever3));
                     break;
                 case Levers.Lever4:
-                    flipButton_4();
+                    StartCoroutine(ActivateLeverAndPan(4, door4PanTarget, Door4, lever4));
                     break;
                 case Levers.Lever5:
-                    flipButton_5();
+                    StartCoroutine(ActivateLeverAndPan(5, door5PanTarget, Door5, lever5));
                     break;
             }
         }
     }
 
-    public void flipButton_1()
+    // Coroutine to pan the camera, deactivate the door and lever, and return the camera to its original position
+    private IEnumerator ActivateLeverAndPan(int leverIndex, Transform panTarget, GameObject door, GameObject lever)
     {
-        Door1.SetActive(false);
-        lever1.SetActive(false);
-    }
-    public void flipButton_2()
-    {
-        Door2.SetActive(false);
-        lever2.SetActive(false);
-    }
-    public void flipButton_3()
-    {
-        Door3.SetActive(false);
-        lever3.SetActive(false);
-    }
-    public void flipButton_4()
-    {
-        Door4.SetActive(false);
-        lever4.SetActive(false);
-    }
-    public void flipButton_5()
-    {
-        Door5.SetActive(false);
-        lever5.SetActive(false);
+        // Pan to the door
+        cinemachineCam.Follow = panTarget;
+        yield return new WaitForSeconds(panDuration);
+
+        // Deactivate the door and lever
+        door.SetActive(false);
+        lever.SetActive(false);
+
+        // Return the camera to the original position (typically the player)
+        cinemachineCam.Follow = originalCamTarget;
     }
 }
 

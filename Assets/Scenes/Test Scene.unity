@@ -169,7 +169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &30713904
 Transform:
   m_ObjectHideFlags: 0
@@ -649,6 +649,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 0}
   academyoutskirtsName: {fileID: 0}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!4 &258719893
 Transform:
   m_ObjectHideFlags: 0
@@ -1041,6 +1043,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 0}
   academyoutskirtsName: {fileID: 0}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!4 &347246922
 Transform:
   m_ObjectHideFlags: 0
@@ -1789,6 +1793,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &583229526
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2186,6 +2192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &733074224
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2957,6 +2965,9 @@ MonoBehaviour:
   leftPosition: {fileID: 815885529}
   rightPosition: {fileID: 21732617}
   idlePosition: {fileID: 450302000}
+  astronomytowerLever: {fileID: 0}
+  bossroomBarrier: {fileID: 0}
+  swap: {fileID: 0}
 --- !u!61 &818013498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3333,6 +3344,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &937371140
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6410,6 +6423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1033394361
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6612,6 +6627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1079904978
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6777,6 +6794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1097990186
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7078,6 +7097,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 694006494}
   academyoutskirtsName: {fileID: 0}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!4 &1219313321
 Transform:
   m_ObjectHideFlags: 0
@@ -7236,6 +7257,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 0}
   academyoutskirtsName: {fileID: 0}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!4 &1264861285
 Transform:
   m_ObjectHideFlags: 0
@@ -7483,7 +7506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1569614656
 Transform:
   m_ObjectHideFlags: 0
@@ -7531,6 +7554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1570674389
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7811,6 +7836,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1709283374
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8011,7 +8038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1864416731
 Transform:
   m_ObjectHideFlags: 0
@@ -8171,6 +8198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 408225219}
+  constellationPuzzle: {fileID: 0}
+  platformSwitch: {fileID: 0}
 --- !u!58 &1907978442
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8649,7 +8678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3497121043140219131, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6188593846456831165, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: player
@@ -8956,6 +8985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Umbra Solis
       objectReference: {fileID: 0}
+    - target: {fileID: 1172972339500274921, guid: 9b15feb05d38f32459d357dd672ce6e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6873203400227661293, guid: 9b15feb05d38f32459d357dd672ce6e4, type: 3}
       propertyPath: centerPoint
       value: 
@@ -9108,11 +9141,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.9
+      value: 32.08
       objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.7
+      value: 16.7
       objectReference: {fileID: 0}
     - target: {fileID: 8094870125009349568, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9223,6 +9256,10 @@ PrefabInstance:
     - target: {fileID: 2867394935018704592, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
       propertyPath: m_Name
       value: Umbra Solis Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2867394935018704592, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3860423471731815894, guid: e1d69a5cfffc87a489142834d6a87de7, type: 3}
       propertyPath: m_LocalPosition.x

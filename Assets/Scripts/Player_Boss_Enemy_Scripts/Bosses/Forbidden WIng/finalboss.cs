@@ -41,7 +41,7 @@ public class finalboss : MonoBehaviour
 
     void Update()
     {
-        if(bossHealth.health > 400)
+        if(bossHealth.health > 250)
         {
             if (canAttack && !isVanishing)
             {
@@ -256,6 +256,6 @@ public class finalboss : MonoBehaviour
         animator.SetBool("Vanish", false);
         animator.SetBool("Death", true);
         yield return new WaitForSeconds(2.3f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
