@@ -41,7 +41,7 @@ public class BeneathTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
         yield return null;
     }
     IEnumerator BeneathEdgeOutpostEntrance()

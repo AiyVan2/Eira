@@ -17,7 +17,7 @@ public class AcademyOutskirtsTransition: MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(9);
         yield return null;
     }
 

@@ -131,7 +131,7 @@ public class EiraBeginningTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     IEnumerator BackHouse()

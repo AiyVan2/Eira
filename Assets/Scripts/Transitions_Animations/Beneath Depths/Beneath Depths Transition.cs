@@ -48,7 +48,7 @@ public class BeneathDepthsTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
         yield return null;
     }
 
@@ -56,7 +56,7 @@ public class BeneathDepthsTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
         yield return null;
     }
 
@@ -64,7 +64,7 @@ public class BeneathDepthsTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
         yield return null;
     }
   
@@ -72,14 +72,14 @@ public class BeneathDepthsTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
         yield return null;
     }
     IEnumerator BeneathDepthstoAcademyOutskirtsTransition()
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(8);
         yield return null;
     }
 
