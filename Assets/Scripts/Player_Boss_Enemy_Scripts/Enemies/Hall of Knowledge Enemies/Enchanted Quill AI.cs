@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnchantedQuillAI : MonoBehaviour
 {
@@ -18,10 +19,13 @@ public class EnchantedQuillAI : MonoBehaviour
 
     private Transform player;
     private bool isAttacking = false;
-
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         StartCoroutine(AttackRoutine());
     }
 
@@ -35,6 +39,11 @@ public class EnchantedQuillAI : MonoBehaviour
             if (distanceToPlayer <= detectionRange && distanceToPlayer > stopFollowRange)
             {
                 MoveTowardsPlayer();
+                animator.SetBool("Walking", true);
+            }
+            else
+            {
+                animator.SetBool("Walking", false);
             }
         }
     }
@@ -44,6 +53,17 @@ public class EnchantedQuillAI : MonoBehaviour
         if (player == null) return;
 
         Vector3 direction = (player.position - transform.position).normalized;
+
+        // Flip the sprite based on the player's position
+        if (direction.x > 0)
+        {
+            spriteRenderer.flipX = false; // Face right
+        }
+        else if (direction.x < 0)
+        {
+            spriteRenderer.flipX = true; // Face left
+        }
+
         transform.position += direction * moveSpeed * Time.deltaTime;
     }
 
@@ -53,10 +73,17 @@ public class EnchantedQuillAI : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, player.position) <= attackRange)
             {
+                animator.SetBool("Walking", false);
                 isAttacking = true;
+                animator.SetBool("ProjectileAttack", true);
+                yield return new WaitForSeconds(0.4f);
+                animator.SetBool("ProjectileAttack", false);
                 ShootProjectile();
                 yield return new WaitForSeconds(3.0f); // Time between attacks
+                animator.SetBool("InkSummon", true);
+                yield return new WaitForSeconds(1f);
                 CreateInkPool();
+                animator.SetBool("InkSummon", false);
                 yield return new WaitForSeconds(inkPoolDuration); // Duration of ink pool
                 isAttacking = false;
             }
@@ -68,6 +95,7 @@ public class EnchantedQuillAI : MonoBehaviour
             yield return null;
         }
     }
+
 
     private void ShootProjectile()
     {
@@ -81,6 +109,7 @@ public class EnchantedQuillAI : MonoBehaviour
                 rb.velocity = direction * projectileSpeed;
                 Destroy(projectile, projectileLifetime);
             }
+          
         }
     }
 

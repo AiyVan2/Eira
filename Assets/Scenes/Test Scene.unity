@@ -8678,7 +8678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3497121043140219131, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6188593846456831165, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: player
@@ -8755,7 +8755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675346892329573719, guid: e68debbca0cf1a44eb8790ca46edc714, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9340,15 +9340,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5979116599390559491, guid: 057d7bc6ec162f64ea13eb9ba9ea63af, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979116599390559491, guid: 057d7bc6ec162f64ea13eb9ba9ea63af, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979116599390559491, guid: 057d7bc6ec162f64ea13eb9ba9ea63af, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979116599390559491, guid: 057d7bc6ec162f64ea13eb9ba9ea63af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9422,10 +9422,6 @@ PrefabInstance:
     - target: {fileID: 8404517534027566241, guid: 064d558c661ee2f4fba1af7d758a1f00, type: 3}
       propertyPath: m_Name
       value: Living Book
-      objectReference: {fileID: 0}
-    - target: {fileID: 8404517534027566241, guid: 064d558c661ee2f4fba1af7d758a1f00, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

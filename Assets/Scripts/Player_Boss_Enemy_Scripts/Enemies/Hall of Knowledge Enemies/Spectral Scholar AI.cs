@@ -17,19 +17,20 @@ public class SpectralScholarAI : MonoBehaviour
     private bool isTeleporting = false;
     private bool isAttacking = false;
 
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
         StartCoroutine(TeleportRoutine());
         StartCoroutine(AttackRoutine());
     }
 
     private void Update()
     {
-        if (PlayerInRange() && !isTeleporting && !isAttacking)
-        {
-            FacePlayer();
-        }
+        FacePlayer();
     }
 
     private bool PlayerInRange()
@@ -42,23 +43,17 @@ public class SpectralScholarAI : MonoBehaviour
         if (player == null) return;
 
         Vector3 direction = player.position - transform.position;
-        if (direction.x > 0 && transform.localScale.x < 0)
+        // Flip the sprite based on the player's position
+        if (direction.x > 0)
         {
-            Flip();
+            spriteRenderer.flipX = false; // Face right
         }
-        else if (direction.x < 0 && transform.localScale.x > 0)
+        else if (direction.x < 0)
         {
-            Flip();
+            spriteRenderer.flipX = true; // Face left
         }
-    }
 
-    private void Flip()
-    {
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
     }
-
     private IEnumerator TeleportRoutine()
     {
         while (true)
@@ -66,7 +61,13 @@ public class SpectralScholarAI : MonoBehaviour
             if (!isTeleporting && PlayerInRange())
             {
                 isTeleporting = true;
+                animator.SetBool("Teleporting", true);
+                yield return new WaitForSeconds(0.3f);
                 Teleport();
+                animator.SetBool("Teleporting", false);
+                animator.SetBool("Reappear", true);
+                yield return new WaitForSeconds(0.3f);
+                animator.SetBool("Reappear", false);
                 yield return new WaitForSeconds(teleportCooldown);
                 isTeleporting = false;
             }
