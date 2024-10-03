@@ -15,8 +15,13 @@ public class AstroSentinelAI : MonoBehaviour
     private Vector3 startPosition;          // Starting position to calculate hover range
     private bool movingUp = true;           // To determine hover direction (up or down)
     public int shootingRange = 8;
+
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private void Start()
     {
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();    
         startPosition = transform.position; // Store the initial position to handle hovering
         StartCoroutine(ShootAtPlayer());    // Start shooting projectiles at intervals
     }
@@ -41,10 +46,14 @@ public class AstroSentinelAI : MonoBehaviour
         {
             yield return new WaitForSeconds(shootingInterval); // Wait for the defined interval
 
-            // Shoot a projectile toward the player
+            animator.SetBool("Attacking", true);
+            yield return new WaitForSeconds(0.3f);
             ShootProjectile();
+            animator.SetBool("Attacking", false);
         }
     }
+
+
 
     // Function to shoot a projectile
     private void ShootProjectile()
@@ -69,7 +78,24 @@ public class AstroSentinelAI : MonoBehaviour
                 {
                     rb.velocity = direction * projectileSpeed; // Set the projectile's velocity
                 }
+                FacePlayer();
             }
         }
+    }
+    private void FacePlayer()
+    {
+        if (player == null) return;
+
+        Vector3 direction = player.position - transform.position;
+        // Flip the sprite based on the player's position
+        if (direction.x > 0)
+        {
+            spriteRenderer.flipX = false; // Face right
+        }
+        else if (direction.x < 0)
+        {
+            spriteRenderer.flipX = true; // Face left
+        }
+
     }
 }
