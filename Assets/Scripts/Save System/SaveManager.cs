@@ -6,6 +6,7 @@ using System.IO;
 using System.Collections.Generic;
 
 [System.Serializable]
+
 public class SceneData
 {
     public string sceneName;
@@ -14,7 +15,13 @@ public class SceneData
     public Vector3[] gameObjectPositions;
     public Quaternion[] gameObjectRotations;
     // Add other properties you want to save, such as component values, etc.
+    // Add a field to store the player's lumin shards
+    public int playerLuminShards;
 }
+
+
+
+
 
 public class SaveManager : MonoBehaviour
 {
@@ -47,6 +54,13 @@ public class SaveManager : MonoBehaviour
             sceneData.gameObjectActiveStates[i] = obj.activeSelf;
             sceneData.gameObjectPositions[i] = obj.transform.position;
             sceneData.gameObjectRotations[i] = obj.transform.rotation;
+        }
+
+        // Save the player's Lumin Shards
+        PlayerLuminShards playerLumin = FindObjectOfType<PlayerLuminShards>();
+        if (playerLumin != null)
+        {
+            sceneData.playerLuminShards = playerLumin.currentCurrency;
         }
 
         string json = JsonUtility.ToJson(sceneData);
@@ -109,6 +123,15 @@ public class SaveManager : MonoBehaviour
                 obj.transform.position = sceneData.gameObjectPositions[i];
                 obj.transform.rotation = sceneData.gameObjectRotations[i];
             }
+        }
+
+        // Restore the player's Lumin Shards
+        PlayerLuminShards playerLumin = FindObjectOfType<PlayerLuminShards>();
+        if (playerLumin != null)
+        {
+            playerLumin.currentCurrency = sceneData.playerLuminShards;
+            PlayerPrefs.SetInt("PlayerLumin", playerLumin.currentCurrency);
+            PlayerPrefs.Save();
         }
 
         SceneManager.sceneLoaded -= OnSceneLoaded;

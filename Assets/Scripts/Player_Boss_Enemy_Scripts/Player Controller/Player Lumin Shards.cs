@@ -63,7 +63,7 @@ public class PlayerLuminShards : MonoBehaviour
     public void resetCurrency()
     {
         currentCurrency = defaultcurrentCurrency;
-        PlayerPrefs.GetInt("PlayerLumin", currentCurrency);
+        PlayerPrefs.SetInt("PlayerLumin", currentCurrency);
         PlayerPrefs.Save();
     }
 }
