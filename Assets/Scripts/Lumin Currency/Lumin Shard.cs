@@ -22,6 +22,10 @@ public class LuminShard : MonoBehaviour
             // Destroy the collectible after it has been picked up
             Destroy(gameObject);
         }
+        else
+        {
+            Destroy(gameObject, 8f);
+        }
     }
 }
 

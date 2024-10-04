@@ -28,7 +28,8 @@ public class PlayerLuminShards : MonoBehaviour
         currentCurrency += amount;
         UpdateCurrencyUI();
 
-        // Optionally, save currency if you want it to persist
+
+        // Optionally, save the new currency amount
         PlayerPrefs.SetInt("PlayerLumin", currentCurrency);
         PlayerPrefs.Save();
     }
@@ -38,7 +39,7 @@ public class PlayerLuminShards : MonoBehaviour
     {
         if (currencyText != null)
         {
-            currencyText.text = "Lumin: " + currentCurrency.ToString();
+            currencyText.text = "Lumin Shards: " + currentCurrency.ToString();
         }
     }
 

@@ -20,9 +20,6 @@ public class SceneData
 }
 
 
-
-
-
 public class SaveManager : MonoBehaviour
 {
     private SceneData sceneData;
