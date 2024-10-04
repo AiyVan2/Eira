@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 104815676390138259}
   - component: {fileID: 7274133427056545846}
   - component: {fileID: 8853087730529580627}
+  - component: {fileID: 2058467862257996713}
+  - component: {fileID: 6625871077219869037}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -198,9 +200,6 @@ MonoBehaviour:
   dashSpeed: 25
   dashLifetime: 0.25
   dashCooldown: 1
-  mana: 0
-  maxMana: 50
-  playerMana: {fileID: 0}
   scholarAttackManaCost: 20
   comboDelay: 1
   groundCheckDistance: 1
@@ -225,7 +224,41 @@ MonoBehaviour:
   currentHealth: 0
   restart: {fileID: 0}
   healAmount: 20
+  maxMana: 100
+  currentMana: 0
   healManaCost: 10
+  playerMana: {fileID: 0}
+--- !u!114 &2058467862257996713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789235995647523083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7fd1ebd0e7bad4c9bd5488a939e5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCurrency: 0
+  currencyText: {fileID: 0}
+--- !u!114 &6625871077219869037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789235995647523083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2986a28b5a605b84cb94655523d36ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mechanicDamage: 10
+  scholarDamage: 15
+  maxHealth: 100
+  currentHealth: 0
+  upgradeCost: 50
 --- !u!1 &3126552922129660254
 GameObject:
   m_ObjectHideFlags: 0

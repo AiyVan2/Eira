@@ -5,14 +5,18 @@ using UnityEngine;
 public class ScholarAttack : MonoBehaviour
 {
     public float speed;
-    public int damage;   
-    public float lifetime; 
+    //public int damage;   
+    public float lifetime;
 
+    private GameObject player;
     private Rigidbody2D rb;
 
+    private PlayerStats playerStats;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindWithTag("Player");
+        playerStats = player.GetComponent<PlayerStats>();
         Destroy(gameObject, lifetime);
     }
 
@@ -27,11 +31,11 @@ public class ScholarAttack : MonoBehaviour
         {
             if(collision.gameObject.TryGetComponent<BossHealth>(out var bossHealth))
             {
-                bossHealth.TakeDamage(damage);
+                bossHealth.TakeDamage(playerStats.scholarDamage);
             }
             if (collision.gameObject.TryGetComponent<EnemyHealth>(out var enemyHealth))
             {
-                enemyHealth.TakeDamage(damage);
+                enemyHealth.TakeDamage(playerStats.scholarDamage);
             }
           
             Destroy(gameObject);

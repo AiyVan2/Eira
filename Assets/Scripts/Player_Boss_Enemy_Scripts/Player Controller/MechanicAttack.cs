@@ -16,12 +16,16 @@ public class MechanicAttack : MonoBehaviour
     private GameObject player;
     private GameObject boss;
     private PlayerHealth playerHealth;
+
+    private PlayerStats playerStats;
+
     void Start()
     {
         Destroy(gameObject, lifetime);
         player = GameObject.FindWithTag("Player");
         boss = GameObject.FindWithTag("Boss");
         playerHealth = player.GetComponent<PlayerHealth>();
+        playerStats = player.GetComponent<PlayerStats>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,13 +34,13 @@ public class MechanicAttack : MonoBehaviour
         {
             if (collision.gameObject.TryGetComponent<BossHealth>(out var bossHealth))
             {
-                bossHealth.TakeDamage(damage);
+                bossHealth.TakeDamage(playerStats.mechanicDamage);
                 GainMana();
                 playerpushBack();
             }
             else if (collision.gameObject.TryGetComponent<EnemyHealth>(out var enemyHealth))
             {
-                enemyHealth.TakeDamage(damage);
+                enemyHealth.TakeDamage(playerStats.mechanicDamage);
                 GainMana();
                 enemypushBack(collision.gameObject);
             }

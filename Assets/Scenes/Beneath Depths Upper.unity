@@ -1069,6 +1069,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (1)
@@ -10362,6 +10366,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 2058467862257996713, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: currencyText
+      value: 
+      objectReference: {fileID: 888438106}
     - target: {fileID: 3918668693958906444, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10699,6 +10707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler (2) GroundCheck
       objectReference: {fileID: 0}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.36
@@ -14496,7 +14508,7 @@ Transform:
   m_GameObject: {fileID: 433644627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.468994, y: 22.059431, z: 13.054626}
+  m_LocalPosition: {x: -49.080086, y: 22.062822, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14603,6 +14615,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat
@@ -14693,6 +14709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler (3) GroundCheck
       objectReference: {fileID: 0}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -14996,6 +15016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corrupted Sentinel Hit Effect
       objectReference: {fileID: 0}
+    - target: {fileID: 2872484167708133600, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 4530984650442508468, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -16504,6 +16528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler GroundCheck
       objectReference: {fileID: 0}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.54
@@ -16711,6 +16739,17 @@ RectTransform:
   m_AnchoredPosition: {x: 6, y: -42.80005}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &888438106 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3219074880674682410, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906620870
 GameObject:
   m_ObjectHideFlags: 0
@@ -17561,6 +17600,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (3)
@@ -20734,6 +20777,8 @@ MonoBehaviour:
   beneathdepthsName: {fileID: 885627051}
   academyoutskirtsName: {fileID: 0}
   hallofknowledgeName: {fileID: 0}
+  astronomytowerName: {fileID: 0}
+  forbiddenwingName: {fileID: 0}
 --- !u!1 &1960440026
 GameObject:
   m_ObjectHideFlags: 0
@@ -21448,6 +21493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cave Crawler (1) GroundCheck
       objectReference: {fileID: 0}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.5
@@ -21706,6 +21755,10 @@ PrefabInstance:
       propertyPath: health
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8865458964224192664, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 9044966418625806126, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59
@@ -21855,6 +21908,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1408320159}
     m_Modifications:
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (2)
