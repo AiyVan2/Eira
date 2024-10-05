@@ -15,8 +15,13 @@ public class NebulaPhantomAI : MonoBehaviour
 
     private int currentTeleportIndex = -1; // To track which teleport point the phantom is at
 
+
+    private Animator animator;
+
+
     private void Start()
     {
+        animator = GetComponent<Animator>();
         StartCoroutine(TeleportAndAttack()); // Start the teleport and attack cycle
     }
 
@@ -29,13 +34,23 @@ public class NebulaPhantomAI : MonoBehaviour
             if (Vector2.Distance(transform.position, player.position) <= detectionRange)
             {
                 // Teleport to a random point
+                animator.SetBool("Teleporting", true);
+                yield return new WaitForSeconds(0.5f);
                 Teleport();
+                animator.SetBool("Teleporting", false);
+                animator.SetBool("Appear", true);
+                yield return new WaitForSeconds(0.4f);
+                animator.SetBool("Appear", false);
 
                 // Wait before shooting
                 yield return new WaitForSeconds(attackDelay);
 
+
+                animator.SetBool("Attacking", true);
+                yield return new WaitForSeconds(0.42f);
                 // Shoot at the player
                 ShootHomingProjectile();
+                animator.SetBool("Attacking", false);
 
                 // Wait for the teleport cooldown before teleporting again
                 yield return new WaitForSeconds(teleportCooldown);

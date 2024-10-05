@@ -8303,7 +8303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1901160926
 Transform:
   m_ObjectHideFlags: 0
@@ -8880,7 +8880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3497121043140219131, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6188593846456831165, guid: f98ae962d5514e84bbe3f2c32340476d, type: 3}
       propertyPath: player
@@ -9012,6 +9012,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4645299217805462483, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
+      propertyPath: luminShards
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
     - target: {fileID: 6265244886757787589, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
       propertyPath: player
       value: 
@@ -9038,7 +9042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124186565488741163, guid: 9f9bed6cbf1a6e742a467ccb53208be5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9169,6 +9173,10 @@ PrefabInstance:
     - target: {fileID: 7359222039818103291, guid: fd069158356de544f977dbf6ee71282f, type: 3}
       propertyPath: m_Name
       value: Upgrade Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359222039818103291, guid: fd069158356de544f977dbf6ee71282f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9405,7 +9413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3287759691869411995, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330184851275139801, guid: f13690c63feccc343acf45fd2ad23ac1, type: 3}
       propertyPath: player
