@@ -21,6 +21,13 @@ public class BeneathDialogueSystem : MonoBehaviour
     public Text missionText;
 
 
+    //Eira Ranged Attack
+    public GameObject eirarangedAttack;
+
+    //Completed Mission Barrier
+    public GameObject missionComplete;
+
+
     public GameObject beneathdepthsBarrier;
     public GameObject edgeoutpostBarrier;
     public GameObject outpostLeader;
@@ -93,13 +100,16 @@ public class BeneathDialogueSystem : MonoBehaviour
             closeButton.gameObject.SetActive(true);
             outpostLeader.SetActive(false);
             edgeoutpostBarrier.SetActive(false);
+            missionComplete.SetActive(true);
         }
-        if (currentDialogueIndex == 9)
+        if (currentDialogueIndex == 12)
         {
             missionText.text = "Objective: Head back to the Beneath Depths entrance.";
+            eirarangedAttack.gameObject.SetActive(true);
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             outpostLeader.SetActive(false);
+            missionComplete.SetActive(false);
         }
     }
 
@@ -122,7 +132,10 @@ public class BeneathDialogueSystem : MonoBehaviour
     new Dialogue { text = "We’re struggling to seal two open gates on the left side of this cave. The monsters have made it nearly impossible. If you can close those gates, I'll make sure the path to the academy is open for you.", speaker = "Outpost Leader" },
     new Dialogue { text = "I’ll do it. Just point me in the right direction.", speaker = "Eira" },
     new Dialogue { text = "Head through there. But be careful—those creatures are not like anything you've faced before.", speaker = "Outpost Leader" },
-    new Dialogue { text = "Well Done Ill open the gate for you, you should head back and go to the entrance it should be open", speaker = "Outpost Leader" }
+    new Dialogue { text = "You've done well, Eira. Thanks to you, the outpost is secure again.", speaker = "Outpost Leader" },
+    new Dialogue { text = "As promised, I'll open the gate to the entrance for you. But before you go, take this.", speaker = "Outpost Leader" },
+    new Dialogue { text = "It’s a weapon crafted by the scholars at the academy, designed to fire powerful ranged attacks. It will serve you well in the battles ahead.", speaker = "Outpost Leader" },
+    new Dialogue { text = "Go now, and may this help you in your journey", speaker = "Outpost Leader" }
     };
 
 }

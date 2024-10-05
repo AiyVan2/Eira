@@ -20,7 +20,7 @@ public class EiraBeginningDialogueSystem: MonoBehaviour
     public GameObject playerControlls;
     public GameObject pauseButton;
     public GameObject playerattackButton;
-    public GameObject playerrangedattackButton;
+    //public GameObject playerrangedattackButton;
     public GameObject playerhealButton;
     public GameObject playerManaUI;
     public GameObject houseBarrier;
@@ -123,7 +123,7 @@ public class EiraBeginningDialogueSystem: MonoBehaviour
             nextButton.gameObject.SetActive(false);
             closeButton.gameObject.SetActive(true);
             playerattackButton.gameObject.SetActive(true);
-            playerrangedattackButton.gameObject.SetActive(true);
+            //playerrangedattackButton.gameObject.SetActive(true);
             playerhealButton.gameObject.SetActive(true);
             playerManaUI.gameObject.SetActive (true);
             Elder.SetActive(false);

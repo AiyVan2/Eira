@@ -21,6 +21,13 @@ public class LeverScript: MonoBehaviour
     public GameObject lever4;
     public GameObject lever5;
 
+    //Lever Animators
+    public Animator lever1Animator;
+    public Animator lever2Animator;
+    public Animator lever3Animator;
+    public Animator lever4Animator;
+    public Animator lever5Animator;
+
     // Cinemachine camera reference
     public CinemachineVirtualCamera cinemachineCam;
 
@@ -47,18 +54,23 @@ public class LeverScript: MonoBehaviour
             switch (currentLever)
             {
                 case Levers.Lever1:
+                    lever1Animator.SetBool("Flipped1", true);
                     StartCoroutine(ActivateLeverAndPan(1, door1PanTarget, Door1, lever1));
                     break;
                 case Levers.Lever2:
+                    lever2Animator.SetBool("Flipped2", true);
                     StartCoroutine(ActivateLeverAndPan(2, door2PanTarget, Door2, lever2));
                     break;
                 case Levers.Lever3:
+                    lever3Animator.SetBool("Flipped3", true);
                     StartCoroutine(ActivateLeverAndPan(3, door3PanTarget, Door3, lever3));
                     break;
                 case Levers.Lever4:
+                    lever4Animator.SetBool("Flipped4", true);
                     StartCoroutine(ActivateLeverAndPan(4, door4PanTarget, Door4, lever4));
                     break;
                 case Levers.Lever5:
+                    lever5Animator.SetBool("Flipped5", true);
                     StartCoroutine(ActivateLeverAndPan(5, door5PanTarget, Door5, lever5));
                     break;
             }
@@ -74,7 +86,7 @@ public class LeverScript: MonoBehaviour
 
         // Deactivate the door and lever
         door.SetActive(false);
-        lever.SetActive(false);
+        //lever.SetActive(false);
 
         // Return the camera to the original position (typically the player)
         cinemachineCam.Follow = originalCamTarget;

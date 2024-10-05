@@ -2079,7 +2079,6 @@ MonoBehaviour:
   playerControlls: {fileID: 589650559}
   pauseButton: {fileID: 449224058}
   playerattackButton: {fileID: 332090069}
-  playerrangedattackButton: {fileID: 1221384262}
   playerhealButton: {fileID: 1567128102}
   playerManaUI: {fileID: 328371786}
   houseBarrier: {fileID: 1007898427}
@@ -11348,11 +11347,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1221384262 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100375001792765409, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
-  m_PrefabInstance: {fileID: 1758825566}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1221976850
 GameObject:
   m_ObjectHideFlags: 0
@@ -19657,7 +19651,7 @@ Transform:
   m_GameObject: {fileID: 1570904681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.638536, y: -2.9688377, z: -8.816698}
+  m_LocalPosition: {x: 25.405222, y: -2.9687386, z: -8.816698}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
