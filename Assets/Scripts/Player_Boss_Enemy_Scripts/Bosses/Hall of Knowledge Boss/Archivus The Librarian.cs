@@ -33,10 +33,16 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     public GameObject bossroomBarrier;
     public CameraSwap swap;
 
+
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         bossHealth = GetComponent<BossHealth>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         StartCoroutine(BossRoutine());
     }
     private void Update()
@@ -44,7 +50,8 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     if(bossHealth.health <= 0)
         {
             StartCoroutine(ArchivusDeath());
-        }     
+        }
+        FacePlayer();
     }
 
 
@@ -55,12 +62,21 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         {
             // Attack when at the top
             yield return TeleportAndAttack(topPosition.position, true);
+           
 
+
+
+           
             // Attack from the left side
             yield return TeleportAndAttack(leftPosition.position, false);
 
+
+
+         
             // Move to the right side and attack
             yield return TeleportAndAttack(rightPosition.position, false);
+
+
 
             // Idle in the middle
             yield return Idle();
@@ -69,12 +85,24 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     private IEnumerator TeleportAndAttack(Vector3 teleportPosition, bool isTop)
     {
+        animator.SetBool("Teleport", true);
+        yield return new WaitForSeconds(0.2f);
+        animator.SetBool("Teleport", false);
+
         // Teleport to the new position
+        animator.SetBool("Reappear", true);
         transform.position = teleportPosition;
+        yield return new WaitForSeconds(0.3f);
+        animator.SetBool("Reappear", false);
+
 
         if (isTop)
         {
             yield return new WaitForSeconds(2f);
+
+
+            animator.SetBool("Attack", true);
+            yield return new WaitForSeconds(0.3f);
             // Spawn attack prefabs at all 6 top locations
             SpawnAttackPrefabs(topAttackLocations);
             if(bossHealth.health < 200)
@@ -82,10 +110,13 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
                 SpawnAttackPrefabs(topAttackLocations);
                 SpawnHomingProjecitle(homingProjectileAttackLocations);
             }
+            animator.SetBool("Attack", false);
         }
         else
         {
             yield return new WaitForSeconds(2f);
+            animator.SetBool("Attack", true);
+            yield return new WaitForSeconds(0.3f);
             // Spawn attack prefabs at 3 side locations
             SpawnAttackPrefabs(sideAttackLocations);
 
@@ -95,6 +126,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
                 SpawnRightProjectileAttackPrefabs(projectileRightAttackLocations);
                 SpawnLeftProjectileAttackPrefabs(projectileLeftAttackLocations);
             }
+            animator.SetBool("Attack", false);
         }
 
         // Wait for attack cooldown
@@ -158,10 +190,18 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     private IEnumerator Idle()
     {
+
         // Idle in the middle
         if (idlePosition != null)
         {
+
+            animator.SetBool("Teleport", true);
+            yield return new WaitForSeconds(0.2f);
+            animator.SetBool("Teleport", false);
+            animator.SetBool("Reappear", true);
             transform.position = idlePosition.position;
+            yield return new WaitForSeconds(0.3f);
+            animator.SetBool("Reappear", false);
         }
         else
         {
@@ -169,6 +209,24 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         }
 
         yield return new WaitForSeconds(idleDuration);
+    }
+
+
+    private void FacePlayer()
+    {
+        if (player == null) return;
+
+        Vector3 direction = (player.position - transform.position).normalized;
+
+        // Flip the sprite based on the player's position
+        if (direction.x > 0)
+        {
+            spriteRenderer.flipX = false; // Face right
+        }
+        else if (direction.x < 0)
+        {
+            spriteRenderer.flipX = true; // Face left
+        }
     }
 
     IEnumerator ArchivusDeath()

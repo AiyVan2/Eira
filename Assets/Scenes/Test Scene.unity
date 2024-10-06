@@ -2161,6 +2161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onewayPlatform: {fileID: 906548194}
+  leverAnimator: {fileID: 0}
 --- !u!1 &720861667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,6 +2761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onewayPlatform: {fileID: 319858856}
+  leverAnimator: {fileID: 0}
 --- !u!212 &785030967
 SpriteRenderer:
   m_ObjectHideFlags: 0
