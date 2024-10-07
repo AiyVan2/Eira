@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class AcademyOutskirtsScript : MonoBehaviour
 {
-    public GameObject eiraSay;
     private BoxCollider2D boxCollider2D;
+
+    public CameraSwap swap;
 
     private void Start()
     {
@@ -25,10 +26,10 @@ public class AcademyOutskirtsScript : MonoBehaviour
 
     IEnumerator test()
     {
+        swap.swaptoboosRoom();
         yield return new WaitForSeconds(2);
-        eiraSay.SetActive(true);
-        yield return new WaitForSeconds(2);
-        eiraSay.SetActive(false);
+        swap.returntoPlayerCamera();
+      
         Destroy(gameObject);
     }
 }

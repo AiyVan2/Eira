@@ -33,11 +33,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Academy Outskirts.unity
     guid: b31e2bc4388bd5a4b9f45f87f61b8ce7
   - enabled: 1
+    path: Assets/Scenes/Luminaria Academy Entrance.unity
+    guid: 70dacd5f6842bc3429f044a8d4d504c7
+  - enabled: 1
     path: Assets/Scenes/Luminaria Academy Scenes/Hall of Knowedge.unity
     guid: 9c5958d7e3e867f408d38e6f28742390
   - enabled: 1
     path: Assets/Scenes/Luminaria Academy Scenes/Astronomy Tower.unity
     guid: d30e215de2312aa4eb104d87999d10a7
+  - enabled: 1
+    path: Assets/Scenes/Astronomy Tower Connector.unity
+    guid: e10b296666a072e4e82331b6bf1c3c09
   - enabled: 1
     path: Assets/Scenes/Luminaria Academy Scenes/Forbidden Wing.unity
     guid: 5c01728397a3d5c49bd68502fb756463
