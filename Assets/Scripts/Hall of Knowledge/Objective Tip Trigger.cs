@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ObjectiveTipTrigger : MonoBehaviour
 {
-    public GameObject eiraSay;
+    public CameraSwap swap;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,10 +18,10 @@ public class ObjectiveTipTrigger : MonoBehaviour
 
     IEnumerator text()
     {
-        eiraSay.SetActive(true);
-        yield return new WaitForSeconds(3);
-        eiraSay.SetActive(false);
-        yield return new WaitForSeconds(2);
-        gameObject.SetActive(false);
+        swap.swaptoboosRoom();
+        yield return new WaitForSeconds(2f);
+        swap.returntoPlayerCamera();
+        yield return new WaitForSeconds(1f);
+        this.gameObject.SetActive(false);
     }
 }

@@ -85,15 +85,15 @@ public class BeneathDialogueSystem : MonoBehaviour
         }
         nextButton.gameObject.SetActive(true);
 
-        if (currentDialogueIndex == 1)
-        {
-            missionText.text = "Objective: Find a way to unlock the Beneath Depths entrance.";
-            nextButton.gameObject.SetActive(false);
-            closeButton.gameObject.SetActive(true);
-            beneathdepthsBarrier.SetActive(false);
-            beneathDepths.SetActive(false);
-        }
-        if (currentDialogueIndex == 8)
+        //if (currentDialogueIndex == 1)
+        //{
+        //    missionText.text = "Objective: Find a way to unlock the Beneath Depths entrance.";
+        //    nextButton.gameObject.SetActive(false);
+        //    closeButton.gameObject.SetActive(true);
+        //    beneathdepthsBarrier.SetActive(false);
+        //    beneathDepths.SetActive(false);
+        //}
+        if (currentDialogueIndex == 7)
         {
             missionText.text = "Objective: Seal the two doors allowing enemies to enter.";
             nextButton.gameObject.SetActive(false);
@@ -102,7 +102,7 @@ public class BeneathDialogueSystem : MonoBehaviour
             edgeoutpostBarrier.SetActive(false);
             missionComplete.SetActive(true);
         }
-        if (currentDialogueIndex == 12)
+        if (currentDialogueIndex == 11)
         {
             missionText.text = "Objective: Head back to the Beneath Depths entrance.";
             eirarangedAttack.gameObject.SetActive(true);
@@ -123,8 +123,7 @@ public class BeneathDialogueSystem : MonoBehaviour
     }
     private Dialogue[] dialogues = new Dialogue[]
 {
-     new Dialogue { text = "Random", speaker = "Eira" },
-    new Dialogue { text = "This must be the way to the academy... But how do I get through?.", speaker = "Eira" },
+    new Dialogue { text = "Random", speaker = "Eira" },
     new Dialogue { text = "My name is Eira. I’m trying to reach the academy, but the path is blocked. Can you help me?", speaker = "Eira" },
     new Dialogue { text = "Who are you, and what business do you have in these dangerous caves?", speaker = "Outpost Leader" },
     new Dialogue { text = "The academy... Few dare to speak of it, and fewer still seek to enter its cursed halls. The gate you're talking about is locked, and for good reason. Creatures from the academy have been pouring into these caves, threatening everyone here.", speaker = "Outpost Leader" },
