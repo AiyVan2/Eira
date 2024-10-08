@@ -54,6 +54,9 @@ public class PlayerMovement : MonoBehaviour
     private bool canChangeMode = true;
     public float modeChangeCooldown = 2f;
 
+
+    public AudioManager audioManager;
+
     private PlayerHealth playerMana;
     void Start()
     {
@@ -163,6 +166,7 @@ public class PlayerMovement : MonoBehaviour
             Dust();
             canDoubleJump = true;
             doubleJumpCount = 0;
+            audioManager.PlayJumpSound();
         }
         else if (!isGround && canDoubleJump)
         {
@@ -172,7 +176,9 @@ public class PlayerMovement : MonoBehaviour
                 rb.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
                 Dust();
                 doubleJumpCount++;
+                audioManager.PlayJumpSound();
                 canDoubleJump = false;
+
             }
         }
     }
@@ -198,7 +204,7 @@ public class PlayerMovement : MonoBehaviour
                 StartCoroutine(ResetAttackAnimation("isAttacking"));
                 attackCount = 0;
             }
-
+            audioManager.PlayAttackSound();
             StartCoroutine(AttackCooldownCoroutine());
         }
     }
@@ -281,6 +287,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canDash)
         {
+            audioManager.PlayDashSound();
             StartCoroutine(DashCoroutine());
             canDash = false;
             StartCoroutine(FillDashSlider());

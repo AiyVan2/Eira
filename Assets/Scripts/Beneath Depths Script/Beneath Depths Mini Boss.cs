@@ -9,6 +9,7 @@ public class BeneathDepthsMiniBoss : MonoBehaviour
     public GameObject Boss;
     public Animator collosalAnimator;
     public GameObject wakebossObject;
+    public GameObject backgroundMusic;
 
     public CameraSwap swap;
 
@@ -39,6 +40,7 @@ public class BeneathDepthsMiniBoss : MonoBehaviour
         collosalAnimator.enabled = true;
         collosalAnimator.SetTrigger("wake");
         yield return new WaitForSeconds(1f);
+        backgroundMusic.SetActive(true);
         Doors.SetActive(true);
         Boss.SetActive(true);
         wakebossObject.SetActive(false);

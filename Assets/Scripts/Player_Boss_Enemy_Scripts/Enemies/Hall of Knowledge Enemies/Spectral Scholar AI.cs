@@ -19,6 +19,11 @@ public class SpectralScholarAI : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+
+    //Audio
+    public AudioManager audioManager;
+
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -90,6 +95,7 @@ public class SpectralScholarAI : MonoBehaviour
             if (!isAttacking && PlayerInRange())
             {
                 isAttacking = true;
+                audioManager.PlaySpectralScholarAttackSound();
                 Attack();
                 yield return new WaitForSeconds(attackCooldown);
                 isAttacking = false;

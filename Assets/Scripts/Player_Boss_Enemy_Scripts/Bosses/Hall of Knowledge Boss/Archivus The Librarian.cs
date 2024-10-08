@@ -38,6 +38,9 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
+    //Audio
+    public AudioManager audioManager;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -103,6 +106,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
 
             animator.SetBool("Attack", true);
+            audioManager.PlayArchivusAttackSound();
             yield return new WaitForSeconds(0.3f);
             // Spawn attack prefabs at all 6 top locations
             SpawnAttackPrefabs(topAttackLocations);
@@ -117,6 +121,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         {
             yield return new WaitForSeconds(2f);
             animator.SetBool("Attack", true);
+            audioManager.PlayArchivusAttackSound();
             yield return new WaitForSeconds(0.3f);
             // Spawn attack prefabs at 3 side locations
             SpawnAttackPrefabs(sideAttackLocations);

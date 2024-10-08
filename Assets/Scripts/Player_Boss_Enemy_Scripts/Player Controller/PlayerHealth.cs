@@ -25,6 +25,13 @@ public class PlayerHealth : MonoBehaviour
     public int healManaCost = 25; // Mana cost for healing
     public Slider playerMana;
     private Animator animator;
+
+
+
+    // Audio
+    public AudioManager audioManager;
+
+
     void Start()
     {
         // Load saved health from PlayerPrefs or set it to max health
@@ -103,6 +110,7 @@ public class PlayerHealth : MonoBehaviour
             EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
             int enemyDamage = enemy.GetEnemyDamage();
             TakeDamage(enemyDamage, collision.transform);
+            audioManager.PlayTakingDamageSound();
             Debug.Log("Hitting the plyaer");
 
         }
@@ -125,6 +133,7 @@ public class PlayerHealth : MonoBehaviour
             EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
             int enemyDamage = enemy.GetEnemyDamage();
             TakeDamage(enemyDamage, collision.transform);
+            audioManager.PlayTakingDamageSound();
         }
         else if (collision.gameObject.CompareTag("Forest Guardian Ground Attack"))
         {
@@ -133,10 +142,19 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Traps"))
         {
             TakeDamage(10, collision.transform);
+            audioManager.PlayTakingDamageSound();
             trapdamageHandler();
         }
     }
-
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boss") && !isInvincible)
+        {
+            EnemyDamage enemy = collision.gameObject.GetComponent<EnemyDamage>();
+            int enemyDamage = enemy.GetEnemyDamage();
+            TakeDamage(enemyDamage, collision.transform);
+        }
+    }
 
 
 
@@ -227,13 +245,18 @@ public class PlayerHealth : MonoBehaviour
 
     
     public void Heal()
-    { 
+    {
         if (isInvincible)
         {
             Debug.Log("Cannot Heal");
         }
+        else if (currentHealth >= maxHealth)
+        {
+            Debug.Log("Orayt");
+        }
         else
         {
+            audioManager.PlayHealSound();
             StartCoroutine(HealPlayer());
         }
         

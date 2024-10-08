@@ -22,6 +22,9 @@ public class CorruptedSentinel : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+
+    public AudioManager audioManager;
+
     void Start()
     {
         nextFireTime = Time.time;
@@ -108,6 +111,7 @@ public class CorruptedSentinel : MonoBehaviour
     IEnumerator shootprojectileAnimation()
     {
         animator.SetBool("isAttacking", true);
+        audioManager.PlayCorruptedSentinelAttackSound();
         yield return new WaitForSeconds(0.12f);
         ShootProjectile();
         animator.SetBool("isAttacking", false);

@@ -132,26 +132,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447795465}
-  - component: {fileID: 447795464}
+  - component: {fileID: 447795466}
   m_Layer: 0
-  m_Name: Eira Beginning Scene Loader
+  m_Name: Good Ending Transition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &447795464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447795463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1050dc1e98f9d2b40b66643fd9d13ab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &447795465
 Transform:
   m_ObjectHideFlags: 0
@@ -167,6 +155,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &447795466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447795463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe7bdd0088274848a958c2a9fb3b878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &517005514
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +555,8 @@ PlayableDirector:
     value: {fileID: 623190349}
   - key: {fileID: -8922938427451697985, guid: d6ae5a90cc790cb49a08fd2b70069ab8, type: 2}
     value: {fileID: 1692894172}
+  - key: {fileID: -6163362402186504925, guid: d6ae5a90cc790cb49a08fd2b70069ab8, type: 2}
+    value: {fileID: 447795463}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &757598247

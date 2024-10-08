@@ -769,6 +769,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 323991321}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1724995841}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashLifetime
       value: 0.2
       objectReference: {fileID: 0}
@@ -840,6 +844,10 @@ PrefabInstance:
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 323991321}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1724995841}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healManaCost
       value: 25
@@ -36632,6 +36640,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1537871910
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 164769683513451250, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.35572997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeb42216c318e994dab8242af3354945, type: 3}
 --- !u!1 &1546623888
 GameObject:
   m_ObjectHideFlags: 0
@@ -37610,6 +37675,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 00c213f455a0c0a479b89e57dfb59dec, type: 3}
   m_PrefabInstance: {fileID: 1710903963}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1724995841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+  m_PrefabInstance: {fileID: 1537871910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57d81f706fa07e4dbb2b12be3178103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1725281870
 GameObject:
   m_ObjectHideFlags: 0
@@ -39692,6 +39768,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1271682974}
   - {fileID: 1705156100}
+  - {fileID: 1537871910}
   - {fileID: 515636374}
   - {fileID: 707661231}
   - {fileID: 1981858748}

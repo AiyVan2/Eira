@@ -18,6 +18,8 @@ public class NebulaPhantomAI : MonoBehaviour
 
     private Animator animator;
 
+    //Audio
+    public AudioManager audioManager;
 
     private void Start()
     {
@@ -48,6 +50,7 @@ public class NebulaPhantomAI : MonoBehaviour
 
                 animator.SetBool("Attacking", true);
                 yield return new WaitForSeconds(0.42f);
+                audioManager.PlayEnchanctedQuillSummonSound();
                 // Shoot at the player
                 ShootHomingProjectile();
                 animator.SetBool("Attacking", false);

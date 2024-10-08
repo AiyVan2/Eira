@@ -11,6 +11,10 @@ public class EnemyHealth : MonoBehaviour
     public ParticleSystem hitEffect;
 
 
+    //Audio
+    public AudioManager audioManager;
+
+
     //Lumin Shard Drop
     private int luminCount = 3;
     private float spreadForce = 5f; // Define the explosion force value
@@ -29,6 +33,7 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("BossPhaseTwo defeated");
+            audioManager.PlayEnemyDeathSound();
             dropluminShards();
             Destroy(gameObject);
         }

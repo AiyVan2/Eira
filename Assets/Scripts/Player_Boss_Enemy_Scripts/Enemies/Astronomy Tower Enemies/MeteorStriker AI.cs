@@ -20,6 +20,13 @@ public class MeteorStrikerAI : MonoBehaviour
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+
+
+    //Audio
+    public AudioManager audioManager;
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -66,6 +73,7 @@ public class MeteorStrikerAI : MonoBehaviour
 
         animator.SetBool("Attacking", true);
         yield return new WaitForSeconds(0.3f);
+        audioManager.PlayMeteorStrikerAttackSound();
         Explode();
         animator.SetBool("Attacking", false);
         canAttack = false; // Prevent further attacks until cooldown is over

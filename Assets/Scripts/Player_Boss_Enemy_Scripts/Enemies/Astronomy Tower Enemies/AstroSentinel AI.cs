@@ -18,6 +18,11 @@ public class AstroSentinelAI : MonoBehaviour
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    //Audio
+    public AudioManager audioManager;
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -48,6 +53,7 @@ public class AstroSentinelAI : MonoBehaviour
 
             animator.SetBool("Attacking", true);
             yield return new WaitForSeconds(0.3f);
+            audioManager.PlayAstroSentinelAttackSound();
             ShootProjectile();
             animator.SetBool("Attacking", false);
         }

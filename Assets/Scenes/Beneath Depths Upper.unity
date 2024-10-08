@@ -1073,6 +1073,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (1)
@@ -10395,6 +10399,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 323991321}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashLifetime
       value: 0.2
       objectReference: {fileID: 0}
@@ -10474,6 +10482,10 @@ PrefabInstance:
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 323991321}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healManaCost
       value: 25
@@ -10711,6 +10723,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.48
@@ -14508,7 +14524,7 @@ Transform:
   m_GameObject: {fileID: 433644627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -51.80242, y: 22.039072, z: 13.054626}
+  m_LocalPosition: {x: -47.135574, y: 22.079731, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14619,6 +14635,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat
@@ -14713,6 +14733,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -15020,6 +15044,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 2872484167708133600, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 4530984650442508468, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -15072,6 +15100,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 280609010}
+    - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 7567275319156445399, guid: ada2bdf4edaaadb4ca4885cb73141441, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -16532,6 +16564,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.74
@@ -17604,6 +17640,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (3)
@@ -19963,6 +20003,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1716207820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 164769683513451250, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.35572997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeb42216c318e994dab8242af3354945, type: 3}
+--- !u!114 &1716207821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+  m_PrefabInstance: {fileID: 1716207820}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57d81f706fa07e4dbb2b12be3178103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1750496646 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
@@ -21497,6 +21605,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 3845226909490074202, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 5579921515116470000, guid: 0dc88fe127864ef40b532f3e6e12eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.5
@@ -21759,6 +21871,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 8865458964224192664, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 9044966418625806126, guid: 5fd69747167a5554ba955720f19411bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.37
@@ -21912,6 +22028,10 @@ PrefabInstance:
       propertyPath: luminShards
       value: 
       objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 27481995474518975, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1716207821}
     - target: {fileID: 986489652996623962, guid: de9372cbb76ae1c42acd0ab616b0e1ad, type: 3}
       propertyPath: m_Name
       value: Shadow Bat (2)
@@ -53700,6 +53820,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1271682974}
   - {fileID: 1705156100}
+  - {fileID: 1716207820}
   - {fileID: 707661231}
   - {fileID: 1981858748}
   - {fileID: 280609009}

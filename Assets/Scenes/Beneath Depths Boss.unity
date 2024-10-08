@@ -909,6 +909,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 323991321}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 609145048}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dashLifetime
       value: 0.2
       objectReference: {fileID: 0}
@@ -980,6 +984,10 @@ PrefabInstance:
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 323991321}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 609145048}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healManaCost
       value: 25
@@ -2013,6 +2021,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 609145048}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: backgroundMusic
+      value: 
+      objectReference: {fileID: 1932012217}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_Name
       value: Depths Mini Boss
@@ -2027,7 +2043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4918511478821731697, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: health
-      value: 10
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5769324196428327285, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2126,6 +2142,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &609145048 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+  m_PrefabInstance: {fileID: 1397527454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57d81f706fa07e4dbb2b12be3178103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &632660522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2773,7 +2800,7 @@ SpriteRenderer:
   m_Size: {x: 1.75, y: 3.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &757881558
@@ -40531,6 +40558,79 @@ Transform:
   - {fileID: 1006352249}
   m_Father: {fileID: 1464472951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1397527454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 164769683513451250, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: collosalbackgroundMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: eb9ed321e845b3746a56e9cf5924d3af, type: 3}
+    - target: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: collosaldashattackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b8258a64e0316348952d80755ab6166, type: 3}
+    - target: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: collosalmeleeattackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 06064589206d0da4a9da3b55b16bdab1, type: 3}
+    - target: {fileID: 3062592702113019671, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: collosalrangedattackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 46b3345deec0e554491627705e8053f1, type: 3}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.35572997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476839535062720761, guid: eeb42216c318e994dab8242af3354945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeb42216c318e994dab8242af3354945, type: 3}
 --- !u!1 &1402848480
 GameObject:
   m_ObjectHideFlags: 0
@@ -42491,6 +42591,148 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1133672811443287679, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
   m_PrefabInstance: {fileID: 557361267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1932012217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932012219}
+  - component: {fileID: 1932012220}
+  - component: {fileID: 1932012218}
+  m_Layer: 0
+  m_Name: Background Music Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1932012218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932012217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f380ec4ea5479d34f9e8288ebfef75fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 8300000, guid: eb9ed321e845b3746a56e9cf5924d3af, type: 3}
+--- !u!4 &1932012219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932012217}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.21545, y: -35.97065, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1932012220
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932012217}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 200
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1954593343
 GameObject:
   m_ObjectHideFlags: 0
@@ -42672,6 +42914,7 @@ MonoBehaviour:
   Boss: {fileID: 1906221693}
   collosalAnimator: {fileID: 1363499710}
   wakebossObject: {fileID: 1363499709}
+  backgroundMusic: {fileID: 1932012217}
   swap: {fileID: 430773943}
 --- !u!1001 &1981858748
 PrefabInstance:
@@ -43520,6 +43763,8 @@ SceneRoots:
   - {fileID: 1271682974}
   - {fileID: 1705156100}
   - {fileID: 430773944}
+  - {fileID: 1932012219}
+  - {fileID: 1397527454}
   - {fileID: 335349240}
   - {fileID: 707661231}
   - {fileID: 1981858748}

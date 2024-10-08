@@ -21,6 +21,11 @@ public class EnchantedQuillAI : MonoBehaviour
     private bool isAttacking = false;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+
+    //Audio
+    public AudioManager audioManager;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -78,10 +83,12 @@ public class EnchantedQuillAI : MonoBehaviour
                 animator.SetBool("ProjectileAttack", true);
                 yield return new WaitForSeconds(0.4f);
                 animator.SetBool("ProjectileAttack", false);
+                audioManager.PlayEnchanctedQuillAttackSound();
                 ShootProjectile();
                 yield return new WaitForSeconds(3.0f); // Time between attacks
                 animator.SetBool("InkSummon", true);
                 yield return new WaitForSeconds(1f);
+                audioManager.PlayEnchanctedQuillSummonSound();
                 CreateInkPool();
                 animator.SetBool("InkSummon", false);
                 yield return new WaitForSeconds(inkPoolDuration); // Duration of ink pool

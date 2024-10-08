@@ -26,6 +26,15 @@ public class Lurker : MonoBehaviour
 
     public CameraSwap swap;
     public GameObject Doors;
+
+
+    //Audio
+    public AudioManager audioManager;
+
+    //Background Music
+    public GameObject backgroundMusic;
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -126,6 +135,7 @@ public class Lurker : MonoBehaviour
         {
             animator.SetBool("isAttacking", true);
             yield return new WaitForSeconds(0.6f);
+            audioManager.PlayCollosalMeleeAttackSound();
             meleeAttack.SetActive(true);
             yield return new WaitForSeconds(0.3f);
             meleeAttack.SetActive(false);
@@ -139,6 +149,7 @@ public class Lurker : MonoBehaviour
         animator.SetBool("isRangeAttacking", true);
         yield return new WaitForSeconds(1.3f);
         animator.SetBool("isRangeAttacking", false);
+        audioManager.PlayCollosalRangedAttackSound();
         SpawnProjectile();
     }
     private IEnumerator ProjectileBarrage()
@@ -147,6 +158,7 @@ public class Lurker : MonoBehaviour
         yield return new WaitForSeconds(1.3f);
         for (int i = 0; i < 3; i++)  // Adjust the number of projectiles in the barrage as needed
         {
+            audioManager.PlayCollosalRangedAttackSound();
             SpawnProjectile();
             yield return new WaitForSeconds(0.2f);  // Adjust the delay between each projectile in the barrage
         }
@@ -159,6 +171,8 @@ public class Lurker : MonoBehaviour
 
         // Set the animator state to dashing
         animator.SetBool("isDashing", true);
+
+        audioManager.PlayCollosalDashAttackSound();
 
         // Move the colossal towards the player quickly
         float dashSpeed = 10f; // Adjust this value to control the dash speed
@@ -177,7 +191,6 @@ public class Lurker : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.24f);
-
         // Set the animator state to attacking
         animator.SetBool("isDashing", false);
 
@@ -223,6 +236,7 @@ public class Lurker : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1.5f);
+        backgroundMusic.SetActive(false);
         swap.returntoPlayerCamera();
         Doors.SetActive(false);
         gameObject.SetActive(false);
