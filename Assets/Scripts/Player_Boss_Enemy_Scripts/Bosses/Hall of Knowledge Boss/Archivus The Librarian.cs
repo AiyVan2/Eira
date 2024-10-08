@@ -41,6 +41,9 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     //Audio
     public AudioManager audioManager;
 
+    //Background Music
+    public GameObject backgroundMusic;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -241,6 +244,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         astronomytowerLever.SetActive(true);
         bossroomBarrier.SetActive(false);
         hiddenroomBarrier.SetActive(false);
+        backgroundMusic.SetActive(false);
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }

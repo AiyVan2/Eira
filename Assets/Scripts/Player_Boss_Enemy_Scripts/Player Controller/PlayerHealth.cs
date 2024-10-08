@@ -254,6 +254,10 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Orayt");
         }
+        else if(currentMana < healManaCost)
+        {
+            Debug.Log("Bawal");
+        }
         else
         {
             audioManager.PlayHealSound();

@@ -28,6 +28,7 @@ public class HallofKnowledgeDialogue : MonoBehaviour
     public GameObject bossareaBarier;
     public GameObject thirdBook;
 
+    public GameObject backgroundMusic;
 
     IEnumerator slowarchivusSpanwn()
     {
@@ -55,6 +56,7 @@ public class HallofKnowledgeDialogue : MonoBehaviour
         pauseButton.gameObject.SetActive(true);
         bossareaBarier.SetActive(true);
         thirdBook.SetActive(false);
+        backgroundMusic.SetActive(true);
         swap.swaptoboosRoom();
         StartCoroutine(slowarchivusSpanwn());
     }
