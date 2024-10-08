@@ -17,6 +17,8 @@ public class SceneData
     // Add other properties you want to save, such as component values, etc.
     // Add a field to store the player's lumin shards
     public int playerLuminShards;
+    public int playerMechanicDamage;
+    public int playerScholarDamage;
 }
 
 
@@ -58,6 +60,13 @@ public class SaveManager : MonoBehaviour
         if (playerLumin != null)
         {
             sceneData.playerLuminShards = playerLumin.currentCurrency;
+        }
+
+        PlayerStats playerStats = FindObjectOfType<PlayerStats>();
+        if(playerStats != null)
+        {
+            sceneData.playerMechanicDamage = playerStats.mechanicDamage;
+            sceneData.playerScholarDamage = playerStats.scholarDamage;
         }
 
         string json = JsonUtility.ToJson(sceneData);
@@ -122,12 +131,22 @@ public class SaveManager : MonoBehaviour
             }
         }
 
-        // Restore the player's Lumin Shards
+        // Saving Player Data via Player Prefs
         PlayerLuminShards playerLumin = FindObjectOfType<PlayerLuminShards>();
         if (playerLumin != null)
         {
             playerLumin.currentCurrency = sceneData.playerLuminShards;
             PlayerPrefs.SetInt("PlayerLumin", playerLumin.currentCurrency);
+            PlayerPrefs.Save();
+        }
+
+        PlayerStats playerStats = FindObjectOfType<PlayerStats>();
+        if (playerStats != null)
+        {
+            playerStats.mechanicDamage = sceneData.playerMechanicDamage;
+            playerStats.scholarDamage = sceneData.playerScholarDamage;
+            PlayerPrefs.SetInt("MechanicDamage", playerStats.mechanicDamage);
+            PlayerPrefs.SetInt("ScholarDamage", playerStats.scholarDamage);
             PlayerPrefs.Save();
         }
 

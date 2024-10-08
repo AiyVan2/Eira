@@ -31,6 +31,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     public GameObject astronomytowerLever;
     public GameObject bossroomBarrier;
+    public GameObject hiddenroomBarrier;
     public CameraSwap swap;
 
 
@@ -234,6 +235,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         swap.returntoPlayerCamera();
         astronomytowerLever.SetActive(true);
         bossroomBarrier.SetActive(false);
+        hiddenroomBarrier.SetActive(false);
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }

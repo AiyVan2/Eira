@@ -31,6 +31,12 @@ public class finalboss : MonoBehaviour
     private bool isFlipped = false;  // Flag to track if the sprite is flipped
     private BossHealth bossHealth;
 
+
+
+    //Ending Text
+    public GameObject endingChoices;
+    public GameObject endingChoicesText;
+
     private bool stopSpawning = false;
     void Start()
     {
@@ -256,6 +262,8 @@ public class finalboss : MonoBehaviour
         animator.SetBool("Vanish", false);
         animator.SetBool("Death", true);
         yield return new WaitForSeconds(2.3f);
+        endingChoices.SetActive(true);
+        endingChoicesText.gameObject.SetActive(true);
         gameObject.SetActive(false);
     }
 }

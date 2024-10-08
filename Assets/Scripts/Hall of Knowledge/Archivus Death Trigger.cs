@@ -8,6 +8,7 @@ public class ArchivusDeathTrigger : MonoBehaviour
     public GameObject Archivus;
     public GameObject Lever5;
     public GameObject bossroomBarrier;
+    public GameObject thirdBook;
 
     public CameraSwap swap;
     private void Update()
@@ -16,6 +17,7 @@ public class ArchivusDeathTrigger : MonoBehaviour
         {
             Lever5.gameObject.SetActive(true);
             bossroomBarrier.gameObject.SetActive(false);
+            thirdBook.gameObject.SetActive(false);
             swap.returntoPlayerCamera();
             
         }

@@ -29,7 +29,7 @@ public class UpgradeMenu : MonoBehaviour
     // Button function to upgrade mechanic damage
     public void UpgradeMechanic()
     {
-        int upgradeAmount = 10;
+        int upgradeAmount = 8;
         if (playerStats.UpgradeMechanicDamage(upgradeAmount))
         {
             Debug.Log("Mechanic damage upgraded!");
@@ -43,7 +43,7 @@ public class UpgradeMenu : MonoBehaviour
     // Button function to upgrade scholar damage
     public void UpgradeScholar()
     {
-        int upgradeAmount = 10;
+        int upgradeAmount = 8;
         if (playerStats.UpgradeScholarDamage(upgradeAmount))
         {
             Debug.Log("Scholar damage upgraded!");

@@ -12,9 +12,14 @@ public class PlayerStats : MonoBehaviour
     private int defaultScholarDamage = 15;
 
 
+    // Maximum Damage Cap
+    private const int maxMechanicDamage = 35;  // Cap for mechanic damage
+    private const int maxScholarDamage = 35;    // Cap for scholar damage
+
+
     // Start is called before the first frame update
-    public int mechanicDamage = 10;      // Default mechanic (melee) attack damage
-    public int scholarDamage = 15;        // Default scholar (ranged) attack damage
+    public int mechanicDamage;      // Default mechanic (melee) attack damage
+    public int scholarDamage;        // Default scholar (ranged) attack damage
     public int maxHealth = 100;          // Default max health
     public int currentHealth;            // Current health
     public int upgradeCost = 50;         // Cost for upgrading damage
@@ -70,9 +75,12 @@ public class PlayerStats : MonoBehaviour
     {
         if (FindObjectOfType<PlayerLuminShards>().SpendCurrency(upgradeCost))
         {
-            mechanicDamage += upgradeAmount;
-            SaveMechanicDamage();  // Save the new damage
-            return true;
+            if (mechanicDamage + upgradeAmount <= maxMechanicDamage)
+            {
+                mechanicDamage += upgradeAmount;
+                SaveMechanicDamage();  // Save the new damage
+                return true;
+            }
         }
         return false;
     }
@@ -82,9 +90,12 @@ public class PlayerStats : MonoBehaviour
     {
         if (FindObjectOfType<PlayerLuminShards>().SpendCurrency(upgradeCost))
         {
-            scholarDamage += upgradeAmount;
-            SaveScholarDamage();  // Save the new damage
-            return true;
+            if (scholarDamage + upgradeAmount <= maxScholarDamage)
+            {
+                scholarDamage += upgradeAmount;
+                SaveScholarDamage();  // Save the new damage
+                return true;
+            }
         }
         return false;
     }
