@@ -87,7 +87,7 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.2f); // Timing to match animation
+        yield return new WaitForSeconds(0.8f); // Timing to match animation
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
         animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);
@@ -129,7 +129,7 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.2f); // Timing to match animation
+        yield return new WaitForSeconds(0.8f); // Timing to match animation
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
         animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);

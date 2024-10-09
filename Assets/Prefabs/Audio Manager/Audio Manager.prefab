@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3062592702113019671}
   m_Layer: 0
   m_Name: Audio Manager
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,9 +150,11 @@ MonoBehaviour:
   collosalmeleeattackSound: {fileID: 8300000, guid: 06064589206d0da4a9da3b55b16bdab1, type: 3}
   collosalrangedattackSound: {fileID: 8300000, guid: 46b3345deec0e554491627705e8053f1, type: 3}
   collosaldashattackSound: {fileID: 8300000, guid: 8b8258a64e0316348952d80755ab6166, type: 3}
+  archivusattackSound: {fileID: 8300000, guid: eac796b4ed6416c46b4a281d88e0c837, type: 3}
   corruptedsentinelattackSound: {fileID: 8300000, guid: cbfc39dddab3d91479c85f709d0fb563, type: 3}
   enchantedquillAttackSound: {fileID: 8300000, guid: cbfc39dddab3d91479c85f709d0fb563, type: 3}
   enchantedquillSummonSound: {fileID: 8300000, guid: 256622218b9d4a44f9706312e691ed58, type: 3}
   spectralScholarAttackSound: {fileID: 8300000, guid: 256622218b9d4a44f9706312e691ed58, type: 3}
   meteorstrikerAttackSound: {fileID: 8300000, guid: 3aef833d501b33244b7e794b3daba472, type: 3}
   astroSentinelAttackSound: {fileID: 8300000, guid: fd09df8bde002734aadd6487fb1e6a7e, type: 3}
+  luminshardSound: {fileID: 8300000, guid: 8ace174e0d2f8c1409af3fcfe0d08182, type: 3}

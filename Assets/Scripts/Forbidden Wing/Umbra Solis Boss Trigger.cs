@@ -10,6 +10,10 @@ public class UmbraSolisBossTrigger : MonoBehaviour
     public Animator umbrasolisAnimator;
     public CameraSwap swap;
 
+
+    //Background Music
+    public GameObject backgroundMusic;
+
     private void Start()
     {
         umbrasolisAnimator.enabled = false;
@@ -28,6 +32,7 @@ public class UmbraSolisBossTrigger : MonoBehaviour
         barrier.SetActive(true);
         swap.swaptoboosRoom();
         yield return new WaitForSeconds(1f);
+        backgroundMusic.SetActive(true);
         umbrasolisAnimator.enabled=true;
         umbrasolisAnimator.SetTrigger("Wake");
         yield return new WaitForSeconds(1f);

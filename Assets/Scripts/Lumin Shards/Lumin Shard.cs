@@ -7,6 +7,15 @@ public class LuminShard : MonoBehaviour
     // Start is called before the first frame update
     public int value = 1; // Amount of currency this collectible gives
 
+
+    //Audio
+    private AudioManager audioManager;
+
+    private void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the player collided with the currency collectible
@@ -19,6 +28,8 @@ public class LuminShard : MonoBehaviour
                 playerCurrency.AddCurrency(value);
             }
 
+            //Pickup Sound
+            audioManager.PlayLuminShardPickupSound();
             // Destroy the collectible after it has been picked up
             Destroy(gameObject);
         }

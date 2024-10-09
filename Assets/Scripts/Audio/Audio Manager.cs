@@ -40,6 +40,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip meteorstrikerAttackSound;
     public AudioClip astroSentinelAttackSound;
 
+
+    //Lumin Shard Pickup
+    public AudioClip luminshardSound;
+
     private AudioSource audioSource;
 
     void Awake()
@@ -54,7 +58,7 @@ public class AudioManager : MonoBehaviour
         audioSource.PlayOneShot(clip);
     }
 
-    // Example methods to play specific sounds
+    // Player Sounds
     public void PlayJumpSound()
     {
         PlaySound(jumpSound);
@@ -85,6 +89,9 @@ public class AudioManager : MonoBehaviour
         PlaySound(enemydeathSound);
     }
 
+
+
+    //Enemy Sounds
     public void PlayCorruptedSentinelAttackSound()
     {
         PlaySound(corruptedsentinelattackSound);
@@ -112,7 +119,11 @@ public class AudioManager : MonoBehaviour
         PlaySound(astroSentinelAttackSound);
     }
 
-
+    //Lumin Shard Pickup Sound
+    public void PlayLuminShardPickupSound()
+    {
+        PlaySound(luminshardSound);
+    }
 
     //Boss Void
     //Collosal Sounds
