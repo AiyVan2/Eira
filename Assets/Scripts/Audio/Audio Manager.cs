@@ -28,6 +28,14 @@ public class AudioManager : MonoBehaviour
     public AudioClip archivusattackSound;
 
 
+    //Umbra Solis Boss
+    public AudioClip umbrasolisattack1Sound;
+    public AudioClip umbrasolisattack2Sound;
+    public AudioClip umbrasolisattack3impactSound;
+    public AudioClip umbrasolisattack3swordSound;
+    public AudioClip umbrasolisvanishSound;
+
+
     //Corrupted Sentinel Attack Sound
     public AudioClip corruptedsentinelattackSound;
 
@@ -146,7 +154,33 @@ public class AudioManager : MonoBehaviour
     {
         PlaySound(archivusattackSound);
     }
-    
+
+
+    //Umbra Solis Sound
+    public void PlayUmbraSolisFirstAttackSound()
+    {
+        PlaySound(umbrasolisattack1Sound);
+    }
+    public void PlayUmbraSolisSecondAttackSound()
+    {
+        PlaySound(umbrasolisattack2Sound);
+    }
+
+    public void PlayUmbraSolisThirdAttackImpactSound()
+    {
+        PlaySound(umbrasolisattack3impactSound);
+    }
+
+    public void PlayUmbraSolisThirdAttackSwordSound()
+    {
+        PlaySound(umbrasolisattack3swordSound);
+    }
+
+    public void PlayUmbraSolisVanishSound()
+    {
+        PlaySound(umbrasolisvanishSound);
+    }
+
 
 
     // Method to play background music

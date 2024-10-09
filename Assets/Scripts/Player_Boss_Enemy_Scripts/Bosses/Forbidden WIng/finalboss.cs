@@ -31,7 +31,8 @@ public class finalboss : MonoBehaviour
     private bool isFlipped = false;  // Flag to track if the sprite is flipped
     private BossHealth bossHealth;
 
-
+    //Audio
+    public AudioManager audioManager;
 
     //Ending Text
     public GameObject endingChoices;
@@ -87,10 +88,12 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.8f); // Timing to match animation
+        audioManager.PlayUmbraSolisFirstAttackSound();
+        yield return new WaitForSeconds(0.2f);
+        audioManager.PlayUmbraSolisFirstAttackSound();
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
-        animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);
+        animator.SetBool("Attack1", false);
 
 
         // Attack 2 (Vanishing Charge Attack)
@@ -129,10 +132,13 @@ public class finalboss : MonoBehaviour
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
         animator.SetBool("idle", false);
-        yield return new WaitForSeconds(0.8f); // Timing to match animation
+        
+        audioManager.PlayUmbraSolisFirstAttackSound();
+        yield return new WaitForSeconds(0.2f);
+        audioManager.PlayUmbraSolisFirstAttackSound();
         SpawnAttackPrefabs(2); // Spawns 2 prefabs on left and right
-        animator.SetBool("Attack1", false);
         yield return new WaitForSeconds(1.2f);
+        animator.SetBool("Attack1", false);
 
 
         // Attack 2 (Vanishing Charge Attack)
@@ -145,10 +151,14 @@ public class finalboss : MonoBehaviour
         // Attack 3 (Wider attack - spawn 3 prefabs)
         animator.SetBool("idle", false);
         animator.SetBool("Attack3", true);
+        audioManager.PlayUmbraSolisThirdAttackImpactSound();
         yield return new WaitForSeconds(0.3f);
         SpawnAttackPrefabs(1);
         yield return new WaitForSeconds(1f); // Timing to match animation
+        audioManager.PlayUmbraSolisThirdAttackSwordSound();
         SpawnAttackPrefabs(3); // Spawns 3 prefabs for wider attack
+        yield return new WaitForSeconds(0.2f);
+        audioManager.PlayUmbraSolisThirdAttackSwordSound();
         yield return new WaitForSeconds(1f);
         animator.SetBool("Attack3", false);
         animator.SetBool("idle", true);
@@ -193,6 +203,7 @@ public class finalboss : MonoBehaviour
     {
         // Trigger vanish animation before disappearing
         animator.SetBool("Vanish", true);
+        audioManager.PlayUmbraSolisVanishSound();
         yield return new WaitForSeconds(0.1f); // Adjust based on vanish animation length
 
         // Randomly pick left or right spawn location
@@ -224,6 +235,7 @@ public class finalboss : MonoBehaviour
     IEnumerator ChargeInStraightLine()
     {
         animator.SetBool("Attack2", true);
+        audioManager.PlayUmbraSolisSecondAttackSound();
         // Determine charge direction (left-to-right or right-to-left)
         chargeDirection = transform.position.x < player.position.x ? Vector3.right : Vector3.left;
 
@@ -242,6 +254,7 @@ public class finalboss : MonoBehaviour
     IEnumerator VanishAndMoveToCenter()
     {
         animator.SetBool("Vanish", true);
+        audioManager.PlayUmbraSolisVanishSound();
         yield return new WaitForSeconds(0.18f);
         // Teleport the boss to the center point
         transform.position = centerPoint.position;
