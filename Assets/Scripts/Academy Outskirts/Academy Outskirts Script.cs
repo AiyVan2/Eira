@@ -20,14 +20,14 @@ public class AcademyOutskirtsScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             boxCollider2D.enabled = false;
-            StartCoroutine(test());
+            StartCoroutine(LookAtTheAcademy());
         }
     }
 
-    IEnumerator test()
+    IEnumerator LookAtTheAcademy()
     {
         swap.swaptoboosRoom();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5f);
         swap.returntoPlayerCamera();
       
         Destroy(gameObject);
