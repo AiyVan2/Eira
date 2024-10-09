@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 879373279011614880}
   - component: {fileID: 2265814197301980624}
   - component: {fileID: 7137709198922805351}
+  - component: {fileID: 5839628347858785733}
   m_Layer: 8
   m_Name: ScholarAttack
   m_TagString: PlayerAttack
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1863058025, guid: 95398361798508749901a98bacc9a3c0, type: 3}
+  m_Sprite: {fileID: 1845534739, guid: 6792e534062c5734eb1c4c3cceba19d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,18 +119,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0072998106, y: -0.01028605}
+  m_Offset: {x: -0.014538929, y: -0.0010864316}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.38333333, y: 0.09166667}
+    pivot: {x: 0.67377293, y: 0.50610924}
+    oldSize: {x: 0.135, y: 0.06}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.42776507, y: 0.07834938}
+  m_Size: {x: 0.14370143, y: 0.059950158}
   m_EdgeRadius: 0
 --- !u!114 &7137709198922805351
 MonoBehaviour:
@@ -144,5 +145,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
-  damage: 15
   lifetime: 4
+--- !u!95 &5839628347858785733
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3289142288599510453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47fa894ec3bd87e45a402d9a44161465, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
