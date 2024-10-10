@@ -108,7 +108,7 @@ public class SpectralScholarAI : MonoBehaviour
     {
         if (player != null)
         {
-            int numberofProjectile = 5;
+            int numberofProjectile = 2;
             int spreadAngle = 500;
             float angleStep = spreadAngle / (numberofProjectile - 1);
 
