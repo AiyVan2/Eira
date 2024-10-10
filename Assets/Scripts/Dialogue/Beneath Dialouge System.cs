@@ -102,7 +102,7 @@ public class BeneathDialogueSystem : MonoBehaviour
             edgeoutpostBarrier.SetActive(false);
             missionComplete.SetActive(true);
         }
-        if (currentDialogueIndex == 11)
+        if (currentDialogueIndex == 12)
         {
             missionText.text = "Objective: Head back to the Beneath Depths entrance.";
             eirarangedAttack.gameObject.SetActive(true);
@@ -134,6 +134,7 @@ public class BeneathDialogueSystem : MonoBehaviour
     new Dialogue { text = "You've done well, Eira. Thanks to you, the outpost is secure again.", speaker = "Outpost Leader" },
     new Dialogue { text = "As promised, I'll open the gate to the entrance for you. But before you go, take this.", speaker = "Outpost Leader" },
     new Dialogue { text = "It’s a weapon crafted by the scholars at the academy, designed to fire powerful ranged attacks. It will serve you well in the battles ahead.", speaker = "Outpost Leader" },
+    new Dialogue { text = "Remember, every strike against your enemies will grant you mana, which can be channeled into your ranged attacks—or even converted into healing when you’re in need.", speaker = "Outpost Leader" },
     new Dialogue { text = "Go now, and may this help you in your journey", speaker = "Outpost Leader" }
     };
 

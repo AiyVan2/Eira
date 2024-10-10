@@ -1771,7 +1771,7 @@ Transform:
   m_GameObject: {fileID: 185462123}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.37677765, y: 0.20565414, z: -2.8686137}
+  m_LocalPosition: {x: 0.37679672, y: 0.20565414, z: -2.8686137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5468,7 +5468,7 @@ Transform:
   m_GameObject: {fileID: 548177960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.629824, y: 5.3, z: 5.202592}
+  m_LocalPosition: {x: 36.579784, y: 5.3, z: 5.202592}
   m_LocalScale: {x: 2.4811447, y: 1.704746, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7667,7 +7667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.8
+      value: 16.4
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13904,7 +13904,7 @@ Transform:
   m_GameObject: {fileID: 1301031353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 123.63556, y: 5.3, z: 5.202592}
+  m_LocalPosition: {x: 130.5855, y: 5.3, z: 5.202592}
   m_LocalScale: {x: 2.4811447, y: 1.704746, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14014,7 +14014,7 @@ Transform:
   m_GameObject: {fileID: 1322614056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6999998, y: -2.8600006, z: -8.816698}
+  m_LocalPosition: {x: 73.200005, y: -2.8600006, z: -8.816698}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22115,7 +22115,7 @@ Transform:
   m_GameObject: {fileID: 1570904681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.12744, y: -2.96986, z: -8.816698}
+  m_LocalPosition: {x: 73.19977, y: -2.98843, z: -8.816698}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56011,7 +56011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.9, y: -28.5}
+  m_AnchoredPosition: {x: -8.9, y: -13.2}
   m_SizeDelta: {x: 221.09207, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887513970
@@ -56047,9 +56047,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hi Eira
-
-'
+  m_Text: Remember, your melee strikes can knock enemies back, giving you a chance
+    to catch your breath but don't forget to heal when you're hurt, or you might
+    not last in a long fight!"
 --- !u!222 &1887513971
 CanvasRenderer:
   m_ObjectHideFlags: 0

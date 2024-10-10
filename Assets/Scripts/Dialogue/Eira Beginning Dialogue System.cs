@@ -150,8 +150,8 @@ public class EiraBeginningDialogueSystem: MonoBehaviour
     new Dialogue { text = "Eira, there are some truths that are too painful to share... But I see now that you are ready to hear them. Your parents were brilliant scholars, devoted to the study of both technology and ancient magic. They envisioned the Luminaria Academy as a place where these two could coexist, a beacon of knowledge for the world.", speaker = "Elder" },
     new Dialogue { text = "But something went wrong. The academy... it became a place of darkness, corrupted by the very magic it sought to control. Your parents... they left you in my care when you were just a baby, before they vanished into the shadows of that place.", speaker = "Elder" },
     new Dialogue { text = "Your parents were part of a grand endeavor to restore ancient knowledge, but the academy fell into darkness. It became a place of danger and corruption. They left you with me for your safety, away from the peril that claimed their work.", speaker = "Elder" },
-    new Dialogue { text = "This rod was their final gift to you, a weapon they created to protect you. It harnesses the power of lightning—both a tool and a weapon. But, Eira... the path to the academy is dangerous. I urge you to reconsider.", speaker = "Eira" },
-    new Dialogue { text = "I have to know the truth, Elder. I need to find out what happened to them and what has become of the academy.", speaker = "Elder" },
+    new Dialogue { text = "This rod was their final gift to you, a weapon they created to protect you. It harnesses the power of lightning—both a tool and a weapon. But, Eira... the path to the academy is dangerous. I urge you to reconsider.", speaker = "Elder" },
+    new Dialogue { text = "I have to know the truth, Elder. I need to find out what happened to them and what has become of the academy.", speaker = "Eira" },
     new Dialogue { text = "Very well. The only path to the academy lies through a cave known as The Beneath. It is a treacherous journey, but it is the only way. May the light guide your path, Eira.", speaker = "Elder" },
 };
    
