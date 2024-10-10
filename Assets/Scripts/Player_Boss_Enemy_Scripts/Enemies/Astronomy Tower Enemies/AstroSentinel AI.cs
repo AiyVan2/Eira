@@ -11,29 +11,49 @@ public class AstroSentinelAI : MonoBehaviour
     public float shootingInterval = 2f;     // Time interval between each shot
     public float projectileSpeed = 5f;      // Speed of the projectiles
     public Transform shootPoint;            // The point from where projectiles are shot
+    public float shootingRange = 8f;        // Range at which the sentinel will start shooting
 
     private Vector3 startPosition;          // Starting position to calculate hover range
     private bool movingUp = true;           // To determine hover direction (up or down)
-    public int shootingRange = 8;
-
+    private bool isShooting = false;        // Track if the sentinel is currently shooting
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    //Audio
+    // Audio
     public AudioManager audioManager;
-
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();    
+        spriteRenderer = GetComponent<SpriteRenderer>();
         startPosition = transform.position; // Store the initial position to handle hovering
-        StartCoroutine(ShootAtPlayer());    // Start shooting projectiles at intervals
     }
 
     private void Update()
     {
         Hover();  // Handle hovering movement
+
+        // Check if the player is within shooting range
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= shootingRange)
+        {
+            // Start shooting if not already shooting
+            if (!isShooting)
+            {
+                isShooting = true;
+                StartCoroutine(ShootAtPlayer());
+            }
+        }
+        else
+        {
+            // Stop shooting if player is out of range
+            if (isShooting)
+            {
+                isShooting = false;
+                StopCoroutine(ShootAtPlayer());
+            }
+        }
     }
 
     // Hovering movement
@@ -47,7 +67,7 @@ public class AstroSentinelAI : MonoBehaviour
     // Coroutine to shoot projectiles at the player at regular intervals
     private IEnumerator ShootAtPlayer()
     {
-        while (true)
+        while (isShooting)
         {
             yield return new WaitForSeconds(shootingInterval); // Wait for the defined interval
 
@@ -59,35 +79,28 @@ public class AstroSentinelAI : MonoBehaviour
         }
     }
 
-
-
     // Function to shoot a projectile
     private void ShootProjectile()
     {
         if (player != null)
         {
-            // Calculate distance to the player
-            float distanceToPlayer = Vector2.Distance(shootPoint.position, player.position);
+            // Calculate direction to the player
+            Vector2 direction = (player.position - shootPoint.position).normalized;
 
-            // Check if the player is within range
-            if (distanceToPlayer <= shootingRange)
+            // Create the projectile
+            GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+            // Get Rigidbody2D of the projectile to apply force
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            if (rb != null)
             {
-                // Create the projectile
-                GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
-
-                // Calculate direction to the player
-                Vector2 direction = (player.position - shootPoint.position).normalized;
-
-                // Get Rigidbody2D of the projectile to apply force
-                Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-                if (rb != null)
-                {
-                    rb.velocity = direction * projectileSpeed; // Set the projectile's velocity
-                }
-                FacePlayer();
+                rb.velocity = direction * projectileSpeed; // Set the projectile's velocity
             }
+
+            FacePlayer();
         }
     }
+
     private void FacePlayer()
     {
         if (player == null) return;
@@ -102,6 +115,5 @@ public class AstroSentinelAI : MonoBehaviour
         {
             spriteRenderer.flipX = true; // Face left
         }
-
     }
 }

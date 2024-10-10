@@ -102,7 +102,7 @@ public class CorruptedSentinel : MonoBehaviour
 
     void ShootProjectile()
     {
-        Vector2 direction = (player.position - firePoint.position).normalized;
+        Vector2 direction = new Vector2(player.position.x - firePoint.position.x,0).normalized;
 
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
 
