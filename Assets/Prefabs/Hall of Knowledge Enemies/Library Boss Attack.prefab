@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99b28a3174abd448b6616923632262d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemydamage: 10
+  enemydamage: 30
 --- !u!50 &6565800522456287254
 Rigidbody2D:
   serializedVersion: 4

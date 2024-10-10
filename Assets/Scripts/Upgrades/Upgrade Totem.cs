@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UpgradeTotem : MonoBehaviour
 {
     public GameObject playerControlls;
+    public GameObject pause;
     public GameObject upgradeScreen;
 
     //Buttons
@@ -31,12 +32,14 @@ public class UpgradeTotem : MonoBehaviour
     public void showUpgradeScreen()
     {
         playerControlls.gameObject.SetActive(false);
+        pause.SetActive(false);
         upgradeScreen.gameObject.SetActive(true);
         hideupgradescreenButton.gameObject.SetActive(true);
     }
     public void hideUpgradeScreen()
     {
         playerControlls.gameObject.SetActive(true);
+        pause.SetActive(true);
         upgradeScreen.gameObject.SetActive(false);
         hideupgradescreenButton.gameObject.SetActive(false);
     }

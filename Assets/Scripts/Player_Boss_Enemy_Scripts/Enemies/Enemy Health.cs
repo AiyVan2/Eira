@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
 
 
     //Lumin Shard Drop
-    private int luminCount = 3;
+    private int luminCount;
     private float spreadForce = 5f; // Define the explosion force value
     public void Start()
     {
@@ -48,6 +48,8 @@ public class EnemyHealth : MonoBehaviour
 
     public void dropluminShards()
     {
+
+        luminCount = Random.Range(1, 5);
 
         for (int i = 0; i < luminCount ; i++)
         {

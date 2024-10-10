@@ -48,14 +48,14 @@ public class finalboss : MonoBehaviour
 
     void Update()
     {
-        if(bossHealth.health > 250)
+        if(bossHealth.health >= 800)
         {
             if (canAttack && !isVanishing)
             {
                 StartCoroutine(AttackCycle());
             }
         } 
-        if(bossHealth.health < 250)
+        else /*(bossHealth.health < 800)*/
         {
             if(canAttack && !isVanishing)
             {
@@ -83,7 +83,7 @@ public class finalboss : MonoBehaviour
 
         // Idle before Attack 1
         animator.SetBool("idle", true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
 
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
@@ -101,7 +101,7 @@ public class finalboss : MonoBehaviour
         yield return StartCoroutine(ChargeInStraightLine());
         animator.SetBool("Attack2", false);
         animator.SetBool("idle", true);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
 
         canAttack = true;
 
@@ -127,7 +127,7 @@ public class finalboss : MonoBehaviour
 
         // Idle before Attack 1
         animator.SetBool("idle", true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
 
         // Attack 1 (Wide attack - spawn 2 prefabs)
         animator.SetBool("Attack1", true);
@@ -146,7 +146,7 @@ public class finalboss : MonoBehaviour
         yield return StartCoroutine(ChargeInStraightLine());
         animator.SetBool("Attack2", false);
         animator.SetBool("idle", true);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
 
         // Attack 3 (Wider attack - spawn 3 prefabs)
         animator.SetBool("idle", false);
@@ -162,14 +162,14 @@ public class finalboss : MonoBehaviour
         yield return new WaitForSeconds(1f);
         animator.SetBool("Attack3", false);
         animator.SetBool("idle", true);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
 
         // Vanish and move to center
         isVanishing = true;
         animator.SetBool("Attack3", false);
         animator.SetBool("idle", false);
         yield return StartCoroutine(VanishAndMoveToCenter());
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
     }
 
     void SpawnAttackPrefabs(int numberOfPrefabs)

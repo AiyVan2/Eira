@@ -26,6 +26,9 @@ public class SaveManager : MonoBehaviour
 {
     private SceneData sceneData;
 
+
+    public GameObject gamesavedText;
+
     public void SaveGame()
     {
         sceneData = new SceneData();
@@ -74,6 +77,8 @@ public class SaveManager : MonoBehaviour
         FileStream file = File.Create(Application.persistentDataPath + "/savedGame.dat");
         bf.Serialize(file, json);
         file.Close();
+
+        StartCoroutine(GameSavedText());
     }
 
     private void GetAllChildGameObjects(GameObject parent, List<GameObject> allGameObjects)
@@ -164,5 +169,12 @@ public class SaveManager : MonoBehaviour
                 playerHealth.ResetHealth();
             }
         }
+    }
+
+    IEnumerator GameSavedText()
+    {
+        gamesavedText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        gamesavedText.gameObject.SetActive(false);
     }
 }
