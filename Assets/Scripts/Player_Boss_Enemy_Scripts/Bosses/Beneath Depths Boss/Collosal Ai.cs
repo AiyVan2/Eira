@@ -31,9 +31,12 @@ public class Lurker : MonoBehaviour
     //Audio
     public AudioManager audioManager;
 
-    //Background Music
+    //Background Boss Music
     public GameObject backgroundMusic;
 
+
+    //Background Ambiance Music
+    public GameObject backgroundambianceMusic;
 
     private void Start()
     {
@@ -236,6 +239,7 @@ public class Lurker : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1.5f);
+        backgroundambianceMusic.SetActive(true);
         backgroundMusic.SetActive(false);
         swap.returntoPlayerCamera();
         Doors.SetActive(false);

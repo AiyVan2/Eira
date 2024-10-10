@@ -41,8 +41,14 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
     //Audio
     public AudioManager audioManager;
 
-    //Background Music
+    //Background Boss Music
     public GameObject backgroundMusic;
+
+
+    //background Ambiance Music
+    public GameObject backgroundambianceMusic;
+
+
 
     private void Start()
     {
@@ -245,6 +251,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         bossroomBarrier.SetActive(false);
         hiddenroomBarrier.SetActive(false);
         backgroundMusic.SetActive(false);
+        backgroundambianceMusic.SetActive(true);
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }

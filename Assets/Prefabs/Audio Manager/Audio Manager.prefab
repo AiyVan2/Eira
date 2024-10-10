@@ -145,6 +145,7 @@ MonoBehaviour:
   slashSound: {fileID: 8300000, guid: dbdae68ef0cca8a4d84e7f0d0cc3173a, type: 3}
   dashSound: {fileID: 8300000, guid: c2a60cd9dc92f7b48b7dfe5221f738bd, type: 3}
   healSound: {fileID: 8300000, guid: 91d4d7695e47eb742bd506567460f61a, type: 3}
+  rangeSound: {fileID: 8300000, guid: da83f198c3ae11b478545fc7e20ed655, type: 3}
   takingdamageSound: {fileID: 8300000, guid: 474523b2bd4a58e41bf3f59fbe267512, type: 3}
   enemydeathSound: {fileID: 8300000, guid: 513179d4a8737e54fbd7012eb7c9cd6c, type: 3}
   collosalmeleeattackSound: {fileID: 8300000, guid: 06064589206d0da4a9da3b55b16bdab1, type: 3}

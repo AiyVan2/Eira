@@ -6,17 +6,25 @@ public class BackgroundMusicManager : MonoBehaviour
 {
     private AudioSource audioSource;
     public AudioClip backgroundMusic;
-    private void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.clip = backgroundMusic;
-        audioSource.loop = true; // Enable looping
-        audioSource.Play(); // Start playing the music
-    }
+    //private void Start()
+    //{
+    //    audioSource = GetComponent<AudioSource>();
+    //    audioSource.clip = backgroundMusic;
+    //    audioSource.loop = true; // Enable looping
+    //    audioSource.Play(); // Start playing the music
+    //}
 
     private void OnEnable()
     {
-        // This is optional, as the music will already be set in Start.
-        audioSource.clip = backgroundMusic;
+       if(audioSource == null)
+        {
+            audioSource=GetComponent<AudioSource>();
+        }
+       if(!audioSource.isPlaying)
+        {
+            audioSource.clip = backgroundMusic;
+            audioSource.loop = true; // Enable looping
+            audioSource.Play(); // Start playing the music
+        }
     }
 }

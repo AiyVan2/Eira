@@ -221,7 +221,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isAttacking2", true);
             SpawnScholarProjectile();
             StartCoroutine(ResetAttackAnimation("isAttacking2"));
-
+            audioManager.PlayRangeSound();
             // Start cooldown for the next attack
             StartCoroutine(AttackCooldownCoroutine());
         }

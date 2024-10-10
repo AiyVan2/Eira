@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip slashSound;
     public AudioClip dashSound;
     public AudioClip healSound;
+    public AudioClip rangeSound;
     public AudioClip takingdamageSound;
 
 
@@ -90,6 +91,11 @@ public class AudioManager : MonoBehaviour
     public void PlayHealSound()
     {
         PlaySound(healSound);
+    }
+
+    public void PlayRangeSound()
+    {
+        PlaySound(rangeSound);
     }
 
     public void PlayEnemyDeathSound()
