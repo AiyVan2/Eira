@@ -45,7 +45,6 @@ public class EnemyHealth : MonoBehaviour
         spriteRenderer.color = Color.white;
     }
 
-
     public void dropluminShards()
     {
 

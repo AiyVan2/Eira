@@ -1771,7 +1771,7 @@ Transform:
   m_GameObject: {fileID: 185462123}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.37679672, y: 0.20565414, z: -2.8686137}
+  m_LocalPosition: {x: 0.37677765, y: 0.20565414, z: -2.8686137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7715,7 +7715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healAmount
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: playerMana

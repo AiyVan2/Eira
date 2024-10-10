@@ -44,8 +44,8 @@ GameObject:
   - component: {fileID: 2221415944994284217}
   - component: {fileID: 4739995092853574728}
   - component: {fileID: 6681981041257728862}
-  - component: {fileID: 5148846426991310753}
   - component: {fileID: 3330184851275139801}
+  - component: {fileID: 5148846426991310753}
   - component: {fileID: 6132059496590090545}
   m_Layer: 0
   m_Name: Astro Sentinel
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &4739995092853574728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -208,20 +208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemydamage: 20
---- !u!114 &5148846426991310753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3287759691869411995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba90b5cef6c81b24ca362a9ab9ad1156, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
-  hitEffect: {fileID: 6336858499674464611}
 --- !u!114 &3330184851275139801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +227,24 @@ MonoBehaviour:
   shootingInterval: 2
   projectileSpeed: 5
   shootPoint: {fileID: 7570275241603594307}
-  shootingRange: 8
+  shootingRange: 30
+  audioManager: {fileID: 0}
+--- !u!114 &5148846426991310753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287759691869411995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba90b5cef6c81b24ca362a9ab9ad1156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  luminShards: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+  hitEffect: {fileID: 6336858499674464611}
+  audioManager: {fileID: 0}
 --- !u!95 &6132059496590090545
 Animator:
   serializedVersion: 5

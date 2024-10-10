@@ -33325,6 +33325,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 318611}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: healAmount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: playerMana
       value: 
       objectReference: {fileID: 1746429832}
@@ -33332,6 +33336,10 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 354132945}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: healManaCost
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healthSlider
       value: 
@@ -37626,7 +37634,7 @@ Transform:
   m_GameObject: {fileID: 1696486485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.280467, y: -0.41594315, z: -9.979007}
+  m_LocalPosition: {x: 6.5026655, y: -0.41575336, z: -9.979007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
