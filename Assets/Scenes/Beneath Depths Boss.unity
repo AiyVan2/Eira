@@ -696,6 +696,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159424089}
   m_CullTransparentMesh: 1
+--- !u!1 &195568143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195568144}
+  - component: {fileID: 195568145}
+  m_Layer: 0
+  m_Name: Right Barrier (when boss dead)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &195568144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195568143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -205, y: -16.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1464472951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &195568145
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195568143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13988495, y: 0.9792023}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2797699, y: 4.3572693}
+  m_EdgeRadius: 0
 --- !u!1 &206380948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,6 +2207,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 609145048}
     - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: luminbossDrop
+      value: 
+      objectReference: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: backgroundMusic
       value: 
       objectReference: {fileID: 1932012217}
@@ -2137,6 +2218,10 @@ PrefabInstance:
       propertyPath: backgroundambianceMusic
       value: 
       objectReference: {fileID: 2022317815}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: playerBarriernocomingback
+      value: 
+      objectReference: {fileID: 195568143}
     - target: {fileID: 4331960238216093790, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: m_Name
       value: Depths Mini Boss
@@ -41131,6 +41216,7 @@ Transform:
   - {fileID: 383128131}
   - {fileID: 1156132099}
   - {fileID: 1745078860}
+  - {fileID: 195568144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1490582967

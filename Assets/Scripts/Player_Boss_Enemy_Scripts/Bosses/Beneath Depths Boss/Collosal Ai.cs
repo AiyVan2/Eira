@@ -40,6 +40,10 @@ public class Lurker : MonoBehaviour
 
     //Boss Drop
     public GameObject bossDrop;
+    public GameObject luminbossDrop;
+
+    //Boos Barrier when the player killed the boss
+    public GameObject playerBarriernocomingback;
 
     private void Start()
     {
@@ -243,10 +247,21 @@ public class Lurker : MonoBehaviour
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1.5f);
         Instantiate(bossDrop, transform.position, Quaternion.identity);
+        luminshardbossDrop();
+        playerBarriernocomingback.SetActive(true);
         backgroundambianceMusic.SetActive(true);
         backgroundMusic.SetActive(false);
         swap.returntoPlayerCamera();
         Doors.SetActive(false);
         gameObject.SetActive(false);
+    }
+
+    private void luminshardbossDrop()
+    {
+        int luminshardcount = Random.Range(4, 7);
+        for(int i = 0;  i < luminshardcount; i++)
+        {
+            Instantiate(luminbossDrop, transform.position, Quaternion.identity);
+        }
     }
 }
