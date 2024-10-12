@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Rendering;
+using Random = UnityEngine.Random;
 
 public class ArchivusTheLibrarianAI : MonoBehaviour
 {
@@ -51,7 +52,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     //Boss Drop
     public GameObject bossDrop;
-
+    public GameObject bossluminDrop;
 
 
     private void Start()
@@ -257,7 +258,16 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         backgroundMusic.SetActive(false);
         backgroundambianceMusic.SetActive(true);
         yield return new WaitForSeconds(1f);
+        BossLuminDrop();
         Instantiate(bossDrop, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
+    }
+    private void BossLuminDrop()
+    {
+        int luminsharddropcount = Random.Range(4, 7);
+        for (int i = 0; i < luminsharddropcount; i++)
+        {
+            Instantiate(bossluminDrop, transform.position, Quaternion.identity);
+        }
     }
 }
