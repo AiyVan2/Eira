@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 1562453500881279225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.48, z: 0}
-  m_LocalScale: {x: 6.9993734, y: 7.0587654, z: 5.44868}
+  m_LocalPosition: {x: 0.03, y: 0.23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 5.44868}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 494041045478522142}
@@ -5039,6 +5039,7 @@ MonoBehaviour:
   health: 10
   luminShards: {fileID: 0}
   hitEffect: {fileID: 1920308568707518981}
+  audioManager: {fileID: 0}
 --- !u!114 &6265244886757787589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5062,6 +5063,7 @@ MonoBehaviour:
   shootPoint: {fileID: 5558211803693409185}
   attackDelay: 1
   detectionRange: 10
+  audioManager: {fileID: 0}
 --- !u!95 &6234397676013174390
 Animator:
   serializedVersion: 5

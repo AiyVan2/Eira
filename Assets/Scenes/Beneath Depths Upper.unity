@@ -14395,7 +14395,7 @@ Transform:
   m_GameObject: {fileID: 433644627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.468994, y: 22.059431, z: 13.054626}
+  m_LocalPosition: {x: -47.135574, y: 22.079731, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16062,7 +16062,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 130
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -17130,8 +17130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 6, y: -42.80005}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 6, y: -16.606}
+  m_SizeDelta: {x: 160, y: 17.413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888438106 stripped
 MonoBehaviour:
@@ -19265,8 +19265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -24.5, y: -18.8}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -45.9, y: -2.3}
+  m_SizeDelta: {x: 109.69971, y: 8.04943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372238703
 MonoBehaviour:
@@ -19290,10 +19290,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e1a52567ad3dd14469e75369c5615760, type: 3}
-    m_FontSize: 6
+    m_FontSize: 4
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0

@@ -13,8 +13,8 @@ public class PlayerStats : MonoBehaviour
 
 
     // Maximum Damage Cap
-    private const int maxMechanicDamage = 35;  // Cap for mechanic damage
-    private const int maxScholarDamage = 35;    // Cap for scholar damage
+    private const int maxMechanicDamage = 42;  // Cap for mechanic damage
+    private const int maxScholarDamage = 45;    // Cap for scholar damage
 
 
     // Start is called before the first frame update

@@ -197,6 +197,7 @@ MonoBehaviour:
   explosionForce: 5
   attackCooldown: 3
   player: {fileID: 0}
+  audioManager: {fileID: 0}
 --- !u!114 &9071025969955262637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  luminShards: {fileID: 0}
   hitEffect: {fileID: 8771126314468528744}
+  audioManager: {fileID: 0}
 --- !u!95 &6792180486114406355
 Animator:
   serializedVersion: 5
@@ -259,8 +262,8 @@ Transform:
   m_GameObject: {fileID: 7550725407521208000}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.7700005, y: 1.4342136, z: 0}
-  m_LocalScale: {x: 6.9993734, y: 7.0587654, z: 5.44868}
+  m_LocalPosition: {x: -0.01, y: -0.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 5.44868}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662682470555194051}

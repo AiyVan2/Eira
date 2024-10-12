@@ -651,7 +651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.2, y: 12.8}
+  m_AnchoredPosition: {x: 81.3, y: -31.2}
   m_SizeDelta: {x: 110.5249, y: 9.68917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &159424091
@@ -675,13 +675,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e1a52567ad3dd14469e75369c5615760, type: 3}
     m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -893,6 +893,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: dash
+      value: 
+      objectReference: {fileID: 280609011}
+    - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dust
       value: 
       objectReference: {fileID: 1967761005}
@@ -934,7 +938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 116.9
+      value: 117.2
       objectReference: {fileID: 0}
     - target: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1010,6 +1014,11 @@ PrefabInstance:
 --- !u!4 &280609010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8583747634230472110, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+  m_PrefabInstance: {fileID: 280609009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &280609011 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7027436549481546420, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
   m_PrefabInstance: {fileID: 280609009}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &317835250 stripped
@@ -2104,6 +2113,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 950296369}
+    - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
+      propertyPath: bossDrop
+      value: 
+      objectReference: {fileID: 5596592128281202661, guid: e272ec4bf7f0e3a4ea345ea3a53f59c6, type: 3}
     - target: {fileID: 3971878306929272590, guid: 164dd9f2d250b8142b35dec847634313, type: 3}
       propertyPath: idleTime
       value: 1
@@ -40401,8 +40414,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -24.5, y: -18.8}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -45.9, y: -2.3}
+  m_SizeDelta: {x: 109.6997, y: 8.04943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240442705
 MonoBehaviour:
@@ -40426,10 +40439,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e1a52567ad3dd14469e75369c5615760, type: 3}
-    m_FontSize: 6
+    m_FontSize: 4
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 4
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -40757,7 +40770,7 @@ Transform:
   m_GameObject: {fileID: 1402848480}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -183.08917, y: -14.530472, z: 13.054626}
+  m_LocalPosition: {x: -181.14479, y: -14.54142, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42573,7 +42586,7 @@ Transform:
   m_GameObject: {fileID: 1858247739}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -171.60178, y: -9.700001, z: 13.054626}
+  m_LocalPosition: {x: -171.30177, y: -9.700001, z: 13.054626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

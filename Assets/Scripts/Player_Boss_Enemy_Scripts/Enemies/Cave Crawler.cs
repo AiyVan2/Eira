@@ -11,8 +11,13 @@ public class CaveCrawler : MonoBehaviour
     // Reference to the ground layer
     public LayerMask groundLayer;
 
-    // Reference to the ground check object
-    public GameObject groundCheckObject;
+    // Raycast length for ground detection
+    public float groundCheckDistance = 0.5f;
+    public float groundCheckOffset = 0.5f; // Offset from the center to the front'
+
+    // Cooldown time for flipping
+    public float flipCooldown = 0.5f;
+    private float lastFlipTime;
 
     // Update is called once per frame
     void Update()
@@ -23,7 +28,7 @@ public class CaveCrawler : MonoBehaviour
 
     void Move()
     {
-        // Check if the ground check object is colliding with the ground
+        // Check if the enemy is grounded using raycast
         bool isGrounded = IsGrounded();
 
         // If the enemy is grounded, move forward
@@ -33,20 +38,39 @@ public class CaveCrawler : MonoBehaviour
         }
         else
         {
-            Flip();
+            // Only flip if enough time has passed since the last flip
+            if (Time.time >= lastFlipTime + flipCooldown)
+            {
+                Flip();
+                lastFlipTime = Time.time;
+            }
         }
     }
 
     bool IsGrounded()
     {
-        return groundCheckObject.GetComponent<Collider2D>().IsTouchingLayers(groundLayer);
+        // Calculate the position slightly ahead of the crawler in the direction it's facing
+        Vector2 raycastOrigin = (Vector2)transform.position + Vector2.right * direction * groundCheckOffset;
+
+        // Perform a raycast downwards from the calculated position
+        RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, Vector2.down, groundCheckDistance, groundLayer);
+
+        return hit.collider != null;
     }
 
     void Flip()
     {
-        direction *= -1; // flip direction
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        // Flip the movement direction
+        direction *= -1;
+        Vector3 scaler = transform.localScale;
+        scaler.x *= -1;
+        transform.localScale = scaler;
+    }
+
+    // Debugging purposes to visualize the raycast
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckDistance);
     }
 }

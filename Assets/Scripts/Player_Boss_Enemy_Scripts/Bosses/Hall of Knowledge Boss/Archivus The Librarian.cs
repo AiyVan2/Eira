@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -47,6 +48,9 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
 
     //background Ambiance Music
     public GameObject backgroundambianceMusic;
+
+    //Boss Drop
+    public GameObject bossDrop;
 
 
 
@@ -253,6 +257,7 @@ public class ArchivusTheLibrarianAI : MonoBehaviour
         backgroundMusic.SetActive(false);
         backgroundambianceMusic.SetActive(true);
         yield return new WaitForSeconds(1f);
+        Instantiate(bossDrop, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
     }
 }

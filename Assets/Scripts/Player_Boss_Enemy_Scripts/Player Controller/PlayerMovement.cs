@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float AttackLifetime;
     public float AttackCooldown;
     public ParticleSystem dust;
+    public ParticleSystem dash;
     public float dashSpeed;
     public float dashLifetime;
     public float dashCooldown = 5f;
@@ -288,6 +289,7 @@ public class PlayerMovement : MonoBehaviour
         if (canDash)
         {
             audioManager.PlayDashSound();
+            dash.Play();
             StartCoroutine(DashCoroutine());
             canDash = false;
             StartCoroutine(FillDashSlider());

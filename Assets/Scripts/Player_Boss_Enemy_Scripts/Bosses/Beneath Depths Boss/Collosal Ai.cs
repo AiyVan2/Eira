@@ -38,6 +38,9 @@ public class Lurker : MonoBehaviour
     //Background Ambiance Music
     public GameObject backgroundambianceMusic;
 
+    //Boss Drop
+    public GameObject bossDrop;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -239,6 +242,7 @@ public class Lurker : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1.5f);
+        Instantiate(bossDrop, transform.position, Quaternion.identity);
         backgroundambianceMusic.SetActive(true);
         backgroundMusic.SetActive(false);
         swap.returntoPlayerCamera();

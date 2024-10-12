@@ -22,8 +22,8 @@ public class UpgradeMenu : MonoBehaviour
     {
         // Update UI with current values
         luminShardText.text = "Lumin Shards: " + playerLumin.currentCurrency;
-        mechanicDamageText.text = "Mechanic Damage: " + playerStats.mechanicDamage;
-        scholarDamageText.text = "Scholar Damage: " + playerStats.scholarDamage;
+        mechanicDamageText.text = "Mechanic Damage: " + playerStats.mechanicDamage + " (Max: 42)";
+        scholarDamageText.text = "Scholar Damage: " + playerStats.scholarDamage + " (Max: 45)";
     }
 
     // Button function to upgrade mechanic damage
@@ -43,7 +43,7 @@ public class UpgradeMenu : MonoBehaviour
     // Button function to upgrade scholar damage
     public void UpgradeScholar()
     {
-        int upgradeAmount = 8;
+        int upgradeAmount = 10;
         if (playerStats.UpgradeScholarDamage(upgradeAmount))
         {
             Debug.Log("Scholar damage upgraded!");
