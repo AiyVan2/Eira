@@ -12,6 +12,7 @@ public class RevealPlatform : MonoBehaviour
     public SpriteRenderer platform3;
     public SpriteRenderer platform4;
     public SpriteRenderer platform5;
+    public SpriteRenderer platform6;
 
     public bool visible = false;
 
@@ -48,12 +49,14 @@ public class RevealPlatform : MonoBehaviour
         platform3.enabled = true;
         platform4.enabled = true;
         platform5.enabled = true;
+        platform6.enabled = true;
         yield return new WaitForSeconds(5f);
         platform1.enabled = false;
         platform2.enabled = false;
         platform3.enabled = false;
         platform4.enabled = false;
         platform5.enabled = false;
+        platform6.enabled = false;
       
         spriteRenderer.color = Color.white;
         swap.returntoPlayerCamera();

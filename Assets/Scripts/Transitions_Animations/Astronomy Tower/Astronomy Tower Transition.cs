@@ -20,6 +20,6 @@ public class AstronomyTowerTransition : MonoBehaviour
     {
         transitionanim.SetTrigger("End");
         yield return new WaitForSeconds(transitionanim.GetCurrentAnimatorStateInfo(0).length);
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(13);
     }
 }

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,616 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: three faced man 32x48_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e0eefad00e294b96d4bbcc709b862
+      internalID: -778878435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51409626, y: 0.508352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3f684823a90be439e5e7b7268abdf9
+      internalID: -1022494005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe57e2af8752640bd1a08bbab658d9
+      internalID: 1734062911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3b5658f735d80479c3f73bdf023446
+      internalID: 1491504740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4621794, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa6240fb922db74c957c0e6b75ec4c4
+      internalID: -76691106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46974182, y: 0.48991436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0043350e459844eb80d669bbbdfea5
+      internalID: 1050589637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46217856, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb0c730f8291d5498a4c2285846795c
+      internalID: 53037798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.47730678, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f796a3ea2d09684295f047de50e4f4c
+      internalID: -1839633334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552986, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda22af95a3a3e478524f1394cc26c1
+      internalID: 364144693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552986, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c28e494e2e3a8b42b26cb53d9afd84a
+      internalID: 1510712657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5170193, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec42a283f18942d42b2f2f6e807db333
+      internalID: -810561101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.45745087, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ecaad770c43c44aaf563982a9a03d
+      internalID: -1777951418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51701736, y: 0.505043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263a63846a49c347bf92ad2d0a7b0b0
+      internalID: 164356118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_13
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552795, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93281c41d7fb944db6cf10fc6be2e37
+      internalID: -1903459613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_14
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552795, y: 0.505043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d6cfefe069024a92ccb3c37eb5e32
+      internalID: -2096064494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_15
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552795, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdcdaf56e5cf3f4d9a1c4f66152e94a
+      internalID: 963794789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51701736, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc305dfa4957704db6e8b95332c445d
+      internalID: -2003673570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_17
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51701736, y: 0.49495724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75d74543401b4549b19977f040449cf
+      internalID: -310382219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_18
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52552795, y: 0.505043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9036ee083706cf418c164ab9d3bca97
+      internalID: -318472488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_19
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52532196, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46142bcb16fc28d4194f0f3dc2a47b3f
+      internalID: 285312332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_20
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.52532196, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5f76e425f4c474b8a742cfc3b1655f
+      internalID: -1486015284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.53165436, y: 0.503751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7107f4d6cba24691abaee4e8eb8e5
+      internalID: 1549308643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_22
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 16
+        height: 26
+      alignment: 9
+      pivot: {x: 0.53165436, y: 0.48831347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e8c54d273deb408f5f5db16b13f28
+      internalID: -1979871462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_23
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52532196, y: 0.49594867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0374e20dd952f2e40bee21657b0a9841
+      internalID: 1916503506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_24
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55957747, y: 0.4797437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3626e766542b104fab35574ad9916b6
+      internalID: -862574356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_25
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3361e20d77424a96d490b34b152fc
+      internalID: 312274301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_26
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 0
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.59002686, y: 0.49594867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00bfbfa3909ef147a3f54e4ff02aa46
+      internalID: -987032146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_27
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.57877606, y: 0.4878462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90554b9a6ce898e4a929a5a22dba5483
+      internalID: -77371269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: three faced man 32x48_28
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 0
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5675252, y: 0.4922089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e648ae74c2f5bd74e934d6bbca06e93b
+      internalID: 1805640528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +741,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      three faced man 32x48_0: -778878435
+      three faced man 32x48_1: -1022494005
+      three faced man 32x48_10: -810561101
+      three faced man 32x48_11: -1777951418
+      three faced man 32x48_12: 164356118
+      three faced man 32x48_13: -1903459613
+      three faced man 32x48_14: -2096064494
+      three faced man 32x48_15: 963794789
+      three faced man 32x48_16: -2003673570
+      three faced man 32x48_17: -310382219
+      three faced man 32x48_18: -318472488
+      three faced man 32x48_19: 285312332
+      three faced man 32x48_2: 1734062911
+      three faced man 32x48_20: -1486015284
+      three faced man 32x48_21: 1549308643
+      three faced man 32x48_22: -1979871462
+      three faced man 32x48_23: 1916503506
+      three faced man 32x48_24: -862574356
+      three faced man 32x48_25: 312274301
+      three faced man 32x48_26: -987032146
+      three faced man 32x48_27: -77371269
+      three faced man 32x48_28: 1805640528
+      three faced man 32x48_3: 1491504740
+      three faced man 32x48_4: -76691106
+      three faced man 32x48_5: 1050589637
+      three faced man 32x48_6: 53037798
+      three faced man 32x48_7: -1839633334
+      three faced man 32x48_8: 364144693
+      three faced man 32x48_9: 1510712657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
