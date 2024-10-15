@@ -1666,7 +1666,7 @@ MonoBehaviour:
   luminshardDrop: {fileID: 256783331866861753, guid: 2c1a6e3fd1916aa48a2e2336299259ac, type: 3}
   spreadForce: 10
   hit: {fileID: 1345361814}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 609145048}
 --- !u!50 &254001136
 Rigidbody2D:
   serializedVersion: 4
@@ -1931,8 +1931,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -27.44957, y: 5.8818665}
       - {x: -56.59796, y: 3.0453339}
-      - {x: -56.425415, y: -20.511982}
-      - {x: -42.582756, y: -21.209251}
+      - {x: -56.2925, y: -25.562866}
+      - {x: -42.31692, y: -25.861385}
       - {x: -42.005753, y: -31.240257}
       - {x: 8.28363, y: -31.369492}
       - {x: 7.9035416, y: -35.528816}
@@ -1966,6 +1966,14 @@ PrefabInstance:
       propertyPath: currencyText
       value: 
       objectReference: {fileID: 1981858751}
+    - target: {fileID: 2384343480422228796, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496526799502370415, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3918668693958906444, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2063,9 +2071,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 936789450}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: manaText
+      value: 
+      objectReference: {fileID: 1981858754}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healAmount
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 1981858753}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: playerMana
       value: 
@@ -94352,6 +94368,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1030835104249332314, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
   m_PrefabInstance: {fileID: 1981858748}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1981858753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2946909793141130029, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1981858754 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2059218425620125554, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1981858748}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1982431500
 GameObject:
   m_ObjectHideFlags: 0

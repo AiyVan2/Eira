@@ -31,6 +31,9 @@ public class PlayerHealth : MonoBehaviour
     // Audio
     public AudioManager audioManager;
 
+    //Health and Mana Text
+    public Text healthText;
+    public Text manaText;
 
     void Start()
     {
@@ -77,6 +80,8 @@ public class PlayerHealth : MonoBehaviour
     private void Update()
     {
         playerMana.value = currentMana;
+        healthText.text = currentHealth.ToString() + "/" + maxHealth.ToString();
+        manaText.text = currentMana.ToString() + "/" + maxMana.ToString();
     }
     public void SaveHealth()
     {

@@ -321,6 +321,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15153171}
   m_CullTransparentMesh: 1
+--- !u!114 &35269800 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2059218425620125554, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1546861236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &35269801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2946909793141130029, guid: 40effa6cc7553fc48bbb8741de201b19, type: 3}
+  m_PrefabInstance: {fileID: 1546861236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &61478120
 GameObject:
   m_ObjectHideFlags: 0
@@ -16882,6 +16904,14 @@ PrefabInstance:
       propertyPath: currentCurrency
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2384343480422228796, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496526799502370415, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7274133427056545846, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: dash
       value: 
@@ -16951,9 +16981,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 318611}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: manaText
+      value: 
+      objectReference: {fileID: 35269800}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: healAmount
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 35269801}
     - target: {fileID: 8853087730529580627, guid: 8e7b102510f12f147882a771bd0cc5af, type: 3}
       propertyPath: playerMana
       value: 
@@ -24990,7 +25028,7 @@ Transform:
   m_GameObject: {fileID: 1696486485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 80.33507, y: 34.509518, z: -9.979007}
+  m_LocalPosition: {x: 80.33237, y: 34.509518, z: -9.979007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
