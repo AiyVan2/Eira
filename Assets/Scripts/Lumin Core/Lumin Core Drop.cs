@@ -36,7 +36,7 @@ public class LuminCoreDrop : MonoBehaviour
             {
                 lumindropshardCount();
                 audioManager.PlayEnemyDeathSound();
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }
