@@ -1110,392 +1110,441 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: COncept Sheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: fd2146d3706714b4e820d23c907f4753
-    - name: COncept Sheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 5ec6a990cb080a6488dce35879b20213
-    - name: COncept Sheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: bb2e3040d83bb0746ac12139f59ffcf7
-    - name: COncept Sheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 1284d63c5d30e0e4b822ac001cf16a28
-    - name: COncept Sheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 4d8e43dd95b9f044a909f83cb881030b
-    - name: COncept Sheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 0009348f39e39f34386ba1979ea94d6d
-    - name: COncept Sheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 5c276c72609cfd44db1bf2f68e3645c9
-    - name: COncept Sheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 7c9bfaccebae6c7489b7b41e4ef9c2df
-    - name: COncept Sheet_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 4e73c471a00949e4a9a6c4b14684036c
-    - name: COncept Sheet_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: a91b875cae85e31419af54830fd52ce6
-    - name: COncept Sheet_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: b798878982284614e8ffbd4fc983e1b3
-    - name: COncept Sheet_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 96270df6ec3a46c40848c6439eaaa75f
-    - name: COncept Sheet_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: f969d036b02d5f14788851c49c904fd9
-    - name: COncept Sheet_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 23c0f6df6f9062e44a5f3bb86920ff96
-    - name: COncept Sheet_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 807a9ca5c97dc71458c58b2b57acb4ab
-    - name: COncept Sheet_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 67689b9360a27594b9f93756f7e8a03e
-    - name: COncept Sheet_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: e6c002aa7e3c29e4a8cc2a7515b32caf
-    - name: COncept Sheet_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 15600f0cb8188fb488a78007f7675e02
-    - name: COncept Sheet_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 883f2702601a9c84cbf48ab78ddc965b
-    - name: COncept Sheet_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 7bb46ed49e7c89340968ce34a2b9e279
-    - name: COncept Sheet_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: ba2601213c952ae459c5ab53896ab7e4
-    - name: COncept Sheet_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 08f78c7aeca5e724e991cc7e770ef5b9
-    - name: COncept Sheet_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 897d77d78086e484885093876d315e2b
-    - name: COncept Sheet_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 2068c66d68447174292af9acef02bd22
-    - name: COncept Sheet_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 9994b6f7894b00c4697ec214677949cb
-    - name: COncept Sheet_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: f823ce16715311244889ba2a33a7571d
-    - name: COncept Sheet_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 299f558a811c40a4fa599d2d6b897aa9
-    - name: COncept Sheet_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 77a33e90c8cd3224aa6bde71d8106354
-    - name: COncept Sheet_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 553d10c72c6c026499ac88b7ed430071
-    - name: COncept Sheet_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: efc34995eaa3a8249b242c6632551086
-    - name: COncept Sheet_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 34c4c861d6d4d8b44ac43208e955f934
-    - name: COncept Sheet_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: bcd2005ded8e76f4398ca78631eb18fd
-    - name: COncept Sheet_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: b9606286bec14da4980a6b808b426c51
-    - name: COncept Sheet_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 57496a0025d189b4e953ca77610713d0
-    - name: COncept Sheet_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 7cc82f45be625ab469df78580115434a
-    - name: COncept Sheet_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 9d9d8ebe25bfe554b83473c1d1cbd356
-    - name: COncept Sheet_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 82aad87a3db0d6c48b643f4654503ecd
-    - name: COncept Sheet_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: af20263e10415c74e9a9bef399acc790
-    - name: COncept Sheet_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: b04486f09c4020941a53308448a4bc38
-    - name: COncept Sheet_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 7a02a3bd163b87e4ab85427e91dd6b3c
-    - name: COncept Sheet_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 3b60973b34c25164fa582e61be498d94
-    - name: COncept Sheet_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 45a3d0d70f3f82943a24803b9902269c
-    - name: COncept Sheet_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 05fc04fb778480b4cae9cbd351b08b7b
-    - name: COncept Sheet_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 94b196b93bd1cd642be797c3522c8805
-    - name: COncept Sheet_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 081a898e97a40e5408c2ec76f4150153
-    - name: COncept Sheet_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 50314d6657bc09848acb6569d2a58ed6
-    - name: COncept Sheet_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: f5ffcc52c81932d408c1a164251d3837
-    - name: COncept Sheet_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 270
         height: 128
       spriteId: 695d80bf7a0ed914d8876b7f0f2c9450
-    - name: COncept Sheet_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

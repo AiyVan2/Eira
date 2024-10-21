@@ -1830,680 +1830,765 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: COVERt_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 98abed6e3030dc242b5e69ae8133dcee
-    - name: COVERt_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: a7e4fa79e5f4edf41a00af5a2d7af8cb
-    - name: COVERt_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 3256c8462a5223e429d9ac6008271538
-    - name: COVERt_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: f6b67e217a102d24db631f1aa190321f
-    - name: COVERt_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 81b336c9e6cbb1f43b242f56c9f23446
-    - name: COVERt_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: e42bf9fddeb0baf4090a483a8224aa46
-    - name: COVERt_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 307cb12c3d0799940bcaa6e562fc8fea
-    - name: COVERt_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: fff512d9c3fe32f499495990f00c98ea
-    - name: COVERt_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 274c7597aa012b543b56b9e2f0392dce
-    - name: COVERt_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 3fccdef8934b8594ba215457d261ead6
-    - name: COVERt_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 669917cde918dec41a12b2e3ec088962
-    - name: COVERt_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 47f4381625f4b434ca2b7bbe23c58044
-    - name: COVERt_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: c50f12bacc2d96a4296cc463db8886c2
-    - name: COVERt_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 6f0f23a055a706a4682f8b45d6fa7708
-    - name: COVERt_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 352783f74aabb1e4ca0bf70bc5729e92
-    - name: COVERt_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d5c1e4fffed2ecb46b1bf3b5b85a43fd
-    - name: COVERt_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 239ad82e732e27b4cbde28fed37b7585
-    - name: COVERt_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 7ba3da0ab1c73c74687a244f3a6feb7e
-    - name: COVERt_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: a9a70dc6adfa7d44e84495a07e70608c
-    - name: COVERt_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 775737c4d58579d44b6c960f62c2e954
-    - name: COVERt_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: de9fcbdd4688f4741b8349a895261776
-    - name: COVERt_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d134386abf0d7154e84f016ca809846c
-    - name: COVERt_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 7ff38106881c1e24db0182788da2bc99
-    - name: COVERt_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: c508ced4c1552544fb780710de7c233e
-    - name: COVERt_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 7e1b9505e1a4a9149a9551f7d1c017de
-    - name: COVERt_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 012bb3f3a5aaa1c4eb6fa3791e99ffcb
-    - name: COVERt_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 94002dd4276328245b228d30ddf761e5
-    - name: COVERt_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d48068beecb66b1428f7a30a55452faa
-    - name: COVERt_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 071f97b2a61cb37478621628a09997e8
-    - name: COVERt_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d9352c66ceff9e741867c26a2ce630c8
-    - name: COVERt_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 2ed19896dc0bcf74caf3579a5d62c08b
-    - name: COVERt_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 149a136782882954b8c06c8479feb666
-    - name: COVERt_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 42c60eb452e57284d8bef0c409589637
-    - name: COVERt_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 9db55dd6d34d25247b5f42ccf5ef5b0a
-    - name: COVERt_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: ffa24d532e7a3844a89a1e2314f1f5ff
-    - name: COVERt_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 130881063c0e3694e8a94e3989d32974
-    - name: COVERt_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: ab960b56929b0ba4bb24cad5b16ef368
-    - name: COVERt_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 314c056942dfef74e9afccde63439edd
-    - name: COVERt_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 9f15b9cd11da6f6479de0dd09b2739c6
-    - name: COVERt_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 69eed609f5f244141896302b8892ce48
-    - name: COVERt_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: e9d08bd3c756e2d4ab8f6b2d5e64a42c
-    - name: COVERt_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d3a195f8abd9b484bbdfcaa74bd631dc
-    - name: COVERt_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 463bbe14fbf694b41a76d207f95fd953
-    - name: COVERt_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 6badc0a03a2e8cc4b891e0671a8bf447
-    - name: COVERt_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 227173102b77170439caa5f595fe2f7f
-    - name: COVERt_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: f0fad475d15b8a2488865bc3e20d73a1
-    - name: COVERt_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 4a0feeedbe4e3c24a825812fb6d39f3a
-    - name: COVERt_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 58c17ba8d2d3de741ab0d35fea62e5b5
-    - name: COVERt_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 0de6dd9936fc785458e94e3eb07d4ddd
-    - name: COVERt_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d3f9fb7c290374a42bea4d48f24d7bf4
-    - name: COVERt_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 6efefe78e37a7bb41944ec459b0e3c25
-    - name: COVERt_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: b4b6064fd7d8b8a4aa6d98d4fea75916
-    - name: COVERt_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 620a638c79e0f3244b435acdfc75cb52
-    - name: COVERt_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: a407620ce8c49784089ebf280159bc5d
-    - name: COVERt_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 590afaa0aba5b77469ed6790bd434b60
-    - name: COVERt_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 9c638f70816b2d741974279776ca14f2
-    - name: COVERt_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 8f103a134a84f4d44942b6f30b5bc1cd
-    - name: COVERt_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: acccfe207d2520443a2b4ee47105f0b9
-    - name: COVERt_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d3ccc84c941cd9b41815793baa037d2f
-    - name: COVERt_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 603a19e54effb894994e4829c1e6af09
-    - name: COVERt_Frame_60
+    - name: Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 610f37223de0d6642a388a3ff512bc01
-    - name: COVERt_Frame_61
+    - name: Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 53d4682bd1ea69a41a432bebefc1bd45
-    - name: COVERt_Frame_62
+    - name: Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 598ef4c94d7bc9b4d8faa27307671997
-    - name: COVERt_Frame_63
+    - name: Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: d281d98409d5ead42b9130f18c3f2a0c
-    - name: COVERt_Frame_64
+    - name: Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 81170453f441ac44189898880fa246e3
-    - name: COVERt_Frame_65
+    - name: Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: eca275f25da1bb344912f886ee708d1c
-    - name: COVERt_Frame_66
+    - name: Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 06f6d3fdd734f714ea67985002cbc0f3
-    - name: COVERt_Frame_67
+    - name: Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: e818dff9f0b76f84ca168db7d4599737
-    - name: COVERt_Frame_68
+    - name: Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 858783ce8e6658c41965297e48946858
-    - name: COVERt_Frame_69
+    - name: Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: ab8c375ca5cc2ca4ca32460f0bcb2b00
-    - name: COVERt_Frame_70
+    - name: Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 824d83c5522d0a847850ae3597410629
-    - name: COVERt_Frame_71
+    - name: Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: feb70c36ab8d00549afcbb5f239bcd00
-    - name: COVERt_Frame_72
+    - name: Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: ff497babd48d4e947908cd9d1b8c07a3
-    - name: COVERt_Frame_73
+    - name: Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 1b2fd9de88911364ba2f9c8662414414
-    - name: COVERt_Frame_74
+    - name: Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 7e8ccf65484946a4cb4aa3832d4d2cdc
-    - name: COVERt_Frame_75
+    - name: Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 07f6c96965a13f94f9a2ae40c9054dcd
-    - name: COVERt_Frame_76
+    - name: Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 1c42792b2c891aa4d82e5bf36f96c9e2
-    - name: COVERt_Frame_77
+    - name: Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 5a6d3995cfbd11d419c755cce23b12fc
-    - name: COVERt_Frame_78
+    - name: Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: f088a6a9f37b4064fa2fecf252445216
-    - name: COVERt_Frame_79
+    - name: Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: c60235119a537d34a927d22114e03766
-    - name: COVERt_Frame_80
+    - name: Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: c79b61dc113678e4fbfd162370e725d9
-    - name: COVERt_Frame_81
+    - name: Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: e70414b50608318488fad3999808b00e
-    - name: COVERt_Frame_82
+    - name: Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: aa3d95b9f6f58934fa66c854ee8c35fd
-    - name: COVERt_Frame_83
+    - name: Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43
         width: 256
         height: 235
       spriteId: 2d6267e9851fc1544b679cc48a29d03c
-    - name: COVERt_Frame_84
+    - name: Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: -3
         y: -43

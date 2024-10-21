@@ -2470,936 +2470,1053 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: NPCs_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 14
         height: 20
       spriteId: 62d84c0ac701b7e4f878888034e6d897
-    - name: NPCs_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 14
         height: 20
       spriteId: 8e7ffc3e368141649b697065a5fa8cc1
-    - name: NPCs_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 14
         height: 20
       spriteId: 134bd1d0730b9464d86f709d78ad8069
-    - name: NPCs_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 14
         height: 20
       spriteId: 0fcc54200afd0e946b04e825f1571ac6
-    - name: NPCs_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: dfb240a6ae7d5e142bbf15c1bb28264c
-    - name: NPCs_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: ae03bf6da698c3a4f882de8f60b66042
-    - name: NPCs_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 45f758fe949da0c4ca38e0433dc0b863
-    - name: NPCs_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 22e9226a020c58f48af5059f90e94ea5
-    - name: NPCs_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: a95c5256a884fe54ab70d9134a4e9fb7
-    - name: NPCs_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 882c949a42eda2c49b16bbac68d7772e
-    - name: NPCs_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 12
         height: 20
       spriteId: 8bf532976693a984ebc81ae10b15d3d3
-    - name: NPCs_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 13
         height: 20
       spriteId: 50a04049fc3eb6149a2fa7ecc302f705
-    - name: NPCs_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: fa94a2b53e0735f4bad022a8f767da85
-    - name: NPCs_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: f64ef1afffbc1f34393a9e2fa731271f
-    - name: NPCs_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: cd4b5a1808808e44091940e9230d09dd
-    - name: NPCs_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: 1c1dbab3ebcc1ca43af5fa2bffea0c5e
-    - name: NPCs_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 22
       spriteId: 078a6a41043d14448b267d564e373038
-    - name: NPCs_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 22
       spriteId: fce7a70b6a769b04c8dbacadc60526a0
-    - name: NPCs_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 10
         height: 22
       spriteId: c323ea573acbd224baa8fa8c12b66733
-    - name: NPCs_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 22
       spriteId: c7d0d1c3b159ed445820a0e6a459c8bf
-    - name: NPCs_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 23
       spriteId: a1c438d3eb3885d4da74ba9dffff5bdd
-    - name: NPCs_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: 6f23c75324b139b44909fd7e56d1e60c
-    - name: NPCs_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 23
       spriteId: 13e9fbc4c88db494ca2005b0c015cd8a
-    - name: NPCs_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 9
         height: 23
       spriteId: c9eb6f5adf38b384db6f6cb00c12bc95
-    - name: NPCs_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 10
         height: 23
       spriteId: 4fa04104d89585c49bd57eca1cfb26df
-    - name: NPCs_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 10
         height: 23
       spriteId: 3bfb8a05d020f864e98be8c5c94f0350
-    - name: NPCs_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: 46f0849871979e8448fb4f55d85885a1
-    - name: NPCs_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: 3ca25a961ab0de543ab70e2b3802c5bc
-    - name: NPCs_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: 8d85324ae77e7a0449700bbcd7fa6923
-    - name: NPCs_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: 64991a76b1aae8043ab1e4f1373e9e1b
-    - name: NPCs_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 23
       spriteId: c281e34ea44759944abf4bfb2fa2efd3
-    - name: NPCs_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: d3697bf144128a443805c5e7c50201cb
-    - name: NPCs_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 8
         height: 22
       spriteId: 2b5b9c6592faf6647b283b32ffb229c6
-    - name: NPCs_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 8d91ad04c23384b48bf0b80e769c3d5b
-    - name: NPCs_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 6a72ea58dfa1ffe46982a2cd5727aa12
-    - name: NPCs_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: eb1f7c84357be7a45ac1178b1177e503
-    - name: NPCs_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: de0b7a1889f31c241b2f7fa460e4db68
-    - name: NPCs_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 10fbad6b056d98d4ea432894a3fd5581
-    - name: NPCs_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 08368cf9f7342d54ba0844b4be0a3daf
-    - name: NPCs_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 41e5dd69a3bca974c89ab46882e37dd8
-    - name: NPCs_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 1113ff4f8683c8f47a996eb0ff823219
-    - name: NPCs_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 03ad7305900e31f4e9bd39677d3eed8c
-    - name: NPCs_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 18
       spriteId: 6ae7de9feb23f1a4fb751a2b10e1eda7
-    - name: NPCs_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 675906d57fbbd704597a08a0f5e77e55
-    - name: NPCs_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 473a211920396444a8b174a950574e2e
-    - name: NPCs_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 82083c939d8952d4884d6c6384035435
-    - name: NPCs_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: a91b2e93ad74a1f499960cc7170550e9
-    - name: NPCs_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: bf69f5f27641b014e8b241365f650b3d
-    - name: NPCs_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: d392237bc39ecb44aa127cca73e51cec
-    - name: NPCs_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: d4be24a6b8793ba40bf1822fb0157b87
-    - name: NPCs_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 30a9900859eb48042bb83df85f16b1df
-    - name: NPCs_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 7125563ff75d5334da58ba4c24c05395
-    - name: NPCs_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 18
         height: 19
       spriteId: 34d948f871c263f4ea95f6130aac4bd0
-    - name: NPCs_Frame_60
+    - name: Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: 60c52a54dee1775438251ed3bf131e1d
-    - name: NPCs_Frame_61
+    - name: Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: 74e80360a23a3fc42848b3208c65a7ca
-    - name: NPCs_Frame_62
+    - name: Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: a14a3e3bd1b83a044827e5914b77cb53
-    - name: NPCs_Frame_63
+    - name: Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: a70cba5ad7dd51047ab717bc3a3ab5b7
-    - name: NPCs_Frame_64
+    - name: Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: e24afcbfc853da2438b4b94aa5792224
-    - name: NPCs_Frame_65
+    - name: Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: f6e976098b0b01d4d930e028271a8f3d
-    - name: NPCs_Frame_66
+    - name: Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: df1f1bfa6c3fbf24e983fb4d1c78ff42
-    - name: NPCs_Frame_67
+    - name: Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: 843e8de730e4eb146a8cf6581b8f473f
-    - name: NPCs_Frame_68
+    - name: Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: eb35457e8c50d8547b88a1b890ad1475
-    - name: NPCs_Frame_69
+    - name: Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 29437a54054ac7245814f96ffbf9ab4b
-    - name: NPCs_Frame_70
+    - name: Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: ba684e23648b04f4a8c2514495851b6e
-    - name: NPCs_Frame_71
+    - name: Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 89f1303bc280cfb4d8e246567a4e7a69
-    - name: NPCs_Frame_72
+    - name: Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 686957acb41bbe142bd2595ef7a9ea7b
-    - name: NPCs_Frame_73
+    - name: Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 2ecd443fd442da842908dd47543e2dbf
-    - name: NPCs_Frame_74
+    - name: Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: e8d93f239e429ea479ae7a07b26ced2f
-    - name: NPCs_Frame_75
+    - name: Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: ad3d3f314fed8cc42b78e0f340999bfe
-    - name: NPCs_Frame_76
+    - name: Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 8e14f0d70a2df0246bd27138bbcc0f22
-    - name: NPCs_Frame_77
+    - name: Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: ebaef29c36dbdc04096cf3c34e1ec0c0
-    - name: NPCs_Frame_78
+    - name: Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: a1917e721e4c133409c73c87794949e8
-    - name: NPCs_Frame_79
+    - name: Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 16884a77fa3847c4f9143515b7fe09fd
-    - name: NPCs_Frame_80
+    - name: Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 51c5654c7a36c3c46ad62bcc23cfb38e
-    - name: NPCs_Frame_81
+    - name: Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 31b58d928f0f43441959a22b3e22bdd4
-    - name: NPCs_Frame_82
+    - name: Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: d4ce22b9a3786cf418b2bcf99526ad25
-    - name: NPCs_Frame_83
+    - name: Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 690e0e2c0fe138d4a80b401301d01ff2
-    - name: NPCs_Frame_84
+    - name: Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: b5d4f9bda5f812b45bf3b95b142168a3
-    - name: NPCs_Frame_85
+    - name: Frame_85
       frameIndex: 85
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: aa01a2a06119dc748ba32231b38e6bac
-    - name: NPCs_Frame_86
+    - name: Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 20
       spriteId: 836423d87971f1c4494d485f4cda1ff6
-    - name: NPCs_Frame_87
+    - name: Frame_87
       frameIndex: 87
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 17
         height: 19
       spriteId: a2e3587441b18884f924557dc5daa009
-    - name: NPCs_Frame_88
+    - name: Frame_88
       frameIndex: 88
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: a5a17e92b6ddbd140aec431a4f61fa8a
-    - name: NPCs_Frame_89
+    - name: Frame_89
       frameIndex: 89
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 0191758791ecc21488b976c196f543ca
-    - name: NPCs_Frame_90
+    - name: Frame_90
       frameIndex: 90
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 17
         height: 27
       spriteId: 83313d10b1f86534ebdad89a23843a26
-    - name: NPCs_Frame_91
+    - name: Frame_91
       frameIndex: 91
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 17
         height: 27
       spriteId: 07d3e4c86163be54e96aacf94f890f53
-    - name: NPCs_Frame_92
+    - name: Frame_92
       frameIndex: 92
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 18
         height: 27
       spriteId: 0904e428eaff0174cbad59fd4b4af064
-    - name: NPCs_Frame_93
+    - name: Frame_93
       frameIndex: 93
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 18
         height: 27
       spriteId: 0c62075e1e59d2d4ba8f8400967b74a1
-    - name: NPCs_Frame_94
+    - name: Frame_94
       frameIndex: 94
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 18
         height: 27
       spriteId: e1cf84a4bafc3a3448f6da39f4162b04
-    - name: NPCs_Frame_95
+    - name: Frame_95
       frameIndex: 95
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 18
         height: 27
       spriteId: be591099eea4c9f45bad6c106aae778d
-    - name: NPCs_Frame_96
+    - name: Frame_96
       frameIndex: 96
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: ef884b71a5127984ab5dd918c05ab5ff
-    - name: NPCs_Frame_97
+    - name: Frame_97
       frameIndex: 97
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 86742651c411861438378d832050732f
-    - name: NPCs_Frame_98
+    - name: Frame_98
       frameIndex: 98
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: ccd06ea27b9fa01408728a6d180d673b
-    - name: NPCs_Frame_99
+    - name: Frame_99
       frameIndex: 99
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 63fbbd88ba0dbcb419c55f9febcca18d
-    - name: NPCs_Frame_100
+    - name: Frame_100
       frameIndex: 100
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 999770685adb78c49b9e74565d564b31
-    - name: NPCs_Frame_101
+    - name: Frame_101
       frameIndex: 101
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 7a34d71689413c34e8c6b5958a011f99
-    - name: NPCs_Frame_102
+    - name: Frame_102
       frameIndex: 102
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 7e26d158a8287084cade436884ef3de3
-    - name: NPCs_Frame_103
+    - name: Frame_103
       frameIndex: 103
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: d8f29896ed311f5478e8167e3d16b6e6
-    - name: NPCs_Frame_104
+    - name: Frame_104
       frameIndex: 104
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: c84330d4c8b366641b91db248d7cad99
-    - name: NPCs_Frame_105
+    - name: Frame_105
       frameIndex: 105
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 3641d4c83e5a9954aa5da48d4d670332
-    - name: NPCs_Frame_106
+    - name: Frame_106
       frameIndex: 106
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 23d8c29cf0f0d894082b7320b4f7f896
-    - name: NPCs_Frame_107
+    - name: Frame_107
       frameIndex: 107
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: b7e752bbfa77d5847bedfa1c0348148c
-    - name: NPCs_Frame_108
+    - name: Frame_108
       frameIndex: 108
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: d0c45ee8b5667f44ab5584f2f529f5a8
-    - name: NPCs_Frame_109
+    - name: Frame_109
       frameIndex: 109
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 27
       spriteId: 1c439e9e30730ef46980482b8c47d2c8
-    - name: NPCs_Frame_110
+    - name: Frame_110
       frameIndex: 110
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 26
       spriteId: f1edebfc73e491a48872c7132c9742c8
-    - name: NPCs_Frame_111
+    - name: Frame_111
       frameIndex: 111
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 16
         height: 25
       spriteId: 4d9cbf97d41615b4eacb37692e764eb7
-    - name: NPCs_Frame_112
+    - name: Frame_112
       frameIndex: 112
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 17
         height: 25
       spriteId: 36150c5f210920247a66bd0ffe6672b7
-    - name: NPCs_Frame_113
+    - name: Frame_113
       frameIndex: 113
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
         width: 17
         height: 25
       spriteId: 8fe5e7fe3517d7c4697e854caabe6442
-    - name: NPCs_Frame_114
+    - name: Frame_114
       frameIndex: 114
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
         width: 18
         height: 25
       spriteId: 2e4188074238a2244ac819dccb8a867a
-    - name: NPCs_Frame_115
+    - name: Frame_115
       frameIndex: 115
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
         width: 18
         height: 25
       spriteId: 10cf349519b5213428e4f9f7916ed139
-    - name: NPCs_Frame_116
+    - name: Frame_116
       frameIndex: 116
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
         width: 18
         height: 26
       spriteId: fea13eaaae993fd4e88179fae6cdc15b
-    - name: NPCs_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 4b3763bce00cda4418cf7df3bde5acf2
-    - name: NPCs_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 2119ea8016dadb6498b7d14428ff9d22
-    - name: NPCs_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 7e2bb584b6f9142408886e1853be4a78
-    - name: NPCs_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 0fad8db1c3c4a1c4db19ca5718d579b6
-    - name: NPCs_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 9a192275eba19b94d933e4902c1c5445
-    - name: NPCs_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 11
         height: 20
       spriteId: 2b746b56aeb9a1049a21c2fa5b0b9aad
-    - name: NPCs_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0

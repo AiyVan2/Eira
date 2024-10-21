@@ -890,304 +890,342 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Slider 1_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 6c578ab872529e04390d1cf6905400b3
-    - name: Slider 1_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 281076283abdc224eb3a0a77d121edea
-    - name: Slider 1_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: d4ff128d5eed79744a3841928116f2b0
-    - name: Slider 1_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 198d12f09775d904596d8ceea19ea25a
-    - name: Slider 1_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 0dc413c5a8d24a14bac1b717df781d5f
-    - name: Slider 1_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 53e570326d81e694d90bec4cdcc3aa9a
-    - name: Slider 1_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 92f383c2ee3c954409868003f6e09b19
-    - name: Slider 1_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: cf6bdc85cd0ecda4d87100002a1826b9
-    - name: Slider 1_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 0e896bba42f9394419e9c527fcc1de0b
-    - name: Slider 1_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 35
         height: 8
       spriteId: 048479eab531db745bf58437e36dc803
-    - name: Slider 1_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: 5f150c0012d13b44884daa65436ece32
-    - name: Slider 1_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: af783565135b4614884dfd52a54e4ffe
-    - name: Slider 1_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: d82f89618bda4e74eb2a128c8c7ddf44
-    - name: Slider 1_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: b96ab3f4393c7b842b8de31a5bfef01b
-    - name: Slider 1_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: d074c5d0dd11fa74785ba2ad86250890
-    - name: Slider 1_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: de58961102dfe3e429933ac6ac2ca046
-    - name: Slider 1_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: 515f01024acf5624094ecf07eb2cf5cf
-    - name: Slider 1_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: 0901158fe731dff41bd2545ff603af63
-    - name: Slider 1_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: 6b4f2fdf7c601f446ae7998b9a5f7c37
-    - name: Slider 1_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: fb976bb23be37cd43aed540b6facfb15
-    - name: Slider 1_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: c8dc30da3259d6a489b043fbe7991f9c
-    - name: Slider 1_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: dfc8d8fead7a85440be3c92abbfad350
-    - name: Slider 1_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 35
         height: 11
       spriteId: 52e8cf887aeedd24e95c696644ebbbd1
-    - name: Slider 1_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: c246165a7e55f5f489221e5591a87d26
-    - name: Slider 1_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 64d92c5387fbd5544a63e3a2eeb710f6
-    - name: Slider 1_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: b6d89ed56a6cbc244a7fe83a0b502a47
-    - name: Slider 1_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 3bd77e3c944f6ee4383e2f7eebdfef77
-    - name: Slider 1_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 8673801d4a378a744b58300a452a3704
-    - name: Slider 1_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 79093db6b385aad47acd84c7a6702f8b
-    - name: Slider 1_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: ece0f1525c657a847a31b6793ebeb27b
-    - name: Slider 1_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 8fc3e31660295d742878030bd4bdd507
-    - name: Slider 1_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: ffc06fcb438bb244e88e795f940b0d23
-    - name: Slider 1_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: f48719528b2b10c46b507cb29b44dec6
-    - name: Slider 1_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 6b7ea3485adeb45438fdd7731cccfe60
-    - name: Slider 1_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: 525dc9d15acfe804190a558a3ba0abd5
-    - name: Slider 1_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: d3c124a35e7f77b49b9e2fefd1288563
-    - name: Slider 1_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5
         width: 35
         height: 5
       spriteId: af5d5d55029a1bd4bb2337da31be71fc
-    - name: Slider 1_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5

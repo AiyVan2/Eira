@@ -190,24 +190,27 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Tileset Add on_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 384
         height: 384
       spriteId: 4f35ad8101cd04842ae60e9ec3558c1f
-    - name: Tileset Add on_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 384
         height: 384
       spriteId: f0f9e9d84209273429d51050df45bbc4
-    - name: Tileset Add on_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

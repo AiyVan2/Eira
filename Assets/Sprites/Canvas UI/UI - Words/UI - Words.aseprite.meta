@@ -430,120 +430,135 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: UI - Words_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: c12ec5a68ef7cf3428368d4ca0a9f828
-    - name: UI - Words_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 7447c65004fcff44b92fea3a3f098bb7
-    - name: UI - Words_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: c7958e6d8478fc34d8a6eab3bd774118
-    - name: UI - Words_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: a6c286d991a6e5448ae4ffe6db68dcd5
-    - name: UI - Words_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 264c32ad40ac92b4f956a3887295ed6b
-    - name: UI - Words_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 4f8609e05032b6b4398800a56f277f83
-    - name: UI - Words_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 58a1a7b9c2d9b0047a47973cb4cdabb2
-    - name: UI - Words_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 41ee4739b22add949834921595464f3c
-    - name: UI - Words_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 735665e9a4f8e004bb2604bf8894346c
-    - name: UI - Words_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: a0913dfce85d431449e8108fb8b232b3
-    - name: UI - Words_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 552c1de628c426a47905de76405989bb
-    - name: UI - Words_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 639787bec067ec04094b9dd46c96eb41
-    - name: UI - Words_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 19ec441ecb08ad74b8447c0a27cbb47b
-    - name: UI - Words_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143
         width: 192
         height: 192
       spriteId: 11a0df9224fa20f43a92c0aac56272bc
-    - name: UI - Words_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -17
         y: -143

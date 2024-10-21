@@ -830,280 +830,315 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ancient Rock Animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 463bdb4fafaab354884365cd94b75119
-    - name: Ancient Rock Animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: d2e87e4a33728dd4b85eaec7c5e1ca1d
-    - name: Ancient Rock Animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 8c515bb0397259441a8fcbf47df1c765
-    - name: Ancient Rock Animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: c77c908625848584b9f748c1ea2873af
-    - name: Ancient Rock Animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: d958d78ba2528a2498dc58f96cf8d53f
-    - name: Ancient Rock Animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 53a38bd326b909e4ca0b841a3b52826f
-    - name: Ancient Rock Animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 44840ef72a95944409fc8e65d49284df
-    - name: Ancient Rock Animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 26901eceee72c2e45a88ffaa98905491
-    - name: Ancient Rock Animations_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 7700132c3a13c4945b064b921f3ebea7
-    - name: Ancient Rock Animations_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: a184852d4911eba4bb10b66d595cd1ca
-    - name: Ancient Rock Animations_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 3466b6d98964d2a49b2118072cfa0b2d
-    - name: Ancient Rock Animations_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: d9e1e7effdc024b44801bae69f97be9f
-    - name: Ancient Rock Animations_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: fc523e69bc1c21b4081dafd6976fc009
-    - name: Ancient Rock Animations_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: d605b2b058214f5448861255a3786c76
-    - name: Ancient Rock Animations_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 181ec0b371c18544bb416072e3c0d46f
-    - name: Ancient Rock Animations_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 760a5706f84e4ff49a70a156e508ed42
-    - name: Ancient Rock Animations_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 84a33d2ef3d715447b78608803111bd8
-    - name: Ancient Rock Animations_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 7648d48126f2f824a8d87c07b1f234fa
-    - name: Ancient Rock Animations_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: a1ad997e2195ab14eaed78ace04e8d2b
-    - name: Ancient Rock Animations_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 33b0f5134874242439e7499b70e59f53
-    - name: Ancient Rock Animations_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 7f730b3df12bbc747a3cb32a033a8cca
-    - name: Ancient Rock Animations_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 5b8d8c831ceda1b439c64deafe2619ec
-    - name: Ancient Rock Animations_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 8475ae1fab589204d807c7d21d30e3b4
-    - name: Ancient Rock Animations_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 5d51709c15c77ea42a4471ed4c233cfb
-    - name: Ancient Rock Animations_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 52431c6214eae1b4ba3ce42d102cdd2b
-    - name: Ancient Rock Animations_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 4a7a7215c6e398d4fae5d14a70987772
-    - name: Ancient Rock Animations_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 0275fb6e7e570324e9f70361cfe91507
-    - name: Ancient Rock Animations_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: c4a00e0758b77b245a10f7afb4b95c38
-    - name: Ancient Rock Animations_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: b9cb5a3d06b421841b89fb66265749cf
-    - name: Ancient Rock Animations_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 92dd6896a06595d4b9bd2b7c4d2427a6
-    - name: Ancient Rock Animations_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: e4e2a37f2042ca8408be2411ab908bd9
-    - name: Ancient Rock Animations_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 0587b5ee36fa3af4f87c2118c81143f6
-    - name: Ancient Rock Animations_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: dbe648c9d34423541b3fd76de89264ca
-    - name: Ancient Rock Animations_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51
         width: 192
         height: 208
       spriteId: 27de90184d23a244c9440fc9848178cd
-    - name: Ancient Rock Animations_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -7
         y: -51

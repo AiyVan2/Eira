@@ -250,48 +250,54 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Torch 1_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 2
         width: 5
         height: 10
       spriteId: 2314a8408e4b1f142accf74fe00ba763
-    - name: Torch 1_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 2
         width: 6
         height: 11
       spriteId: 2c3837717ddfe3e419a90f975e0ac16a
-    - name: Torch 1_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 2
         width: 6
         height: 9
       spriteId: 42a1fdf5b402f66498c617ec52dd1f34
-    - name: Torch 1_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 2
         width: 5
         height: 10
       spriteId: 0a2a1682e9fe61847b87fbe0d500222d
-    - name: Torch 1_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 2
         width: 6
         height: 11
       spriteId: 2468e9d7a337c3c4c99694960efb4b26
-    - name: Torch 1_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 2

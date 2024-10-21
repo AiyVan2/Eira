@@ -170,16 +170,18 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: COVER _Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -8
         width: 192
         height: 208
       spriteId: daa95c1848de7744ea46ebf951768a61
-    - name: COVER _Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -8
